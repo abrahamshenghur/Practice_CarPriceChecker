@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PracticeCarPriceChecker
 //
-//  Created by John on 12/12/20.
+//  Created by Abraham on 12/12/20.
 //  Copyright © 2020 Abraham Shenghur. All rights reserved.
 //
 
@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let navController = UINavigationController(rootViewController: PracticeCPCViewController())
+        navController.navigationBar.prefersLargeTitles = true
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

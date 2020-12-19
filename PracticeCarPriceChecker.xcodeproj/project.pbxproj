@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B362584C12100FD4B98 /* AppDelegate.swift */; };
-		52927B392584C12100FD4B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B382584C12100FD4B98 /* ViewController.swift */; };
-		52927B3C2584C12100FD4B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3A2584C12100FD4B98 /* Main.storyboard */; };
 		52927B3E2584C12300FD4B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3D2584C12300FD4B98 /* Assets.xcassets */; };
 		52927B412584C12300FD4B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */; };
+		52927B5525870A7D00FD4B98 /* PracticeCPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */; };
+		52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B56258B31AB00FD4B98 /* Vehicle.swift */; };
+		52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B59258B326F00FD4B98 /* VehicleCell.swift */; };
+		52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */; };
+		52927B66258DEEE100FD4B98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B65258DEEE100FD4B98 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52927B332584C12100FD4B98 /* PracticeCarPriceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeCarPriceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52927B362584C12100FD4B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52927B382584C12100FD4B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52927B3B2584C12100FD4B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52927B3D2584C12300FD4B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52927B402584C12300FD4B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52927B422584C12300FD4B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCPCViewController.swift; sourceTree = "<group>"; };
+		52927B56258B31AB00FD4B98 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		52927B59258B326F00FD4B98 /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
+		52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTitleLabel.swift; sourceTree = "<group>"; };
+		52927B65258DEEE100FD4B98 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,73 @@
 		52927B352584C12100FD4B98 /* PracticeCarPriceChecker */ = {
 			isa = PBXGroup;
 			children = (
-				52927B362584C12100FD4B98 /* AppDelegate.swift */,
-				52927B382584C12100FD4B98 /* ViewController.swift */,
-				52927B3A2584C12100FD4B98 /* Main.storyboard */,
-				52927B3D2584C12300FD4B98 /* Assets.xcassets */,
-				52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */,
+				52927B64258DEEBF00FD4B98 /* Extensions-Utilities */,
+				52927B58258B323800FD4B98 /* Model */,
+				52927B5C258B357C00FD4B98 /* Views */,
+				52927B62258B36D400FD4B98 /* ViewControllers */,
+				52927B63258B36F200FD4B98 /* Support */,
 				52927B422584C12300FD4B98 /* Info.plist */,
 			);
 			path = PracticeCarPriceChecker;
+			sourceTree = "<group>";
+		};
+		52927B58258B323800FD4B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52927B56258B31AB00FD4B98 /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52927B5B258B32AF00FD4B98 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52927B59258B326F00FD4B98 /* VehicleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		52927B5C258B357C00FD4B98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52927B61258B36AE00FD4B98 /* Labels */,
+				52927B5B258B32AF00FD4B98 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52927B61258B36AE00FD4B98 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		52927B62258B36D400FD4B98 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52927B63258B36F200FD4B98 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				52927B362584C12100FD4B98 /* AppDelegate.swift */,
+				52927B3D2584C12300FD4B98 /* Assets.xcassets */,
+				52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		52927B64258DEEBF00FD4B98 /* Extensions-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52927B65258DEEE100FD4B98 /* Constants.swift */,
+			);
+			path = "Extensions-Utilities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +189,6 @@
 			files = (
 				52927B412584C12300FD4B98 /* LaunchScreen.storyboard in Resources */,
 				52927B3E2584C12300FD4B98 /* Assets.xcassets in Resources */,
-				52927B3C2584C12100FD4B98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52927B392584C12100FD4B98 /* ViewController.swift in Sources */,
+				52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */,
+				52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */,
+				52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */,
+				52927B5525870A7D00FD4B98 /* PracticeCPCViewController.swift in Sources */,
 				52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */,
+				52927B66258DEEE100FD4B98 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52927B3A2584C12100FD4B98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52927B3B2584C12100FD4B98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
