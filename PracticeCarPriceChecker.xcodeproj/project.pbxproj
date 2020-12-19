@@ -10,7 +10,7 @@
 		52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B362584C12100FD4B98 /* AppDelegate.swift */; };
 		52927B3E2584C12300FD4B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3D2584C12300FD4B98 /* Assets.xcassets */; };
 		52927B412584C12300FD4B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */; };
-		52927B5525870A7D00FD4B98 /* PracticeCPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */; };
+		52927B5525870A7D00FD4B98 /* VehicleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5425870A7D00FD4B98 /* VehicleListVC.swift */; };
 		52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B56258B31AB00FD4B98 /* Vehicle.swift */; };
 		52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B59258B326F00FD4B98 /* VehicleCell.swift */; };
 		52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */; };
@@ -23,7 +23,7 @@
 		52927B3D2584C12300FD4B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52927B402584C12300FD4B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52927B422584C12300FD4B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCPCViewController.swift; sourceTree = "<group>"; };
+		52927B5425870A7D00FD4B98 /* VehicleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListVC.swift; sourceTree = "<group>"; };
 		52927B56258B31AB00FD4B98 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		52927B59258B326F00FD4B98 /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
 		52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTitleLabel.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		52927B62258B36D400FD4B98 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				52927B5425870A7D00FD4B98 /* PracticeCPCViewController.swift */,
+				52927B5425870A7D00FD4B98 /* VehicleListVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */,
 				52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */,
 				52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */,
-				52927B5525870A7D00FD4B98 /* PracticeCPCViewController.swift in Sources */,
+				52927B5525870A7D00FD4B98 /* VehicleListVC.swift in Sources */,
 				52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */,
 				52927B66258DEEE100FD4B98 /* Constants.swift in Sources */,
 			);

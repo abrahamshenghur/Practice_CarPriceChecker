@@ -9,7 +9,7 @@
 import UIKit
 import SafariServices
 
-class PracticeCPCViewController: UIViewController {
+class VehicleListVC: UIViewController {
     
     var vehicles: [Vehicle] = []
     
@@ -73,14 +73,14 @@ class PracticeCPCViewController: UIViewController {
 }
 
 
-extension PracticeCPCViewController: SFSafariViewControllerDelegate {
+extension VehicleListVC: SFSafariViewControllerDelegate {
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
         controller.dismiss(animated: true)
     }
 }
 
 
-extension PracticeCPCViewController: UICollectionViewDelegate {
+extension VehicleListVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vehicleListing = vehicles[indexPath.row]
         
@@ -89,7 +89,7 @@ extension PracticeCPCViewController: UICollectionViewDelegate {
 }
 
 
-extension PracticeCPCViewController: UICollectionViewDataSource {
+extension VehicleListVC: UICollectionViewDataSource {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -116,7 +116,7 @@ extension PracticeCPCViewController: UICollectionViewDataSource {
 }
 
 
-extension PracticeCPCViewController {
+extension VehicleListVC {
     
     func fetchData() -> [Vehicle] {
         let vehicles = VehicleList.tenRandomVehicles
