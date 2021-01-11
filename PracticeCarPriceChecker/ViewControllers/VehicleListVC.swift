@@ -21,21 +21,24 @@ class VehicleListVC: UIViewController {
         title = "Random Vehicle Prices"
         vehicles = fetchData()
         configureCollectionView()
+        navigationController?.navigationBar.barStyle = .black
+        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: #colorLiteral(red: 0.8446617126, green: 0.9358935952, blue: 0.7635106444, alpha: 1)]
     }
     
     
     private struct Constants {
-        static let minimumLineSpacing: CGFloat      = 8
+        static let minimumLineSpacing: CGFloat      = 20
         static let minimumInteritemSpacing: CGFloat = 8
-        static let edgeSpacingTop: CGFloat          = 8
-        static let edgeSpacingBottom: CGFloat       = 8
+        static let edgeSpacingTop: CGFloat          = 20
+        static let edgeSpacingBottom: CGFloat       = 20
         static let edgeSpacingRight: CGFloat        = 8
         static let edgeSpacingLeft: CGFloat         = 8
     }
     
     
     func configureCollectionView() {
-        let cellSize = ((view.bounds.size.width - (Constants.minimumLineSpacing * 3)) / 2)
+        let cellSize = view.bounds.size.width - Constants.minimumLineSpacing
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.itemSize = CGSize(width: cellSize, height: cellSize)
         flowLayout.minimumInteritemSpacing = Constants.minimumInteritemSpacing
@@ -48,7 +51,7 @@ class VehicleListVC: UIViewController {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: flowLayout)
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.backgroundColor = .black
+        collectionView.backgroundColor = #colorLiteral(red: 0.8632575274, green: 0.9452304244, blue: 0.794632256, alpha: 1)
         collectionView.register(VehicleCell.self, forCellWithReuseIdentifier: VehicleCell.reuseID)
         
         view.addSubview(collectionView)
@@ -103,10 +106,14 @@ extension VehicleListVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: VehicleCell.reuseID, for: indexPath) as! VehicleCell
-        cell.layer.cornerRadius = 16
-        cell.layer.borderWidth  = 2
-        cell.layer.borderColor  = #colorLiteral(red: 0.8314041495, green: 0.8314985037, blue: 0.8227116466, alpha: 1)
-        cell.clipsToBounds      = true
+        cell.clipsToBounds = true
+
+        cell.layer.shadowColor      = UIColor.lightGray.cgColor
+        cell.layer.shadowOffset     = CGSize(width:0,height: 2.0)
+        cell.layer.shadowRadius     = 2.0
+        cell.layer.shadowOpacity    = 1.0
+        cell.layer.masksToBounds    = false;
+        cell.layer.shadowPath       = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
         
         let vehicle = vehicles[indexPath.row]
         cell.set(vehicle: vehicle)
