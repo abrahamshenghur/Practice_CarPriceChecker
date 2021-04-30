@@ -1,0 +1,68 @@
+{
+    "websites": [
+        {
+            "name": "Craigslist",
+            "scheme": "https",
+            "host": "inlandempire.craigslist.org",
+            "path": "/search/cta",
+            "query": "acura+rl"
+        },
+        {
+            "name": "AutoTrader",
+            "scheme": "https",
+            "host": "www.autotrader.com",
+            "path": "/cars-for-sale/all-cars",
+            "query": "?makeCodeList=ACURA&modelCodeList=TL"
+        },
+        {
+            "name": "CarGurus",
+            "scheme": "https",
+            "host": "www.cargurus.com",
+            "path": "/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action",
+            "query": "sourceContext=carGurusHomePageModel&entitySelectingHelper.selectedEntity=d18&zip=92501"
+        },
+        {
+            "name": "TrueCar",
+            "scheme": "https",
+            "host": "www.truecar.com",
+            "path": "/used-cars-for-sale/listings",
+            "query": "?sort[]=best_match"
+        }
+    ],
+    "vehicles": [
+        {
+            "make": "acura",
+            "models": [
+                {
+                    "query": "rl",
+                    "carGurusQuery": "d18"
+                },
+                {
+                    "query": "rsx",
+                    "carGurusQuery": "d3"
+                },
+                {
+                    "query": "tsx",
+                    "carGurusQuery": "d20"
+                }
+            ]
+        },
+        {
+            "make": "bmw",
+            "models": [
+                {
+                    "query": "1 Series",
+                    "carGurusQuery": "d1052"
+                },
+                {
+                    "query": "m5",
+                    "carGurusQuery": "d391"
+                },
+                {
+                    "query": "z4",
+                    "carGurusQuery": "d395"
+                }
+            ]
+        }
+    ]
+}

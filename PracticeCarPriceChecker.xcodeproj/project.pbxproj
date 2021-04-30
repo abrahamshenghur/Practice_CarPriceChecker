@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524276C925AD6F16001A2D2D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524276C825AD6F16001A2D2D /* SearchVC.swift */; };
+		524276CD25B50CEC001A2D2D /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524276CC25B50CEC001A2D2D /* Button.swift */; };
+		524276F025C6A9EC001A2D2D /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524276EF25C6A9EC001A2D2D /* UIButton+Ext.swift */; };
+		52568D5325D3F51400BE4FBA /* VehiclesJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 52568D5225D3F51400BE4FBA /* VehiclesJSON.json */; };
+		52568D5525D47E2900BE4FBA /* SearchScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568D5425D47E2900BE4FBA /* SearchScreenCell.swift */; };
 		52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B362584C12100FD4B98 /* AppDelegate.swift */; };
 		52927B3E2584C12300FD4B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3D2584C12300FD4B98 /* Assets.xcassets */; };
 		52927B412584C12300FD4B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */; };
-		52927B5525870A7D00FD4B98 /* VehicleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5425870A7D00FD4B98 /* VehicleListVC.swift */; };
 		52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B56258B31AB00FD4B98 /* Vehicle.swift */; };
-		52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B59258B326F00FD4B98 /* VehicleCell.swift */; };
 		52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */; };
 		52927B66258DEEE100FD4B98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52927B65258DEEE100FD4B98 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524276C825AD6F16001A2D2D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		524276CC25B50CEC001A2D2D /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		524276EF25C6A9EC001A2D2D /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		52568D5225D3F51400BE4FBA /* VehiclesJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VehiclesJSON.json; sourceTree = "<group>"; };
+		52568D5425D47E2900BE4FBA /* SearchScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenCell.swift; sourceTree = "<group>"; };
 		52927B332584C12100FD4B98 /* PracticeCarPriceChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeCarPriceChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52927B362584C12100FD4B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52927B3D2584C12300FD4B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52927B402584C12300FD4B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52927B422584C12300FD4B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52927B5425870A7D00FD4B98 /* VehicleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListVC.swift; sourceTree = "<group>"; };
 		52927B56258B31AB00FD4B98 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		52927B59258B326F00FD4B98 /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
 		52927B5F258B366F00FD4B98 /* VehicleTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTitleLabel.swift; sourceTree = "<group>"; };
 		52927B65258DEEE100FD4B98 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524276CE25B50CF2001A2D2D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				524276CC25B50CEC001A2D2D /* Button.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		52927B2A2584C12100FD4B98 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +95,7 @@
 		52927B5B258B32AF00FD4B98 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				52927B59258B326F00FD4B98 /* VehicleCell.swift */,
+				52568D5425D47E2900BE4FBA /* SearchScreenCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -89,6 +103,7 @@
 		52927B5C258B357C00FD4B98 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				524276CE25B50CF2001A2D2D /* Buttons */,
 				52927B61258B36AE00FD4B98 /* Labels */,
 				52927B5B258B32AF00FD4B98 /* Cells */,
 			);
@@ -106,7 +121,7 @@
 		52927B62258B36D400FD4B98 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				52927B5425870A7D00FD4B98 /* VehicleListVC.swift */,
+				524276C825AD6F16001A2D2D /* SearchVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +129,7 @@
 		52927B63258B36F200FD4B98 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				52568D5225D3F51400BE4FBA /* VehiclesJSON.json */,
 				52927B362584C12100FD4B98 /* AppDelegate.swift */,
 				52927B3D2584C12300FD4B98 /* Assets.xcassets */,
 				52927B3F2584C12300FD4B98 /* LaunchScreen.storyboard */,
@@ -124,6 +140,7 @@
 		52927B64258DEEBF00FD4B98 /* Extensions-Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				524276EF25C6A9EC001A2D2D /* UIButton+Ext.swift */,
 				52927B65258DEEE100FD4B98 /* Constants.swift */,
 			);
 			path = "Extensions-Utilities";
@@ -188,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52927B412584C12300FD4B98 /* LaunchScreen.storyboard in Resources */,
+				52568D5325D3F51400BE4FBA /* VehiclesJSON.json in Resources */,
 				52927B3E2584C12300FD4B98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,12 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52927B5A258B326F00FD4B98 /* VehicleCell.swift in Sources */,
 				52927B57258B31AB00FD4B98 /* Vehicle.swift in Sources */,
+				524276F025C6A9EC001A2D2D /* UIButton+Ext.swift in Sources */,
 				52927B60258B366F00FD4B98 /* VehicleTitleLabel.swift in Sources */,
-				52927B5525870A7D00FD4B98 /* VehicleListVC.swift in Sources */,
+				524276CD25B50CEC001A2D2D /* Button.swift in Sources */,
 				52927B372584C12100FD4B98 /* AppDelegate.swift in Sources */,
 				52927B66258DEEE100FD4B98 /* Constants.swift in Sources */,
+				524276C925AD6F16001A2D2D /* SearchVC.swift in Sources */,
+				52568D5525D47E2900BE4FBA /* SearchScreenCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +274,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ashenghur@gmail.com (W9782T6DG2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -315,7 +335,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ashenghur@gmail.com (W9782T6DG2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -342,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KYHXD8LY9;
 				INFOPLIST_FILE = PracticeCarPriceChecker/Info.plist;
@@ -351,6 +372,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asapps.ashenghur.PracticeCarPriceChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -360,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KYHXD8LY9;
 				INFOPLIST_FILE = PracticeCarPriceChecker/Info.plist;
@@ -369,6 +392,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asapps.ashenghur.PracticeCarPriceChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
