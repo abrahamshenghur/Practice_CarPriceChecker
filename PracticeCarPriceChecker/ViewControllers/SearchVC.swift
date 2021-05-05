@@ -176,6 +176,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     func configureSearchButton() {
         view.addSubview(searchButton)
         searchButton.backgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+        searchButton.layer.cornerRadius = 10
         searchButton.setTitleColor(.white, for: .normal)
         searchButton.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
     }
@@ -245,12 +246,12 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
             tableView.topAnchor.constraint(equalTo: logoView.bottomAnchor, constant: padding),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            tableView.bottomAnchor.constraint(equalTo: searchButton.topAnchor, constant: -70),
+            tableView.bottomAnchor.constraint(equalTo: searchButton.topAnchor, constant: -20),
             
             searchButton.heightAnchor.constraint(equalToConstant: 60),
             searchButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             searchButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -padding)
+            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65)
         ])
     }
 }

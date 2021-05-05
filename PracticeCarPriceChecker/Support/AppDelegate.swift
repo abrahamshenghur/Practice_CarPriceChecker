@@ -17,13 +17,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let navController = UINavigationController(rootViewController: SearchVC())
-        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navController
+        window?.rootViewController = createTabBar()
         window?.makeKeyAndVisible()
         
+        configureNavigationBar()
+        
         return true
+    }
+    
+    func createSearchNC() -> UINavigationController {
+        let searchVC = SearchVC()
+        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        
+        return UINavigationController(rootViewController: searchVC)
+    }
+    
+    
+    func createSavedVehiclesNC() -> UINavigationController {
+        let savedVehiclesVC = SavedVehiclesVC()
+        let tabBarIcon = UIImage(named: "savedVehiclesTabBarIcon")
+        savedVehiclesVC.title = "Saved Vehicles"
+        savedVehiclesVC.tabBarItem = UITabBarItem(title: "Saved Vehicles", image: tabBarIcon, tag: 1)
+        
+        return UINavigationController(rootViewController: savedVehiclesVC)
+    }
+    
+    
+    func createTabBar() -> UITabBarController {
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+        tabBar.viewControllers = [createSearchNC(), createSavedVehiclesNC()]
+        
+        return tabBar
+    }
+    
+    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
