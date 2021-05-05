@@ -51,6 +51,8 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     var makes = [String]()
     var models = [String]()
     var modelsUsingCarGurusQuery = [String]()   // Array items correspond to items in [models] above; needed for CarGurus url query item
+    var modelsUsingAutotraderQuery = [String]()
+    var modelsUsingTrueCarQuery = [String]()
 
     var buttonOfSectionAlreadyOpen = UIButton() // Allows for one section to be open at a time by closing one that was open prior
 
@@ -60,12 +62,16 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     var vehicleModelsDictionary: [String: [Model]] = [:]  // Dynamically shows models of 3rd section based on vehicle make in 2nd section
     var selectedVehicleModel = String() // Stored value eventually used to build url for given website
     var selectedVehicleModelUsingCarGurusQuery = String()
+    var selectedVehicleModelUsingAutotraderQuery = String()
+    var selectedVehicleModelUsingTrueCarQuery = String()
 
     var websiteName         = String()
     var websiteHost         = String()
     var websitePath         = String()
     var queryItems          = String()
     var websiteURLComponents = [Website]()
+    
+    let autotraderVehicleMakes = ["acura": "ACURA", "alfa romeo": "ALFA", "aston martin": "ASTON", "audi": "AUDI", "bentley": "BENTL", "bmw": "BMW", "buick": "BUICK", "cadillac": "CAD", "chevrolet": "CHEV", "chrysler": "CHRY", "daewoo": "DAEW", "dodge": "DODGE", "ferrari": "FER", "fiat": "FIAT", "fisker": "FISK", "ford": "FORD", "freightliner": "FREIGHT", "genesis": "GENESIS", "gmc": "GMC", "honda": "HONDA", "hummber": "AMGEN", "infiniti": "INFIN", "isuzu": "ISU", "jaguar": "JAG", "jeep": "JEEP", "karma": "KARMA", "kia": "KIA", "lamborghini": "LAM", "land rover": "ROV" ,"lexus": "LEXUS", "lincoln": "LINC", "lotus": "LOTUS", "maserati": "MAS", "maybach": "MAYBACH", "mazda": "MAZDA", "mclaren": "MCLAREN", "mercedes-benz" : "MB", "mercury": "MERC", "mini": "MINI", "mitsubishi": "MIT", "nissan": "NISSAN", "oldsmobile": "OLDS", "plymouth": "PLYM", "pontiac": "PONT", "porsche": "POR", "ram": "RAM", "rolls-royce": "RR", "saab": "SAAB", "saturn": "SATURN", "scion": "SCION", "smart": "SMART", "subaru": "SUB", "suzuki": "SUZUKI", "tesla": "TESLA", "toyota": "TOYOTA", "volkswagen": "VOLKS", "volvo": "VOLVO"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -100,7 +106,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
                 for vehicle in response.vehicles {
                     let vehicleMake = vehicle.make
                     let vehicleModels = vehicle.models
-                    let vehicle = VehicleMakeAndModel(make: vehicleMake, models: vehicleModels)
+                    let vehicle = Vehicle(make: vehicleMake, models: vehicleModels)
                     makes.append(vehicle.make)      // Data for 2nd section dropdown menu
                     vehicleModelsDictionary[vehicle.make] = vehicleModels   // Make a dictionary for filtering vehicle models
                 }
@@ -122,16 +128,24 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     
     func getVehicleModels(for selectedMake: String) {
         let accessVehicleModels = vehicleModelsDictionary[selectedMake]
-        var retrievedVehicleModels = [String]()
-        var carGurusQuery = [String]()  // Used to construct CarGurus URL b/c it doesn't explicitly contain make & model
+        var retrievedVehicleModels = [String]() // row item text label
+        
+        // Used to construct URL path for chosen website, b/c they differ
+        var autotraderQuery = [String]()
+        var carGurusQuery = [String]()
+        var trueCarQuery = [String]()
         
         for models in accessVehicleModels! {
-            retrievedVehicleModels.append(models.query)
+            retrievedVehicleModels.append(models.name)
+            autotraderQuery.append(models.autotraderQuery)
             carGurusQuery.append(models.carGurusQuery)
+            trueCarQuery.append(models.trueCarQuery)
         }
         
         expandableSections[Section.vehicleModel.rawValue].data = retrievedVehicleModels // Dynamically get models based on selected make
+        modelsUsingAutotraderQuery = autotraderQuery
         modelsUsingCarGurusQuery = carGurusQuery
+        modelsUsingTrueCarQuery = trueCarQuery
     }
     
     
@@ -190,12 +204,15 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
                 URLQueryItem(name: "purveyor-input", value: "all")
             ]
         } else if websiteName == "AutoTrader" {
-            let makesAllCapitalized = make.uppercased()
-            let modelsAllCapitalized = model.uppercased()
+            var autotraderVehicleMakeCode = String()
+            if let make = autotraderVehicleMakes[make] {
+                autotraderVehicleMakeCode = make
+            }
             components.path = websitePath
             components.queryItems = [
-                URLQueryItem(name: "makeCodeList", value: "\(makesAllCapitalized)"),
-                URLQueryItem(name: "modelCodeList", value: "\(modelsAllCapitalized)")
+                URLQueryItem(name: "makeCodeList", value: "\(autotraderVehicleMakeCode)"),
+                URLQueryItem(name: "modelCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)"),
+                URLQueryItem(name: "seriesCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)")
             ]
         } else if websiteName == "CarGurus" {
             components.path = websitePath
@@ -204,7 +221,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
                 URLQueryItem(name: "entitySelectingHelper.selectedEntity", value: "\(selectedVehicleModelUsingCarGurusQuery)"),
             ]
         } else if websiteName == "TrueCar" {
-            components.path = websitePath + "/\(make)/\(model)"
+            components.path = websitePath + "/\(make)/\(selectedVehicleModelUsingTrueCarQuery)"
             components.queryItems = [
                 URLQueryItem(name: "sort[]", value: "best_match")
             ]
@@ -289,7 +306,11 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: SearchScreenCell.reuseID, for: indexPath) as! SearchScreenCell
         let item = expandableSections[indexPath.section].data[indexPath.row]
 
-        cell.carLabel.text = item
+        if indexPath.section == Section.vehcileMake.rawValue {
+            cell.carLabel.text = item.capitalized   // json file has lowercased vehicle makes
+        } else {
+            cell.carLabel.text = item
+        }
         
         return cell
     }
@@ -310,12 +331,14 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
             websitePath = websiteURLComponents[rowItem].path
         } else if section == Section.vehcileMake.rawValue {
             selectedVehicleMake = selectedRowItem
-            expandableSections[section].title = selectedRowItem
+            expandableSections[section].title = selectedRowItem.capitalized
             getVehicleModels(for: selectedVehicleMake)
             getVehicle()    // Dynamically display models based on selected make
         } else if section == Section.vehicleModel.rawValue {
             selectedVehicleModel = selectedRowItem
             selectedVehicleModelUsingCarGurusQuery = modelsUsingCarGurusQuery[rowItem]
+            selectedVehicleModelUsingAutotraderQuery = modelsUsingAutotraderQuery[rowItem]
+            selectedVehicleModelUsingTrueCarQuery = modelsUsingTrueCarQuery[rowItem]
             expandableSections[section].title = selectedRowItem
         }
 

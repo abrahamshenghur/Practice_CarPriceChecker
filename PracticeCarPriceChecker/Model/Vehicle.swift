@@ -9,7 +9,7 @@ import Foundation
 
 struct LocalJSONResponse: Decodable {
     let websites: [Website]
-    let vehicles: [VehicleMakeAndModel]
+    let vehicles: [Vehicle]
 }
 
 struct Website: Decodable {
@@ -20,14 +20,16 @@ struct Website: Decodable {
     var query: String
 }
 
-struct VehicleMakeAndModel: Decodable {
+struct Vehicle: Decodable {
     let make: String
     let models: [Model]
 }
 
 struct Model: Decodable {
-    let query: String
+    let name: String
+    let autotraderQuery: String
     let carGurusQuery: String
+    let trueCarQuery: String
 }
 
 

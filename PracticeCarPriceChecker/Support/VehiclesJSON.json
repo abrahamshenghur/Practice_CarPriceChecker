@@ -34,35 +34,1653 @@
             "make": "acura",
             "models": [
                 {
-                    "query": "rl",
-                    "carGurusQuery": "d18"
+                    "name": "CL",
+                    "trueCarQuery": "cl",
+                    "carGurusQuery": "d191",
+                    "autotraderQuery": "ACUCL"
                 },
                 {
-                    "query": "rsx",
-                    "carGurusQuery": "d3"
+                    "name": "ILX",
+                    "trueCarQuery": "ilx",
+                    "carGurusQuery": "d2137",
+                    "autotraderQuery": "ILX"
                 },
                 {
-                    "query": "tsx",
-                    "carGurusQuery": "d20"
+                    "name": "Integra",
+                    "trueCarQuery": "integra",
+                    "carGurusQuery": "d36",
+                    "autotraderQuery": "INTEG"
+                },
+                {
+                    "name": "MDX",
+                    "trueCarQuery": "mdx",
+                    "carGurusQuery": "d16",
+                    "autotraderQuery": "MDX"
+                },
+                {
+                    "name": "NSX",
+                    "trueCarQuery": "nsx",
+                    "carGurusQuery": "d17",
+                    "autotraderQuery": "NSX"
+                },
+                {
+                    "name": "RDX",
+                    "trueCarQuery": "rdx",
+                    "carGurusQuery": "d921",
+                    "autotraderQuery": "RDX"
+                },
+                {
+                    "name": "RL",
+                    "trueCarQuery": "rl",
+                    "carGurusQuery": "d18",
+                    "autotraderQuery": "RL"
+                },
+                {
+                    "name": "RLX",
+                    "trueCarQuery": "rlx",
+                    "carGurusQuery": "d2214",
+                    "autotraderQuery": "RLX"
+                },
+                {
+                    "name": "RSX",
+                    "trueCarQuery": "rsx",
+                    "carGurusQuery": "d3",
+                    "autotraderQuery": "RSX"
+                },
+                {
+                    "name": "TL",
+                    "trueCarQuery": "tl",
+                    "carGurusQuery": "d19",
+                    "autotraderQuery": "TL"
+                },
+                {
+                    "name": "TLX",
+                    "trueCarQuery": "tlx",
+                    "carGurusQuery": "d2278",
+                    "autotraderQuery": "ACUTLX"
+                },
+                {
+                    "name": "TSX",
+                    "trueCarQuery": "tsx",
+                    "carGurusQuery": "d20",
+                    "autotraderQuery": "TSX"
+                },
+                {
+                    "name": "ZDX",
+                    "trueCarQuery": "zdx",
+                    "carGurusQuery": "d2065",
+                    "autotraderQuery": "ZDX"
                 }
+            ]
+        },
+        {
+            "make": "alfa romeo",
+            "models": [
+                {
+                    "name": "4C",
+                    "trueCarQuery": "4c",
+                    "carGurusQuery": "d2277",
+                    "autotraderQuery": "ALFA4C"
+                },
+                {
+                    "name": "Giulia",
+                    "trueCarQuery": "giulia",
+                    "carGurusQuery": "d1751",
+                    "autotraderQuery": "ALFAGIULIA"
+                },
+                {
+                    "name": "Stelvio",
+                    "trueCarQuery": "stelvio",
+                    "carGurusQuery": "d2512",
+                    "autotraderQuery": "ALFASTELV"
+                }
+            ]
+        },
+        {
+            "make": "aston martin",
+            "models": [
+                {
+                    "name": "DB7",
+                    "trueCarQuery": "db7",
+                    "carGurusQuery": "d907",
+                    "autotraderQuery": "DB7"
+                },
+                {
+                    "name": "DB9",
+                    "trueCarQuery": "db9",
+                    "carGurusQuery": "d908",
+                    "autotraderQuery": "DB9"
+                },
+                {
+                    "name": "DB11",
+                    "trueCarQuery": "db11",
+                    "carGurusQuery": "d2448",
+                    "autotraderQuery": "ASTONDB11"
+                },
+                {
+                    "name": "DBS",
+                    "trueCarQuery": "dbs",
+                    "carGurusQuery": "d1301",
+                    "autotraderQuery": "DBS"
+                },
+                {
+                    "name": "DBX",
+                    "trueCarQuery": "dbx",
+                    "carGurusQuery": "d3054",
+                    "autotraderQuery": "ASTONDBX"
+                },
+                {
+                    "name": "Rapide",
+                    "trueCarQuery": "rapide",
+                    "carGurusQuery": "d2086",
+                    "autotraderQuery": "RAPIDE"
+                },
+                {
+                    "name": "Vantage",
+                    "trueCarQuery": "vantage",
+                    "carGurusQuery": "d2646",
+                    "autotraderQuery": ""
+                },
+                {
+                    "name": "V8 Vantage",
+                    "trueCarQuery": "v8-vantage",
+                    "carGurusQuery": "d910",
+                    "autotraderQuery": "VANTAGE"
+                },
+                {
+                    "name": "Vanquish",
+                    "trueCarQuery": "vanquish",
+                    "carGurusQuery": "d2223",
+                    "autotraderQuery": "VANQUISH"
+                },
+                {
+                    "name": "Virage",
+                    "trueCarQuery": "virage",
+                    "carGurusQuery": "d1880",
+                    "autotraderQuery": "VIRAGE"
+                },
+            ]
+        },
+        {
+            "make": "audi",
+            "models": [
+                {
+                    "name": "A3",
+                    "trueCarQuery": "a3",
+                    "carGurusQuery": "d24",
+                    "autotraderQuery": "A3"
+                },
+                {
+                    "name": "A4",
+                    "trueCarQuery": "a4",
+                    "carGurusQuery": "d25",
+                    "autotraderQuery": "A4"
+                },
+                {
+                    "name": "A5",
+                    "trueCarQuery": "a5",
+                    "carGurusQuery": "d1034",
+                    "autotraderQuery": "A5"
+                },
+                {
+                    "name": "A6",
+                    "trueCarQuery": "a6",
+                    "carGurusQuery": "d27",
+                    "autotraderQuery": "A6"
+                },
+                {
+                    "name": "A7",
+                    "trueCarQuery": "a7",
+                    "carGurusQuery": "d2113",
+                    "autotraderQuery": "A7"
+                },
+                {
+                    "name": "A8",
+                    "trueCarQuery": "a8",
+                    "carGurusQuery": "d29",
+                    "autotraderQuery": "A8"
+                },
+                {
+                    "name": "Allroad",
+                    "trueCarQuery": "allroad",
+                    "carGurusQuery": "d683",
+                    "autotraderQuery": "ALLRDQUA"
+                },
+                {
+                    "name": "Cabriolet",
+                    "trueCarQuery": "cabriolet",
+                    "carGurusQuery": "d684",
+                    "autotraderQuery": "AUDICABRI"
+                },
+                {
+                    "name": "e-tron",
+                    "trueCarQuery": "e-tron",
+                    "carGurusQuery": "d2829",
+                    "autotraderQuery": "AUDIETRON"
+                },
+                {
+                    "name": "Q3",
+                    "trueCarQuery": "q3",
+                    "carGurusQuery": "d2129",
+                    "autotraderQuery": "Q3"
+                },
+                {
+                    "name": "Q5",
+                    "trueCarQuery": "q5",
+                    "carGurusQuery": "d1988",
+                    "autotraderQuery": "Q5"
+                },
+                {
+                    "name": "Q7",
+                    "trueCarQuery": "q7",
+                    "carGurusQuery": "d930",
+                    "autotraderQuery": "Q7"
+                },
+                {
+                    "name": "Q8",
+                    "trueCarQuery": "q8",
+                    "carGurusQuery": "d2792",
+                    "autotraderQuery": "AUDIQ8"
+                },
+                {
+                    "name": "R8",
+                    "trueCarQuery": "r8",
+                    "carGurusQuery": "d1019",
+                    "autotraderQuery": "R8"
+                },
+                {
+                    "name": "RS 3",
+                    "trueCarQuery": "rs-3",
+                    "carGurusQuery": "d2564",
+                    "autotraderQuery": "AUDIRS3"
+                },
+                {
+                    "name": "RS 4",
+                    "trueCarQuery": "rs-4",
+                    "carGurusQuery": "d992",
+                    "autotraderQuery": "RS4"
+                },
+                {
+                    "name": "RS 5",
+                    "trueCarQuery": "rs-5",
+                    "carGurusQuery": "d2136",
+                    "autotraderQuery": "RS5"
+                },
+                {
+                    "name": "RS 6",
+                    "trueCarQuery": "rs-6",
+                    "carGurusQuery": "d686",
+                    "autotraderQuery": "RS6"
+                },
+                {
+                    "name": "RS 7",
+                    "trueCarQuery": "rs-7",
+                    "carGurusQuery": "d2230",
+                    "autotraderQuery": "AUDIRS7"
+                },
+                {
+                    "name": "RS Q8",
+                    "trueCarQuery": "rs-q8",
+                    "carGurusQuery": "d2993",
+                    "autotraderQuery": "AUDIRSQ8"
+                },
+                {
+                    "name": "S3",
+                    "trueCarQuery": "s3",
+                    "carGurusQuery": "d1183",
+                    "autotraderQuery": "AUDS3"
+                },
+                {
+                    "name": "S4",
+                    "trueCarQuery": "s4",
+                    "carGurusQuery": "d30",
+                    "autotraderQuery": "S4"
+                },
+                {
+                    "name": "S5",
+                    "trueCarQuery": "s5",
+                    "carGurusQuery": "d1055",
+                    "autotraderQuery": "S5"
+                },
+                {
+                    "name": "S6",
+                    "trueCarQuery": "s6",
+                    "carGurusQuery": "d687",
+                    "autotraderQuery": "S6"
+                },
+                {
+                    "name": "S7",
+                    "trueCarQuery": "s7",
+                    "carGurusQuery": "d2156",
+                    "autotraderQuery": "S7"
+                },
+                {
+                    "name": "S8",
+                    "trueCarQuery": "s8",
+                    "carGurusQuery": "d688",
+                    "autotraderQuery": "S8"
+                },
+                {
+                    "name": "SQ5",
+                    "trueCarQuery": "sq5",
+                    "carGurusQuery": "d2237",
+                    "autotraderQuery": "AUDISQ5"
+                },
+                {
+                    "name": "SQ7",
+                    "trueCarQuery": "sq7",
+                    "carGurusQuery": "d3019",
+                    "autotraderQuery": "AUDISQ7"
+                },
+                {
+                    "name": "SQ8",
+                    "trueCarQuery": "sq8",
+                    "carGurusQuery": "d3020",
+                    "autotraderQuery": "AUDISQ8"
+                },
+                {
+                    "name": "TT",
+                    "trueCarQuery": "tt",
+                    "carGurusQuery": "d32",
+                    "autotraderQuery": "TT"
+                },
+                {
+                    "name": "TT RS",
+                    "trueCarQuery": "tt-rs",
+                    "carGurusQuery": "d2177",
+                    "autotraderQuery": "TTRS"
+                },
+                {
+                    "name": "TTS",
+                    "trueCarQuery": "tts",
+                    "carGurusQuery": "d2176",
+                    "autotraderQuery": "TTS"
+                },
+            ]
+        },
+        {
+            "make": "bentley",
+            "models": [
+                {
+                    "name": "Arnage",
+                    "trueCarQuery": "arnage",
+                    "carGurusQuery": "d397",
+                    "autotraderQuery": "ARNAGE"
+                },
+                {
+                    "name": "Azure",
+                    "trueCarQuery": "azure",
+                    "carGurusQuery": "d398",
+                    "autotraderQuery": "AZURE"
+                },
+                {
+                    "name": "Bentayga",
+                    "trueCarQuery": "bentayga",
+                    "carGurusQuery": "d2354",
+                    "autotraderQuery": "BENBENTAY"
+                },
+                {
+                    "name": "Brooklands",
+                    "trueCarQuery": "brooklands",
+                    "carGurusQuery": "d2009",
+                    "autotraderQuery": "BROOKLANDS"
+                },
+                {
+                    "name": "Continental GT",
+                    "trueCarQuery": "continental-gt",
+                    "carGurusQuery": "d35",
+                    "autotraderQuery": "BENCONT"
+                },
+                {
+                    "name": "Flying Spur",
+                    "trueCarQuery": "flying-spur",
+                    "carGurusQuery": "d2288",
+                    "autotraderQuery": "BENFLYSPUR"
+                },
+                {
+                    "name": "Mulsanne",
+                    "trueCarQuery": "mulsanne",
+                    "carGurusQuery": "d2051",
+                    "autotraderQuery": "BENMUL"
+                },
             ]
         },
         {
             "make": "bmw",
             "models": [
                 {
-                    "query": "1 Series",
-                    "carGurusQuery": "d1052"
+                    "name": "1 Series",
+                    "trueCarQuery": "1-series",
+                    "carGurusQuery": "d1052",
+                    "autotraderQuery": "1_SERIES"
                 },
                 {
-                    "query": "m5",
-                    "carGurusQuery": "d391"
+                    "name": "2 Series",
+                    "trueCarQuery": "2-series",
+                    "carGurusQuery": "d2262",
+                    "autotraderQuery": "2_SERIES"
                 },
                 {
-                    "query": "z4",
-                    "carGurusQuery": "d395"
+                    "name": "3 Series",
+                    "trueCarQuery": "3-series",
+                    "carGurusQuery": "d1512",
+                    "autotraderQuery": "3_SERIES"
+                },
+                {
+                    "name": "4 Series",
+                    "trueCarQuery": "4-series",
+                    "carGurusQuery": "d2244",
+                    "autotraderQuery": "4_SERIES"
+                },
+                {
+                    "name": "5 Series",
+                    "trueCarQuery": "5-series",
+                    "carGurusQuery": "d1628",
+                    "autotraderQuery": "5_SERIES"
+                },
+                {
+                    "name": "6 Series",
+                    "trueCarQuery": "6-series",
+                    "carGurusQuery": "d1513",
+                    "autotraderQuery": "6_SERIES"
+                },
+                {
+                    "name": "7 Series",
+                    "trueCarQuery": "7-series",
+                    "carGurusQuery": "d1517",
+                    "autotraderQuery": "7_SERIES"
+                },
+                {
+                    "name": "8 Series",
+                    "trueCarQuery": "8-series",
+                    "carGurusQuery": "d1627",
+                    "autotraderQuery": "8_SERIES"
+                },
+                {
+                    "name": "i3",
+                    "trueCarQuery": "i3",
+                    "carGurusQuery": "d2263",
+                    "autotraderQuery": "BMWI3"
+                },
+                {
+                    "name": "i8",
+                    "trueCarQuery": "i8",
+                    "carGurusQuery": "d2274",
+                    "autotraderQuery": "BMWI8"
+                },
+                {
+                    "name": "M2",
+                    "trueCarQuery": "m2",
+                    "carGurusQuery": "d2396",
+                    "autotraderQuery": "BMWM2"
+                },
+                {
+                    "name": "M3",
+                    "trueCarQuery": "m3",
+                    "carGurusQuery": "d390",
+                    "autotraderQuery": "M3"
+                },
+                {
+                    "name": "M4",
+                    "trueCarQuery": "m4",
+                    "carGurusQuery": "d2258",
+                    "autotraderQuery": "BMWM4"
+                },
+                {
+                    "name": "M5",
+                    "trueCarQuery": "m5",
+                    "carGurusQuery": "d391",
+                    "autotraderQuery": "M5"
+                },
+                {
+                    "name": "M6",
+                    "trueCarQuery": "m6",
+                    "carGurusQuery": "d825",
+                    "autotraderQuery": "M6"
+                },
+                {
+                    "name": "M8",
+                    "trueCarQuery": "m8",
+                    "carGurusQuery": "d2902",
+                    "autotraderQuery": "BMWM8"
+                },
+                {
+                    "name": "X1",
+                    "trueCarQuery": "x1",
+                    "carGurusQuery": "d2160",
+                    "autotraderQuery": "X1"
+                },
+                {
+                    "name": "X2",
+                    "trueCarQuery": "x2",
+                    "carGurusQuery": "d2623",
+                    "autotraderQuery": "BMWX2"
+                },
+                {
+                    "name": "X3",
+                    "trueCarQuery": "x3",
+                    "carGurusQuery": "d392",
+                    "autotraderQuery": "X3"
+                },
+                {
+                    "name": "X3 M",
+                    "trueCarQuery": "x3-m",
+                    "carGurusQuery": "d2847",
+                    "autotraderQuery": "BMWX3M"
+                },
+                {
+                    "name": "X4",
+                    "trueCarQuery": "x4",
+                    "carGurusQuery": "d2271",
+                    "autotraderQuery": "BMWX4"
+                },
+                {
+                    "name": "X4 M",
+                    "trueCarQuery": "x4-m",
+                    "carGurusQuery": "d2848",
+                    "autotraderQuery": "BMWX4M"
+                },
+                {
+                    "name": "X5",
+                    "trueCarQuery": "x5",
+                    "carGurusQuery": "d393",
+                    "autotraderQuery": "X5"
+                },
+                {
+                    "name": "X5 M",
+                    "trueCarQuery": "x5-m",
+                    "carGurusQuery": "d2120",
+                    "autotraderQuery": "X5M"
+                },
+                {
+                    "name": "X6",
+                    "trueCarQuery": "x6",
+                    "carGurusQuery": "d1137",
+                    "autotraderQuery": "X6"
+                },
+                {
+                    "name": "X6 M",
+                    "trueCarQuery": "x6-m",
+                    "carGurusQuery": "d2139",
+                    "autotraderQuery": "X6M"
+                },
+                {
+                    "name": "X7",
+                    "trueCarQuery": "x7",
+                    "carGurusQuery": "d2656",
+                    "autotraderQuery": "BMWX7"
+                },
+                {
+                    "name": "Z3",
+                    "trueCarQuery": "z3",
+                    "carGurusQuery": "d394",
+                    "autotraderQuery": "Z3"
+                },
+                {
+                    "name": "Z4",
+                    "trueCarQuery": "z4",
+                    "carGurusQuery": "d395",
+                    "autotraderQuery": "Z4"
+                },
+                {
+                    "name": "Z8",
+                    "trueCarQuery": "z8",
+                    "carGurusQuery": "d396",
+                    "autotraderQuery": "Z8"
                 }
             ]
-        }
+        },
+        {
+            "make": "buick",
+            "models": [
+                {
+                    "name": "Cascada",
+                    "trueCarQuery": "cascada",
+                    "carGurusQuery": "d2305",
+                    "autotraderQuery": "BUICASCADA"
+                },
+                {
+                    "name": "Century",
+                    "trueCarQuery": "century",
+                    "carGurusQuery": "d269",
+                    "autotraderQuery": "CENT"
+                },
+                {
+                    "name": "Enclave",
+                    "trueCarQuery": "enclave",
+                    "carGurusQuery": "d1029",
+                    "autotraderQuery": "ENCLAVE"
+                },
+                {
+                    "name": "Encore",
+                    "trueCarQuery": "encore",
+                    "carGurusQuery": "d2128",
+                    "autotraderQuery": "BUIENC"
+                },
+                {
+                    "name": "Encore GX",
+                    "trueCarQuery": "encore-gx",
+                    "carGurusQuery": "d2901",
+                    "autotraderQuery": "BUIENCGX"
+                },
+                {
+                    "name": "Envision",
+                    "trueCarQuery": "envision",
+                    "carGurusQuery": "d2398",
+                    "autotraderQuery": "BUIENVISI"
+                },
+                {
+                    "name": "LaCrosse",
+                    "trueCarQuery": "lacrosse",
+                    "carGurusQuery": "d272",
+                    "autotraderQuery": "LACROSSE"
+                },
+                {
+                    "name": "LeSabre",
+                    "trueCarQuery": "lesabre",
+                    "carGurusQuery": "d273",
+                    "autotraderQuery": "LESA"
+                },
+                {
+                    "name": "Lucerne",
+                    "trueCarQuery": "lucerne",
+                    "carGurusQuery": "d844",
+                    "autotraderQuery": "LUCERNE"
+                },
+                {
+                    "name": "Rainer",
+                    "trueCarQuery": "rainer",
+                    "carGurusQuery": "d275",
+                    "autotraderQuery": "RAINIER"
+                },
+                {
+                    "name": "Regal",
+                    "trueCarQuery": "regal",
+                    "carGurusQuery": "d277",
+                    "autotraderQuery": "REG"
+                },
+                {
+                    "name": "Riviera",
+                    "trueCarQuery": "riviera",
+                    "carGurusQuery": "d279",
+                    "autotraderQuery": "RIV"
+                },
+                {
+                    "name": "Rendezvous",
+                    "trueCarQuery": "rendezvous",
+                    "carGurusQuery": "d278",
+                    "autotraderQuery": "RENDEZVOUS"
+                },
+                {
+                    "name": "Terraza",
+                    "trueCarQuery": "terraza",
+                    "carGurusQuery": "d282",
+                    "autotraderQuery": "TERRAZA"
+                },
+                {
+                    "name": "Verano",
+                    "trueCarQuery": "verano",
+                    "carGurusQuery": "d2119",
+                    "autotraderQuery": "BUVERANO"
+                },
+            ]
+        },
+        {
+            "make": "cadillac",
+            "models": [
+                {
+                    "name": "ATS",
+                    "trueCarQuery": "ats",
+                    "carGurusQuery": "d2138",
+                    "autotraderQuery": "ATS"
+                },
+                {
+                    "name": "ATS-V",
+                    "trueCarQuery": "ats-v",
+                    "carGurusQuery": "d2302",
+                    "autotraderQuery": "ATS"
+                },
+                {
+                    "name": "Catera",
+                    "trueCarQuery": "catera",
+                    "carGurusQuery": "d137",
+                    "autotraderQuery": "CATERA"
+                },
+                {
+                    "name": "CT4",
+                    "trueCarQuery": "ct4",
+                    "carGurusQuery": "d137",
+                    "autotraderQuery": "CADCT4"
+                },
+                {
+                    "name": "CT5",
+                    "trueCarQuery": "ct5",
+                    "carGurusQuery": "d2876",
+                    "autotraderQuery": "CADCT5"
+                },
+                {
+                    "name": "CT6",
+                    "trueCarQuery": "ct6",
+                    "carGurusQuery": "d2352",
+                    "autotraderQuery": "CADCT6"
+                },
+                {
+                    "name": "CT6-V",
+                    "trueCarQuery": "ct6-v",
+                    "carGurusQuery": "d2861",
+                    "autotraderQuery": "CADCT6"
+                },
+                {
+                    "name": "CTS",
+                    "trueCarQuery": "cts",
+                    "carGurusQuery": "d138",
+                    "autotraderQuery": "CTS"
+                },
+                {
+                    "name": "CTS-V",
+                    "trueCarQuery": "cts-v",
+                    "carGurusQuery": "d139",
+                    "autotraderQuery": "CTS"
+                },
+                {
+                    "name": "DeVille",
+                    "trueCarQuery": "deville",
+                    "carGurusQuery": "d140",
+                    "autotraderQuery": "DEV"
+                },
+                {
+                    "name": "DTS",
+                    "trueCarQuery": "dts",
+                    "carGurusQuery": "d732",
+                    "autotraderQuery": "DTS"
+                },
+                {
+                    "name": "Eldorado",
+                    "trueCarQuery": "eldorado",
+                    "carGurusQuery": "d141",
+                    "autotraderQuery": "ELDO"
+                },
+                {
+                    "name": "ELR",
+                    "trueCarQuery": "elr",
+                    "carGurusQuery": "d2204",
+                    "autotraderQuery": "XLR"
+                },
+                {
+                    "name": "Escalade",
+                    "trueCarQuery": "escalade",
+                    "carGurusQuery": "d142",
+                    "autotraderQuery": "ESCALA"
+                },
+                {
+                    "name": "Escalade ESV",
+                    "trueCarQuery": "escalade-esv",
+                    "carGurusQuery": "d143",
+                    "autotraderQuery": "ESCALAESV"
+                },
+                {
+                    "name": "Escalade EXT",
+                    "trueCarQuery": "escalade-ext",
+                    "carGurusQuery": "d144",
+                    "autotraderQuery": "EXT"
+                },
+                {
+                    "name": "Seville",
+                    "trueCarQuery": "seville",
+                    "carGurusQuery": "d146",
+                    "autotraderQuery": "SEV"
+                },
+                {
+                    "name": "SRX",
+                    "trueCarQuery": "srx",
+                    "carGurusQuery": "d148",
+                    "autotraderQuery": "SRX"
+                },
+                {
+                    "name": "STS",
+                    "trueCarQuery": "sts",
+                    "carGurusQuery": "d149",
+                    "autotraderQuery": "STS"
+                },
+                {
+                    "name": "XLR",
+                    "trueCarQuery": "xlr",
+                    "carGurusQuery": "d150",
+                    "autotraderQuery": "XLR"
+                },
+                {
+                    "name": "XLR-V",
+                    "trueCarQuery": "xlr-v",
+                    "carGurusQuery": "d833",
+                    "autotraderQuery": ""
+                },
+                {
+                    "name": "XT4",
+                    "trueCarQuery": "xt4",
+                    "carGurusQuery": "d2673",
+                    "autotraderQuery": "CADXT4"
+                },
+                {
+                    "name": "XT5",
+                    "trueCarQuery": "xt5",
+                    "carGurusQuery": "d2393",
+                    "autotraderQuery": "CADXT5"
+                },
+                {
+                    "name": "XT6",
+                    "trueCarQuery": "xt6",
+                    "carGurusQuery": "d2843",
+                    "autotraderQuery": "CADXT6"
+                },
+                {
+                    "name": "XTS",
+                    "trueCarQuery": "xts",
+                    "carGurusQuery": "d2141",
+                    "autotraderQuery": "XTS"
+                },
+            ]
+        },
+        {
+            "make": "chevrolet",
+            "models": [
+                {
+                    "name": "Avalanche",
+                    "trueCarQuery": "avalanche",
+                    "carGurusQuery": "d599",
+                    "autotraderQuery": "AVALNCH"
+                },
+                {
+                    "name": "Aveo",
+                    "trueCarQuery": "aveo",
+                    "carGurusQuery": "d600",
+                    "autotraderQuery": "AVEO"
+                },
+                {
+                    "name": "Bolt EV",
+                    "trueCarQuery": "bolt-ev",
+                    "carGurusQuery": "d2397",
+                    "autotraderQuery": "CHEBOLT"
+                },
+                {
+                    "name": "Blazer",
+                    "trueCarQuery": "blazer",
+                    "carGurusQuery": "d602",
+                    "autotraderQuery": "BLAZER"
+                },
+                {
+                    "name": "C/K 1500",
+                    "trueCarQuery": "c-k-1500",
+                    "carGurusQuery": "d755",
+                    "autotraderQuery": "CHEVCK"
+                },
+                {
+                    "name": "Camaro",
+                    "trueCarQuery": "camaro",
+                    "carGurusQuery": "d606",
+                    "autotraderQuery": "CAM"
+                },
+                {
+                    "name": "Captiva Sport",
+                    "trueCarQuery": "captiva-sport",
+                    "carGurusQuery": "d1713",
+                    "autotraderQuery": "CHECAPS"
+                },
+                {
+                    "name": "Cavalier",
+                    "trueCarQuery": "cavalier",
+                    "carGurusQuery": "d608",
+                    "autotraderQuery": "CAV"
+                },
+                {
+                    "name": "City Express Cargo Van",
+                    "trueCarQuery": "city-express-cargo-van",
+                    "carGurusQuery": "d2280",
+                    "autotraderQuery": "CHECITYEXP"
+                },
+                {
+                    "name": "Cobalt",
+                    "trueCarQuery": "cobalt",
+                    "carGurusQuery": "d613",
+                    "autotraderQuery": "COBALT"
+                },
+                {
+                    "name": "Colorado",
+                    "trueCarQuery": "colorado",
+                    "carGurusQuery": "d614",
+                    "autotraderQuery": "COLORADO"
+                },
+                {
+                    "name": "Corvette",
+                    "trueCarQuery": "corvette",
+                    "carGurusQuery": "d1",
+                    "autotraderQuery": "CORV"
+                },
+                {
+                    "name": "Cruze",
+                    "trueCarQuery": "cruze",
+                    "carGurusQuery": "d2076",
+                    "autotraderQuery": "CRUZE"
+                },
+                {
+                    "name": "Cruze Limited",
+                    "trueCarQuery": "cruze-limited",
+                    "carGurusQuery": "d2464",
+                    "autotraderQuery": "CRUZE"
+                },
+                {
+                    "name": "El Camino",
+                    "trueCarQuery": "el-camino",
+                    "carGurusQuery": "d1102",
+                    "autotraderQuery": "ELCAM"
+                },
+                {
+                    "name": "Equinox",
+                    "trueCarQuery": "equinox",
+                    "carGurusQuery": "d616",
+                    "autotraderQuery": "EQUINOX"
+                },
+                {
+                    "name": "Express Van",
+                    "trueCarQuery": "express-van",
+                    "carGurusQuery": "d617",
+                    "autotraderQuery": "CHEXP1500"
+                },
+                {
+                    "name": "Express Cargo Van",
+                    "trueCarQuery": "express-cargo-van",
+                    "carGurusQuery": "d618",
+                    "autotraderQuery": "CHEXP2500"
+                },
+                {
+                    "name": "HHR",
+                    "trueCarQuery": "hhr",
+                    "carGurusQuery": "d716",
+                    "autotraderQuery": "HHR"
+                },
+                {
+                    "name": "Impala",
+                    "trueCarQuery": "impala",
+                    "carGurusQuery": "d619",
+                    "autotraderQuery": "CHEVIMP"
+                },
+                {
+                    "name": "Malibu",
+                    "trueCarQuery": "malibu",
+                    "carGurusQuery": "d622",
+                    "autotraderQuery": "MALI"
+                },
+                {
+                    "name": "Monte Carlo",
+                    "trueCarQuery": "monte-carlo",
+                    "carGurusQuery": "d625",
+                    "autotraderQuery": "CHEVMONT"
+                },
+                {
+                    "name": "S-10",
+                    "trueCarQuery": "s-10",
+                    "carGurusQuery": "d628",
+                    "autotraderQuery": "S10PICKUP"
+                },
+                {
+                    "name": "Silverado 1500",
+                    "trueCarQuery": "silverado-1500",
+                    "carGurusQuery": "d630",
+                    "autotraderQuery": "CHEV150"
+                },
+                {
+                    "name": "Silverado 1500 Classic",
+                    "trueCarQuery": "silverado-1500-classic",
+                    "carGurusQuery": "d1030",
+                    "autotraderQuery": "CHEV150"
+                },
+                {
+                    "name": "Silverado 2500",
+                    "trueCarQuery": "silverado-2500",
+                    "carGurusQuery": "d633",
+                    "autotraderQuery": "CHEVC25"
+                },
+                {
+                    "name": "Silverado 2500HD",
+                    "trueCarQuery": "silverado-2500hd",
+                    "carGurusQuery": "d634",
+                    "autotraderQuery": "CHEVC25"
+                },
+                {
+                    "name": "Silverado 2500HD Classic",
+                    "trueCarQuery": "silverado-2500hd-classic",
+                    "carGurusQuery": "d1031",
+                    "autotraderQuery": "CHEVC25"
+                },
+                {
+                    "name": "Silverado 3500",
+                    "trueCarQuery": "silverado-3500",
+                    "carGurusQuery": "d635",
+                    "autotraderQuery": "CH3500PU"
+                },
+                {
+                    "name": "Silverado 3500HD",
+                    "trueCarQuery": "silverado-3500hd",
+                    "carGurusQuery": "d1027",
+                    "autotraderQuery": "CH3500PU"
+                },
+                {
+                    "name": "Silverado 3500 Classic",
+                    "trueCarQuery": "silverado-3500-classic",
+                    "carGurusQuery": "d1028",
+                    "autotraderQuery": "CH3500PU"
+                },
+                {
+                    "name": "Sonic",
+                    "trueCarQuery": "sonic",
+                    "carGurusQuery": "d2112",
+                    "autotraderQuery": "SONIC"
+                },
+                {
+                    "name": "Spark",
+                    "trueCarQuery": "spark",
+                    "carGurusQuery": "d2008",
+                    "autotraderQuery": "SPARK"
+                },
+                {
+                    "name": "SS",
+                    "trueCarQuery": "ss",
+                    "carGurusQuery": "d2217",
+                    "autotraderQuery": "CHEVSS"
+                },
+                {
+                    "name": "SSR",
+                    "trueCarQuery": "ssr",
+                    "carGurusQuery": "d637",
+                    "autotraderQuery": "SSR"
+                },
+                {
+                    "name": "Suburban",
+                    "trueCarQuery": "suburban",
+                    "carGurusQuery": "d638",
+                    "autotraderQuery": "CHEVSUB"
+                },
+                {
+                    "name": "Tahoe",
+                    "trueCarQuery": "tahoe",
+                    "carGurusQuery": "d639",
+                    "autotraderQuery": "TAHOE"
+                },
+                {
+                    "name": "Trailblazer",
+                    "trueCarQuery": "trailblazer",
+                    "carGurusQuery": "d642",
+                    "autotraderQuery": "TRAILBLZ"
+                },
+                {
+                    "name": "Trailblazer EXT",
+                    "trueCarQuery": "trailblazer-ext",
+                    "carGurusQuery": "d643",
+                    "autotraderQuery": "TRAILBZEXT"
+                },
+                {
+                    "name": "Traverse",
+                    "trueCarQuery": "traverse",
+                    "carGurusQuery": "d1521",
+                    "autotraderQuery": "TRAVERSE"
+                },
+                {
+                    "name": "Trax",
+                    "trueCarQuery": "trax",
+                    "carGurusQuery": "d2272",
+                    "autotraderQuery": "CHETRAX"
+                },
+                {
+                    "name": "Uplander",
+                    "trueCarQuery": "uplander",
+                    "carGurusQuery": "d644",
+                    "autotraderQuery": "UPLANDER"
+                },
+                {
+                    "name": "Volt",
+                    "trueCarQuery": "volt",
+                    "carGurusQuery": "d2012",
+                    "autotraderQuery": "VOLT"
+                },
+            ]
+        },
+        {
+            "make": "chrysler",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "daewoo",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "dodge",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "ferrari",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "fiat",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "fisker",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "ford",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "freightliner",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "genesis",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "gmc",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "honda",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "hummer",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "hyundai",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "infiniti",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "isuzu",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "jaguar",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "jeep",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "karma",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "kia",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "lamborghini",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "land rover",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "lexus",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "lincoln",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "lotus",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "maserati",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "maybach",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mazda",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mclaren",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mercedes-benz",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mercury",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mini",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "mitsubishi",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "nissan",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "oldsmobile",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "plymouth",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "pontiac",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "porsche",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "ram",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "rolls-royce",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "saab",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "saturn",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "scion",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "smart",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "subaru",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "suzuki",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "tesla",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "toyota",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "volkswagen",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
+        {
+            "make": "volvo",
+            "models": [
+                {
+                    "name": "",
+                    "autotraderQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+            ]
+        },
     ]
 }
