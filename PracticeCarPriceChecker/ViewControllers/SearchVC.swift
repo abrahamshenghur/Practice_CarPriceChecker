@@ -50,8 +50,9 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     var websites = [String]()
     var makes = [String]()
     var models = [String]()
-    var modelsUsingCarGurusQuery = [String]()   // Array items correspond to items in [models] above; needed for CarGurus url query item
     var modelsUsingAutotraderQuery = [String]()
+    var modelsUsingCarsDotComQuery = [String]()
+    var modelsUsingCarGurusQuery = [String]()   // Array items correspond to items in [models] above; needed for CarGurus url query item
     var modelsUsingTrueCarQuery = [String]()
 
     var buttonOfSectionAlreadyOpen = UIButton() // Allows for one section to be open at a time by closing one that was open prior
@@ -61,6 +62,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     
     var vehicleModelsDictionary: [String: [Model]] = [:]  // Dynamically shows models of 3rd section based on vehicle make in 2nd section
     var selectedVehicleModel = String() // Stored value eventually used to build url for given website
+    var selectedVehicleModelUsingCarsDotComQuery = String()
     var selectedVehicleModelUsingCarGurusQuery = String()
     var selectedVehicleModelUsingAutotraderQuery = String()
     var selectedVehicleModelUsingTrueCarQuery = String()
@@ -71,8 +73,11 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     var queryItems          = String()
     var websiteURLComponents = [Website]()
     
-    let autotraderVehicleMakes = ["acura": "ACURA", "alfa romeo": "ALFA", "aston martin": "ASTON", "audi": "AUDI", "bentley": "BENTL", "bmw": "BMW", "buick": "BUICK", "cadillac": "CAD", "chevrolet": "CHEV", "chrysler": "CHRY", "daewoo": "DAEW", "dodge": "DODGE", "ferrari": "FER", "fiat": "FIAT", "fisker": "FISK", "ford": "FORD", "freightliner": "FREIGHT", "genesis": "GENESIS", "gmc": "GMC", "honda": "HONDA", "hummber": "AMGEN", "infiniti": "INFIN", "isuzu": "ISU", "jaguar": "JAG", "jeep": "JEEP", "karma": "KARMA", "kia": "KIA", "lamborghini": "LAM", "land rover": "ROV" ,"lexus": "LEXUS", "lincoln": "LINC", "lotus": "LOTUS", "maserati": "MAS", "maybach": "MAYBACH", "mazda": "MAZDA", "mclaren": "MCLAREN", "mercedes-benz" : "MB", "mercury": "MERC", "mini": "MINI", "mitsubishi": "MIT", "nissan": "NISSAN", "oldsmobile": "OLDS", "plymouth": "PLYM", "pontiac": "PONT", "porsche": "POR", "ram": "RAM", "rolls-royce": "RR", "saab": "SAAB", "saturn": "SATURN", "scion": "SCION", "smart": "SMART", "subaru": "SUB", "suzuki": "SUZUKI", "tesla": "TESLA", "toyota": "TOYOTA", "volkswagen": "VOLKS", "volvo": "VOLVO"]
+    let autotraderVehicleMakes = ["acura": "ACURA", "alfa romeo": "ALFA", "aston martin": "ASTON", "audi": "AUDI", "bentley": "BENTL", "bmw": "BMW", "buick": "BUICK", "cadillac": "CAD", "chevrolet": "CHEV", "chrysler": "CHRY", "daewoo": "DAEW", "dodge": "DODGE", "ferrari": "FER", "fiat": "FIAT", "fisker": "FISK", "ford": "FORD", "freightliner": "FREIGHT", "genesis": "GENESIS", "gmc": "GMC", "honda": "HONDA", "hummer": "AMGEN","hyundai": "HYUND", "infiniti": "INFIN", "isuzu": "ISU", "jaguar": "JAG", "jeep": "JEEP", "karma": "KARMA", "kia": "KIA", "lamborghini": "LAM", "land rover": "ROV" ,"lexus": "LEXUS", "lincoln": "LINC", "lotus": "LOTUS", "maserati": "MAS", "maybach": "MAYBACH", "mazda": "MAZDA", "mclaren": "MCLAREN", "mercedes-benz" : "MB", "mercury": "MERC", "mini": "MINI", "mitsubishi": "MIT", "nissan": "NISSAN", "oldsmobile": "OLDS", "plymouth": "PLYM", "pontiac": "PONT", "porsche": "POR", "ram": "RAM", "rolls-royce": "RR", "saab": "SAAB", "saturn": "SATURN", "scion": "SCION", "smart": "SMART", "subaru": "SUB", "suzuki": "SUZUKI", "tesla": "TESLA", "toyota": "TOYOTA", "volkswagen": "VOLKS", "volvo": "VOLVO"]
 
+    let carsDotComVehicleMakes = ["acura": "20001", "alfa romeo": "20047", "aston martin": "20003", "audi": "20049", "bentley": "20051", "bmw": "20005", "buick": "20006", "cadillac": "20052", "chevrolet": "20053", "chrysler": "20008", "daewoo": "20009", "dodge": "20012", "ferrari": "20014", "fiat": "20060", "fisker": "41703", "ford": "20015","genesis": "35354491", "gmc": "20061", "honda": "20017", "hummer": "20018","hyundai": "20064", "infiniti": "20019", "isuzu": "20020", "jaguar": "20066", "jeep": "20021", "karma": "36365359", "kia": "20068", "lamborghini": "20069", "land rover": "20024" ,"lexus": "20070", "lincoln": "20025", "lotus": "20071", "maserati": "20072", "maybach": "20027", "mazda": "20073", "mclaren": "47903", "mercedes-benz" : "20028", "mercury": "20074", "mini": "20075", "mitsubishi": "20030", "nissan": "20077", "oldsmobile": "20032", "plymouth": "20080", "pontiac": "20035", "porsche": "20081", "ram": "44763", "rolls-royce": "20037", "saab": "20038", "saturn": "20039", "scion": "20085", "smart": "20228", "subaru": "20041", "suzuki": "20042", "tesla": "28263", "toyota": "20088", "volkswagen": "20089", "volvo": "20044"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         getVehicle()
@@ -132,18 +137,21 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         
         // Used to construct URL path for chosen website, b/c they differ
         var autotraderQuery = [String]()
+        var carsDotComQuery = [String]()
         var carGurusQuery = [String]()
         var trueCarQuery = [String]()
         
-        for models in accessVehicleModels! {
-            retrievedVehicleModels.append(models.name)
-            autotraderQuery.append(models.autotraderQuery)
-            carGurusQuery.append(models.carGurusQuery)
-            trueCarQuery.append(models.trueCarQuery)
+        for model in accessVehicleModels! {
+            retrievedVehicleModels.append(model.name)
+            autotraderQuery.append(model.autotraderQuery)
+            carsDotComQuery.append(model.carsDotComQuery)
+            carGurusQuery.append(model.carGurusQuery)
+            trueCarQuery.append(model.trueCarQuery)
         }
         
         expandableSections[Section.vehicleModel.rawValue].data = retrievedVehicleModels // Dynamically get models based on selected make
         modelsUsingAutotraderQuery = autotraderQuery
+        modelsUsingCarsDotComQuery = carsDotComQuery
         modelsUsingCarGurusQuery = carGurusQuery
         modelsUsingTrueCarQuery = trueCarQuery
     }
@@ -214,6 +222,18 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
                 URLQueryItem(name: "makeCodeList", value: "\(autotraderVehicleMakeCode)"),
                 URLQueryItem(name: "modelCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)"),
                 URLQueryItem(name: "seriesCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)")
+            ]
+        } else if websiteName == "Cars.com" {
+            var carsDotComVehicleMakeCode = String()
+            if let make = carsDotComVehicleMakes[make] {
+                carsDotComVehicleMakeCode = make
+            }
+            components.path = websitePath
+            components.queryItems = [
+                URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
+                URLQueryItem(name: "rd", value: "20"),
+                URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
+                URLQueryItem(name: "stkTypId", value: "28881")
             ]
         } else if websiteName == "CarGurus" {
             components.path = websitePath
@@ -337,8 +357,9 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
             getVehicle()    // Dynamically display models based on selected make
         } else if section == Section.vehicleModel.rawValue {
             selectedVehicleModel = selectedRowItem
-            selectedVehicleModelUsingCarGurusQuery = modelsUsingCarGurusQuery[rowItem]
             selectedVehicleModelUsingAutotraderQuery = modelsUsingAutotraderQuery[rowItem]
+            selectedVehicleModelUsingCarsDotComQuery = modelsUsingCarsDotComQuery[rowItem]
+            selectedVehicleModelUsingCarGurusQuery = modelsUsingCarGurusQuery[rowItem]
             selectedVehicleModelUsingTrueCarQuery = modelsUsingTrueCarQuery[rowItem]
             expandableSections[section].title = selectedRowItem
         }

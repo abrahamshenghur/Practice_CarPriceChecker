@@ -28,6 +28,7 @@ struct Vehicle: Decodable {
 struct Model: Decodable {
     let name: String
     let autotraderQuery: String
+    let carsDotComQuery: String
     let carGurusQuery: String
     let trueCarQuery: String
 }
