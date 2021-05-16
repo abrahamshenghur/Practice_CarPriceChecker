@@ -1332,23 +1332,116 @@
             "make": "chrysler",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "200",
+                    "autotraderQuery": "CHRYS200",
+                    "carsDotComQuery": "20303",
+                    "carGurusQuery": "d2106",
+                    "trueCarQuery": "200"
                 },
-            ]
-        },
-        {
-            "make": "daewoo",
-            "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "300",
+                    "autotraderQuery": "300",
+                    "carsDotComQuery": "20388",
+                    "carGurusQuery": "d165",
+                    "trueCarQuery": "300"
+                },
+                {
+                    "name": "300M",
+                    "autotraderQuery": "CHRY300",
+                    "carsDotComQuery": "20427",
+                    "carGurusQuery": "d165",
+                    "trueCarQuery": "300m"
+                },
+                {
+                    "name": "Aspen",
+                    "autotraderQuery": "ASPEN",
+                    "carsDotComQuery": "20648",
+                    "carGurusQuery": "d945",
+                    "trueCarQuery": "aspen"
+                },
+                {
+                    "name": "Aspen Hybrid",
+                    "autotraderQuery": "ASPEN",
+                    "carsDotComQuery": "20647",
+                    "carGurusQuery": "d2918",
+                    "trueCarQuery": "aspen"
+                },
+                {
+                    "name": "Cirrus",
+                    "autotraderQuery": "CIRRUS",
+                    "carsDotComQuery": "20822",
+                    "carGurusQuery": "d168",
+                    "trueCarQuery": "cirrus"
+                },
+                {
+                    "name": "Concorde",
+                    "autotraderQuery": "CONC",
+                    "carsDotComQuery": "20865",
+                    "carGurusQuery": "d169",
+                    "trueCarQuery": "concorde"
+                },
+                {
+                    "name": "Crossfire",
+                    "autotraderQuery": "CROSSFIRE",
+                    "carsDotComQuery": "20896",
+                    "carGurusQuery": "d170",
+                    "trueCarQuery": "crossfire"
+                },
+                {
+                    "name": "LHS",
+                    "autotraderQuery": "LHS",
+                    "carsDotComQuery": "21327",
+                    "carGurusQuery": "d175",
+                    "trueCarQuery": "lhs"
+                },
+                {
+                    "name": "Pacifica",
+                    "autotraderQuery": "PACIFICA",
+                    "carsDotComQuery": "21701",
+                    "carGurusQuery": "d177",
+                    "trueCarQuery": "pacifica"
+                },
+                {
+                    "name": "Pacifica Hybrid",
+                    "autotraderQuery": "PACIFICA",
+                    "carsDotComQuery": "36290525",
+                    "carGurusQuery": "d2478",
+                    "trueCarQuery": "pacifica"
+                },
+                {
+                    "name": "Prowler",
+                    "autotraderQuery": "CHPROWLE",
+                    "carsDotComQuery": "21801",
+                    "carGurusQuery": "d178",
+                    "trueCarQuery": "prowler"
+                },
+                {
+                    "name": "PT Cruiser",
+                    "autotraderQuery": "PTCRUIS",
+                    "carsDotComQuery": "21744",
+                    "carGurusQuery": "d179",
+                    "trueCarQuery": "pt-cruiser"
+                },
+                {
+                    "name": "Sebring",
+                    "autotraderQuery": "CHRYSEB",
+                    "carsDotComQuery": "21921",
+                    "carGurusQuery": "d180",
+                    "trueCarQuery": "sebring"
+                },
+                {
+                    "name": "Town & Country",
+                    "autotraderQuery": "TANDC",
+                    "carsDotComQuery": "22191",
+                    "carGurusQuery": "d182",
+                    "trueCarQuery": "town-country"
+                },
+                {
+                    "name": "Voyager",
+                    "autotraderQuery": "VOYAGER",
+                    "carsDotComQuery": "22287",
+                    "carGurusQuery": "d183",
+                    "trueCarQuery": "voyager"
                 },
             ]
         },
@@ -1356,11 +1449,165 @@
             "make": "dodge",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "name": "Avenger",
+                    "autotraderQuery": "AVENGR",
+                    "carsDotComQuery": "20663",
+                    "carGurusQuery": "d646",
+                    "trueCarQuery": "avenger"
+                },
+                {
+                    "name": "Caliber",
+                    "autotraderQuery": "CALIBER",
+                    "carsDotComQuery": "20794",
+                    "carGurusQuery": "d932",
+                    "trueCarQuery": "caliber"
+                },
+                {
+                    "name": "Caravan",
+                    "autotraderQuery": "DODCARA",
+                    "carsDotComQuery": "20783",
+                    "carGurusQuery": "d647",
+                    "trueCarQuery": "caravan"
+                },
+                {
+                    "name": "Challenger",
+                    "autotraderQuery": "CHALLENGER",
+                    "carsDotComQuery": "20807",
+                    "carGurusQuery": "d894",
+                    "trueCarQuery": "challenger"
+                },
+                {
+                    "name": "Charger",
+                    "autotraderQuery": "DODCHAR",
+                    "carsDotComQuery": "20840",
+                    "carGurusQuery": "d733",
+                    "trueCarQuery": "charger"
+                },
+                {
+                    "name": "Dakota",
+                    "autotraderQuery": "DAKOTA",
+                    "carsDotComQuery": "20989",
+                    "carGurusQuery": "d649",
+                    "trueCarQuery": "dakota"
+                },
+                {
+                    "name": "Dart",
+                    "autotraderQuery": "DODDART",
+                    "carsDotComQuery": "20991",
+                    "carGurusQuery": "d896",
+                    "trueCarQuery": "dart"
+                },
+                {
+                    "name": "Durango",
+                    "autotraderQuery": "DURANG",
+                    "carsDotComQuery": "21019",
+                    "carGurusQuery": "d651",
+                    "trueCarQuery": "durango"
+                },
+                {
+                    "name": "Grand Caravan",
+                    "autotraderQuery": "GRANDCARAV",
+                    "carsDotComQuery": "21249",
+                    "carGurusQuery": "d653",
+                    "trueCarQuery": "grand-caravan"
+                },
+                {
+                    "name": "Journey",
+                    "autotraderQuery": "JOURNEY",
+                    "carsDotComQuery": "21286",
+                    "carGurusQuery": "d1135",
+                    "trueCarQuery": "journey"
+                },
+                {
+                    "name": "Magnum",
+                    "autotraderQuery": "MAGNUM",
+                    "carsDotComQuery": "21411",
+                    "carGurusQuery": "d655",
+                    "trueCarQuery": "magnum"
+                },
+                {
+                    "name": "Neon",
+                    "autotraderQuery": "DODNEON",
+                    "carsDotComQuery": "21688",
+                    "carGurusQuery": "d657",
+                    "trueCarQuery": "neon"
+                },
+                {
+                    "name": "Nitro",
+                    "autotraderQuery": "NITRO",
+                    "carsDotComQuery": "21691",
+                    "carGurusQuery": "d899",
+                    "trueCarQuery": "nitro"
+                },
+                {
+                    "name": "RAM 1500",
+                    "autotraderQuery": "RAM1504WD",
+                    "carsDotComQuery": "21858",
+                    "carGurusQuery": "d665",
+                    "trueCarQuery": "ram-1500"
+                },
+                {
+                    "name": "RAM 2500",
+                    "autotraderQuery": "RAM25002WD",
+                    "carsDotComQuery": "21802",
+                    "carGurusQuery": "d667",
+                    "trueCarQuery": "ram-2500"
+                },
+                {
+                    "name": "RAM 3500",
+                    "autotraderQuery": "RAM3502WD",
+                    "carsDotComQuery": "21860",
+                    "carGurusQuery": "d668",
+                    "trueCarQuery": "ram-3500"
+                },
+                {
+                    "name": "RAM Van",
+                    "autotraderQuery": "B1500",
+                    "carsDotComQuery": "21861",
+                    "carGurusQuery": "d669",
+                    "trueCarQuery": "ram-van"
+                },
+                {
+                    "name": "RAM Wagon",
+                    "autotraderQuery": "B2500",
+                    "carsDotComQuery": "21804",
+                    "carGurusQuery": "d670",
+                    "trueCarQuery": "ram-wagon"
+                },
+                {
+                    "name": "Ramcharger",
+                    "autotraderQuery": "RAMCGR",
+                    "carsDotComQuery": "21868",
+                    "carGurusQuery": "d671",
                     "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter Cargo",
+                    "autotraderQuery": "SPRINTER",
+                    "carsDotComQuery": "22183",
+                    "carGurusQuery": "d675",
+                    "trueCarQuery": "sprinter"
+                },
+                {
+                    "name": "Sprinter Passenger",
+                    "autotraderQuery": "SPRINTER",
+                    "carsDotComQuery": "22183",
+                    "carGurusQuery": "d674",
+                    "trueCarQuery": "sprinter-wagon"
+                },
+                {
+                    "name": "Stratus",
+                    "autotraderQuery": "STRATU",
+                    "carsDotComQuery": "22205",
+                    "carGurusQuery": "d677",
+                    "trueCarQuery": "stratus"
+                },
+                {
+                    "name": "Viper",
+                    "autotraderQuery": "VIPER",
+                    "carsDotComQuery": "22363",
+                    "carGurusQuery": "d678",
+                    "trueCarQuery": "viper"
                 },
             ]
         },
@@ -1368,10 +1615,255 @@
             "make": "ferrari",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
+                    "name": "348",
+                    "autotraderQuery": "348",
+                    "carsDotComQuery": "20413",
+                    "carGurusQuery": "d1218",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "360",
+                    "autotraderQuery": "360",
+                    "carsDotComQuery": "20420",
+                    "carGurusQuery": "d437",
+                    "trueCarQuery": "360"
+                },
+                {
+                    "name": "360 Spider",
+                    "autotraderQuery": "360",
+                    "carsDotComQuery": "36544",
+                    "carGurusQuery": "d2574",
+                    "trueCarQuery": "360"
+                },
+                {
+                    "name": "430 Scuderia",
+                    "autotraderQuery": "F430",
+                    "carsDotComQuery": "21119",
+                    "carGurusQuery": "d1134",
+                    "trueCarQuery": "430"
+                },
+                {
+                    "name": "456M",
+                    "autotraderQuery": "456MGT",
+                    "carsDotComQuery": "20480",
+                    "carGurusQuery": "d438",
+                    "trueCarQuery": "456m"
+                },
+                {
+                    "name": "458 Italia",
+                    "autotraderQuery": "458ITALIA",
+                    "carsDotComQuery": "40083",
+                    "carGurusQuery": "d2064",
+                    "trueCarQuery": "458-italia"
+                },
+                {
+                    "name": "458 Speciale",
+                    "autotraderQuery": "FER458SPEC",
+                    "carsDotComQuery": "30002053",
+                    "carGurusQuery": "d2064",
+                    "trueCarQuery": "458-italia"
+                },
+                {
+                    "name": "458 Spider",
+                    "autotraderQuery": "FER458SPID",
+                    "carsDotComQuery": "48063",
+                    "carGurusQuery": "d2064",
+                    "trueCarQuery": "458-italia"
+                },
+                {
+                    "name": "488 GTB",
+                    "autotraderQuery": "FER488GTB",
+                    "carsDotComQuery": "35331199",
+                    "carGurusQuery": "d2333",
+                    "trueCarQuery": "488"
+                },
+                {
+                    "name": "488 Pista",
+                    "autotraderQuery": "FER488PISA",
+                    "carsDotComQuery": "36786177",
+                    "carGurusQuery": "d2333",
+                    "trueCarQuery": "488"
+                },
+                {
+                    "name": "488 Pista Spider",
+                    "autotraderQuery": "FER488PISA",
+                    "carsDotComQuery": "36786178",
+                    "carGurusQuery": "d2333",
+                    "trueCarQuery": "488"
+                },
+                {
+                    "name": "488 Spider",
+                    "autotraderQuery": "FER488SPI",
+                    "carsDotComQuery": "36302758",
+                    "carGurusQuery": "d2333",
+                    "trueCarQuery": "488"
+                },
+                {
+                    "name": "512 TR",
+                    "autotraderQuery": "512TR",
+                    "carsDotComQuery": "20492",
+                    "carGurusQuery": "d1825",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "550 Maranello",
+                    "autotraderQuery": "550M",
+                    "carsDotComQuery": "20489",
+                    "carGurusQuery": "d439",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "575M",
+                    "autotraderQuery": "575M",
+                    "carsDotComQuery": "20491",
+                    "carGurusQuery": "d440",
+                    "trueCarQuery": "575m-maranello"
+                },
+                {
+                    "name": "599 GTB Fiorano",
+                    "autotraderQuery": "599GTB",
+                    "carsDotComQuery": "20508",
+                    "carGurusQuery": "d959",
+                    "trueCarQuery": "599-gtb-fiorano"
+                },
+                {
+                    "name": "612 Scaglietti",
+                    "autotraderQuery": "612SCAGLIE",
+                    "carsDotComQuery": "20501",
+                    "carGurusQuery": "d441",
+                    "trueCarQuery": "612-scaglietti"
+                },
+                {
+                    "name": "812 Superfast",
+                    "autotraderQuery": "FER812SUP",
+                    "carsDotComQuery": "36604794",
+                    "carGurusQuery": "d2654",
+                    "trueCarQuery": "812-superfast"
+                },
+                {
+                    "name": "California",
+                    "autotraderQuery": "FERCALIF",
+                    "carsDotComQuery": "20768",
+                    "carGurusQuery": "d2005",
+                    "trueCarQuery": "california"
+                },
+                {
+                    "name": "California T",
+                    "autotraderQuery": "FERCALIF",
+                    "carsDotComQuery": "20768",
+                    "carGurusQuery": "d2572",
+                    "trueCarQuery": "california-t"
+                },
+                {
+                    "name": "F12 Berlinetta",
+                    "autotraderQuery": "FERF12BERL",
+                    "carsDotComQuery": "52427",
+                    "carGurusQuery": "d2135",
+                    "trueCarQuery": "f12berlinetta"
+                },
+                {
+                    "name": "F12 TDF",
+                    "autotraderQuery": "FERF12TDF",
+                    "carsDotComQuery": "36712259",
+                    "carGurusQuery": "d2651",
+                    "trueCarQuery": "f12tdf"
+                },
+                {
+                    "name": "F355",
+                    "autotraderQuery": "F355",
+                    "carsDotComQuery": "21117",
+                    "carGurusQuery": "d1120",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "F40",
+                    "autotraderQuery": "F40",
+                    "carsDotComQuery": "21099",
+                    "carGurusQuery": "d1162",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "F430",
+                    "autotraderQuery": "F430",
+                    "carsDotComQuery": "21119",
+                    "carGurusQuery": "d443",
+                    "trueCarQuery": "430"
+                },
+                {
+                    "name": "F430 Spider",
+                    "autotraderQuery": "F430",
+                    "carsDotComQuery": "21119",
+                    "carGurusQuery": "d2573",
+                    "trueCarQuery": "430"
+                },
+                {
+                    "name": "F8 Spider",
+                    "autotraderQuery": "FERF8SPID",
+                    "carsDotComQuery": "36796073",
+                    "carGurusQuery": "d3048",
+                    "trueCarQuery": "f8"
+                },
+                {
+                    "name": "F8 Tributo",
+                    "autotraderQuery": "FERF8TRIB",
+                    "carsDotComQuery": "36792478",
+                    "carGurusQuery": "d3048",
+                    "trueCarQuery": "f8"
+                },
+                {
+                    "name": "FF",
+                    "autotraderQuery": "FERFF",
+                    "carsDotComQuery": "42703",
+                    "carGurusQuery": "d2126",
+                    "trueCarQuery": "ff"
+                },
+                {
+                    "name": "GTC4Lusso",
+                    "autotraderQuery": "FERGTC4LUS",
+                    "carsDotComQuery": "36318180",
+                    "carGurusQuery": "d2466",
+                    "trueCarQuery": "gtc4lusso"
+                },
+                {
+                    "name": "GTC4Lusso T",
+                    "autotraderQuery": "FERGTC4LUS",
+                    "carsDotComQuery": "36712387",
+                    "carGurusQuery": "d2655",
+                    "trueCarQuery": "gtc4lusso"
+                },
+                {
+                    "name": "LaFerrari",
+                    "autotraderQuery": "FERLAF",
+                    "carsDotComQuery": "33676107",
+                    "carGurusQuery": "d2309",
+                    "trueCarQuery": "laferrari"
+                },
+                {
+                    "name": "Mondial",
+                    "autotraderQuery": "MOND",
+                    "carsDotComQuery": "21668",
+                    "carGurusQuery": "d1570",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Portofino",
+                    "autotraderQuery": "FERPORTO",
+                    "carsDotComQuery": "36712293",
+                    "carGurusQuery": "d2811",
+                    "trueCarQuery": "portofino"
+                },
+                {
+                    "name": "Roma",
+                    "autotraderQuery": "FERROMA",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d2994",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Testarossa",
+                    "autotraderQuery": "TEST",
+                    "carsDotComQuery": "22262",
+                    "carGurusQuery": "d1121",
                     "trueCarQuery": ""
                 },
             ]
