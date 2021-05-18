@@ -230,6 +230,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
             }
             components.path = websitePath
             components.queryItems = [
+                URLQueryItem(name: "mdId", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
                 URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
                 URLQueryItem(name: "rd", value: "20"),
                 URLQueryItem(name: "searchSource", value: "QUICK_FORM"),

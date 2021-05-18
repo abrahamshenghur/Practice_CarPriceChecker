@@ -1872,11 +1872,46 @@
             "make": "fiat",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "124 Spider",
+                    "autotraderQuery": "FIAT124SPI",
+                    "carsDotComQuery": "33484310",
+                    "carGurusQuery": "d1414",
+                    "trueCarQuery": "124-spider"
+                },
+                {
+                    "name": "500",
+                    "autotraderQuery": "FIAT500",
+                    "carsDotComQuery": "20483",
+                    "carGurusQuery": "d1327",
+                    "trueCarQuery": "500"
+                },
+                {
+                    "name": "500 C",
+                    "autotraderQuery": "FIAT500",
+                    "carsDotComQuery": "43523",
+                    "carGurusQuery": "d1327",
+                    "trueCarQuery": "500"
+                },
+                {
+                    "name": "500 e",
+                    "autotraderQuery": "FIAT500",
+                    "carsDotComQuery": "53260",
+                    "carGurusQuery": "d2239",
+                    "trueCarQuery": "500"
+                },
+                {
+                    "name": "500L",
+                    "autotraderQuery": "FIAT500L",
+                    "carsDotComQuery": "51868",
+                    "carGurusQuery": "d2199",
+                    "trueCarQuery": "500l"
+                },
+                {
+                    "name": "500X",
+                    "autotraderQuery": "FIAT500X",
+                    "carsDotComQuery": "58488",
+                    "carGurusQuery": "d2306",
+                    "trueCarQuery": "500x"
                 },
             ]
         },
@@ -1884,11 +1919,11 @@
             "make": "fisker",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "Karma",
+                    "autotraderQuery": "KARMA",
+                    "carsDotComQuery": "41704",
+                    "carGurusQuery": "d1978",
+                    "trueCarQuery": "karma"
                 },
             ]
         },
@@ -1896,11 +1931,487 @@
             "make": "ford",
             "models": [
                 {
-                    "name": "",
+                    "name": "Aerostar",
+                    "autotraderQuery": "AERO",
+                    "carsDotComQuery": "20618",
+                    "carGurusQuery": "d318",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Bronco",
+                    "autotraderQuery": "BRON",
+                    "carsDotComQuery": "20717",
+                    "carGurusQuery": "d320",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Bronco Sport",
+                    "autotraderQuery": "FORDBRONSP",
+                    "carsDotComQuery": "36837893",
+                    "carGurusQuery": "d3094",
+                    "trueCarQuery": "bronco-sport"
+                },
+                {
+                    "name": "C-Max Energy",
+                    "autotraderQuery": "FOCMAX",
+                    "carsDotComQuery": "50243",
+                    "carGurusQuery": "d1315",
+                    "trueCarQuery": "c-max"
+                },
+                {
+                    "name": "C-Max Hybrid",
+                    "autotraderQuery": "FOCMAX",
+                    "carsDotComQuery": "49085",
+                    "carGurusQuery": "d2920",
+                    "trueCarQuery": "c-max"
+                },
+                {
+                    "name": "Contour",
+                    "autotraderQuery": "CONTOUR",
+                    "carsDotComQuery": "20853",
+                    "carGurusQuery": "d322",
+                    "trueCarQuery": "contour"
+                },
+                {
+                    "name": "Crown Victoria",
+                    "autotraderQuery": "CROWNVIC",
+                    "carsDotComQuery": "20906",
+                    "carGurusQuery": "d324",
+                    "trueCarQuery": "crown-victoria"
+                },
+                {
+                    "name": "E-Series",
+                    "autotraderQuery": "E250ECON",
+                    "carsDotComQuery": "21050",
+                    "carGurusQuery": "d2384",
+                    "trueCarQuery": "econoline-cargo-van"
+                },
+                {
+                    "name": "E-Series Chassis",
+                    "autotraderQuery": "E350ECON",
+                    "carsDotComQuery": "26502",
+                    "carGurusQuery": "d3024",
+                    "trueCarQuery": "econoline-commercial-cutaway"
+                },
+                {
+                    "name": "Econoline Cargo",
+                    "autotraderQuery": "E150ECON",
+                    "carsDotComQuery": "21050",
+                    "carGurusQuery": "d2384",
+                    "trueCarQuery": "econoline-cargo-van"
+                },
+                {
+                    "name": "Econoline Wagon",
+                    "autotraderQuery": "E350ECON",
+                    "carsDotComQuery": "26507",
+                    "carGurusQuery": "d2384",
+                    "trueCarQuery": "econoline-wagon"
+                },
+                {
+                    "name": "EcoSport",
+                    "autotraderQuery": "FORDECOSPT",
+                    "carsDotComQuery": "36284899",
+                    "carGurusQuery": "d2506",
+                    "trueCarQuery": "ecosport"
+                },
+                {
+                    "name": "Edge",
+                    "autotraderQuery": "EDGE",
+                    "carsDotComQuery": "21039",
+                    "carGurusQuery": "d923",
+                    "trueCarQuery": "edge"
+                },
+                {
+                    "name": "Escape",
+                    "autotraderQuery": "ESCAPE",
+                    "carsDotComQuery": "21088",
+                    "carGurusQuery": "d330",
+                    "trueCarQuery": "escape"
+                },
+                {
+                    "name": "Escape Hybrid",
+                    "autotraderQuery": "ESCAPE",
+                    "carsDotComQuery": "21070",
+                    "carGurusQuery": "d759",
+                    "trueCarQuery": "escape"
+                },
+                {
+                    "name": "Escort",
+                    "autotraderQuery": "ESCO",
+                    "carsDotComQuery": "21090",
+                    "carGurusQuery": "d331",
+                    "trueCarQuery": "escort"
+                },
+                {
+                    "name": "Excursion",
+                    "autotraderQuery": "EXCURSION",
+                    "carsDotComQuery": "21102",
+                    "carGurusQuery": "d332",
+                    "trueCarQuery": "excursion"
+                },
+                {
+                    "name": "Expedition",
+                    "autotraderQuery": "EXPEDI",
+                    "carsDotComQuery": "21104",
+                    "carGurusQuery": "d333",
+                    "trueCarQuery": "expedition"
+                },
+                {
+                    "name": "Expedition EL",
+                    "autotraderQuery": "EXPEDIEL",
+                    "carsDotComQuery": "21085",
+                    "carGurusQuery": "d333",
+                    "trueCarQuery": "expedition"
+                },
+                {
+                    "name": "Expedition Max",
+                    "autotraderQuery": "FORDEXPMAX",
+                    "carsDotComQuery": "36324071",
+                    "carGurusQuery": "d333",
+                    "trueCarQuery": "expedition"
+                },
+                {
+                    "name": "Explorer",
+                    "autotraderQuery": "EXPLOR",
+                    "carsDotComQuery": "21105",
+                    "carGurusQuery": "d334",
+                    "trueCarQuery": "explorer"
+                },
+                {
+                    "name": "Explorer Hybrid",
+                    "autotraderQuery": "EXPLOR",
+                    "carsDotComQuery": "21105",
+                    "carGurusQuery": "d2786",
+                    "trueCarQuery": "explorer"
+                },
+                {
+                    "name": "Explorer Sport",
+                    "autotraderQuery": "EXPLOR",
+                    "carsDotComQuery": "21087",
+                    "carGurusQuery": "d334",
+                    "trueCarQuery": "explorer"
+                },
+                {
+                    "name": "Explorer Sport Trac",
+                    "autotraderQuery": "SPORTTRAC",
+                    "carsDotComQuery": "21107",
+                    "carGurusQuery": "d336",
+                    "trueCarQuery": "explorer-sport-trac"
+                },
+                {
+                    "name": "F-150",
+                    "autotraderQuery": "F150PICKUP",
+                    "carsDotComQuery": "21095",
+                    "carGurusQuery": "d337",
+                    "trueCarQuery": "f-150"
+                },
+                {
+                    "name": "F-250",
+                    "autotraderQuery": "F250",
+                    "carsDotComQuery": "21115",
+                    "carGurusQuery": "d340",
+                    "trueCarQuery": "super-duty-f-250"
+                },
+                {
+                    "name": "F-250 Super Duty",
+                    "autotraderQuery": "F250",
+                    "carsDotComQuery": "21115",
+                    "carGurusQuery": "d341",
+                    "trueCarQuery": "super-duty-f-250"
+                },
+                {
+                    "name": "F-350",
+                    "autotraderQuery": "F350",
+                    "carsDotComQuery": "21097",
+                    "carGurusQuery": "d342",
+                    "trueCarQuery": "super-duty-f-350"
+                },
+                {
+                    "name": "F-350 Super Duty",
+                    "autotraderQuery": "F350",
+                    "carsDotComQuery": "21097",
+                    "carGurusQuery": "d343",
+                    "trueCarQuery": "super-duty-f-350"
+                },
+                {
+                    "name": "F-350 Super Duty Chassis",
+                    "autotraderQuery": "F350",
+                    "carsDotComQuery": "21097",
+                    "carGurusQuery": "d3025",
+                    "trueCarQuery": "super-duty-f-350-chassis-cab"
+                },
+                {
+                    "name": "F-450",
+                    "autotraderQuery": "F450",
+                    "carsDotComQuery": "21101",
+                    "carGurusQuery": "d1022",
+                    "trueCarQuery": "super-duty-f-450"
+                },
+                {
+                    "name": "F-450 Super Duty",
+                    "autotraderQuery": "F450",
+                    "carsDotComQuery": "21101",
+                    "carGurusQuery": "d1022",
+                    "trueCarQuery": "super-duty-f-450"
+                },
+                {
+                    "name": "F-450 Super Duty Chassis",
+                    "autotraderQuery": "F450",
+                    "carsDotComQuery": "21101",
+                    "carGurusQuery": "d3069",
+                    "trueCarQuery": "super-duty-f-450-chassis-cab"
+                },
+                {
+                    "name": "F-550 Super Duty",
+                    "autotraderQuery": "FORDF550",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d2224",
+                    "trueCarQuery": "super-duty-f-550"
+                },
+                {
+                    "name": "F-550 Super Duty Chassis",
+                    "autotraderQuery": "FORDF550",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d3021",
+                    "trueCarQuery": "super-duty-f-550"
+                },
+                {
+                    "name": "Festiva",
+                    "autotraderQuery": "FESTIV",
+                    "carsDotComQuery": "21141",
+                    "carGurusQuery": "d344",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Fiesta",
+                    "autotraderQuery": "FIESTA",
+                    "carsDotComQuery": "21146",
+                    "carGurusQuery": "d1060",
+                    "trueCarQuery": "fiesta"
+                },
+                {
+                    "name": "Five Hundred",
+                    "autotraderQuery": "FIVEHUNDRE",
+                    "carsDotComQuery": "21156",
+                    "carGurusQuery": "d345",
+                    "trueCarQuery": "five-hundred"
+                },
+                {
+                    "name": "Flex",
+                    "autotraderQuery": "FLEX",
+                    "carsDotComQuery": "21136",
+                    "carGurusQuery": "d1049",
+                    "trueCarQuery": "flex"
+                },
+                {
+                    "name": "Focus",
+                    "autotraderQuery": "FOCUS",
+                    "carsDotComQuery": "21138",
+                    "carGurusQuery": "d346",
+                    "trueCarQuery": "focus"
+                },
+                {
+                    "name": "Focus Electric",
+                    "autotraderQuery": "FOCUS",
+                    "carsDotComQuery": "42464",
+                    "carGurusQuery": "d2468",
+                    "trueCarQuery": "focus"
+                },
+                {
+                    "name": "Focus RS",
+                    "autotraderQuery": "FOCUS",
+                    "carsDotComQuery": "30036452",
+                    "carGurusQuery": "d2402",
+                    "trueCarQuery": "focus"
+                },
+                {
+                    "name": "Focus ST",
+                    "autotraderQuery": "FOCUS",
+                    "carsDotComQuery": "48704",
+                    "carGurusQuery": "d346",
+                    "trueCarQuery": "focus"
+                },
+                {
+                    "name": "Freestar",
+                    "autotraderQuery": "FREESTAR",
+                    "carsDotComQuery": "21169",
+                    "carGurusQuery": "d348",
+                    "trueCarQuery": "freestar-wagon"
+                },
+                {
+                    "name": "Freestyle",
+                    "autotraderQuery": "FREESTYLE",
+                    "carsDotComQuery": "21144",
+                    "carGurusQuery": "d349",
+                    "trueCarQuery": "freestyle"
+                },
+                {
+                    "name": "Fusion",
+                    "autotraderQuery": "FUSION",
+                    "carsDotComQuery": "21175",
+                    "carGurusQuery": "d845",
+                    "trueCarQuery": "fusion"
+                },
+                {
+                    "name": "Fusion Energy",
+                    "autotraderQuery": "FUSION",
+                    "carsDotComQuery": "53027",
+                    "carGurusQuery": "d2197",
+                    "trueCarQuery": "fusion"
+                },
+                {
+                    "name": "Fusion Hybrid",
+                    "autotraderQuery": "FUSION",
+                    "carsDotComQuery": "27661",
+                    "carGurusQuery": "d2702",
+                    "trueCarQuery": "fusion"
+                },
+                {
+                    "name": "GT",
+                    "autotraderQuery": "GT",
+                    "carsDotComQuery": "21203",
+                    "carGurusQuery": "d350",
+                    "trueCarQuery": "gt"
+                },
+                {
+                    "name": "Mustang",
+                    "autotraderQuery": "MUST",
+                    "carsDotComQuery": "21712",
+                    "carGurusQuery": "d2",
+                    "trueCarQuery": "mustang"
+                },
+                {
+                    "name": "Mustang Mach-E",
+                    "autotraderQuery": "FORDMACHE",
+                    "carsDotComQuery": "36783969",
+                    "carGurusQuery": "d2990",
+                    "trueCarQuery": "mustang-mach-e"
+                },
+                {
+                    "name": "Mustang Shelby GT350",
+                    "autotraderQuery": "MUST",
+                    "carsDotComQuery": "30021281",
+                    "carGurusQuery": "d2303",
+                    "trueCarQuery": "mustang"
+                },
+                {
+                    "name": "Mustang Shelby GT500",
+                    "autotraderQuery": "MUST",
+                    "carsDotComQuery": "36301573",
+                    "carGurusQuery": "d924",
+                    "trueCarQuery": "mustang"
+                },
+                {
+                    "name": "Mustang SVT Cobra",
+                    "autotraderQuery": "MUST",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d352",
+                    "trueCarQuery": "mustang"
+                },
+                {
+                    "name": "Probe",
+                    "autotraderQuery": "PROBE",
+                    "carsDotComQuery": "21752",
+                    "carGurusQuery": "d353",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Ranger",
+                    "autotraderQuery": "RANGER",
+                    "carsDotComQuery": "21874",
+                    "carGurusQuery": "d354",
+                    "trueCarQuery": "ranger"
+                },
+                {
+                    "name": "Taurus",
+                    "autotraderQuery": "TAURUS",
+                    "carsDotComQuery": "22164",
+                    "carGurusQuery": "d355",
+                    "trueCarQuery": "taurus"
+                },
+                {
+                    "name": "Taurus X",
+                    "autotraderQuery": "TAURUSX",
+                    "carsDotComQuery": "22256",
+                    "carGurusQuery": "d1020",
+                    "trueCarQuery": "taurus-x"
+                },
+                {
+                    "name": "Tempo",
+                    "autotraderQuery": "TEMPO",
+                    "carsDotComQuery": "22258",
+                    "carGurusQuery": "d356",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Thunderbird",
+                    "autotraderQuery": "TBIRD",
+                    "carsDotComQuery": "22263",
+                    "carGurusQuery": "d357",
+                    "trueCarQuery": "thunderbird"
+                },
+                {
+                    "name": "Transit 150",
+                    "autotraderQuery": "FORDTRN150",
+                    "carsDotComQuery": "56747",
+                    "carGurusQuery": "d1067",
+                    "trueCarQuery": "transit-cargo-van"
+                },
+                {
+                    "name": "Transit 250",
+                    "autotraderQuery": "FORDTRN250",
+                    "carsDotComQuery": "56748",
+                    "carGurusQuery": "d1067",
+                    "trueCarQuery": "transit-cargo-van"
+                },
+                {
+                    "name": "Transit 350",
+                    "autotraderQuery": "FORDTRN350",
+                    "carsDotComQuery": "56749",
+                    "carGurusQuery": "d1067",
+                    "trueCarQuery": "transit-cargo-van"
+                },
+                {
+                    "name": "Transit Chassis",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carGurusQuery": "d3091",
+                    "trueCarQuery": "transit-chassi"
+                },
+                {
+                    "name": "Transit Connect",
+                    "autotraderQuery": "TRANSCONN",
+                    "carsDotComQuery": "28203",
+                    "carGurusQuery": "d2037",
+                    "trueCarQuery": "transit-connect-van"
+                },
+                {
+                    "name": "Transit Crew",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d2892",
+                    "trueCarQuery": "transit-crew-van"
+                },
+                {
+                    "name": "Transit Passenger",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d2270",
+                    "trueCarQuery": "transit-passenger-wagon"
+                },
+                {
+                    "name": "Windstar",
+                    "autotraderQuery": "WINDST",
+                    "carsDotComQuery": "22375",
+                    "carGurusQuery": "d358",
+                    "trueCarQuery": "windstar-wagon"
+                },
+                {
+                    "name": "Windstar Cargo",
+                    "autotraderQuery": "WINDST",
+                    "carsDotComQuery": "22375",
+                    "carGurusQuery": "d359",
+                    "trueCarQuery": "windstar-cargo-van"
                 },
             ]
         },
