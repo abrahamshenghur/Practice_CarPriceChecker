@@ -2419,11 +2419,32 @@
             "make": "genesis",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "G70",
+                    "autotraderQuery": "GENG70",
+                    "carsDotComQuery": "36388210",
+                    "carGurusQuery": "d2701",
+                    "trueCarQuery": "g70"
+                },
+                {
+                    "name": "G80",
+                    "autotraderQuery": "GENG80",
+                    "carsDotComQuery": "35357470",
+                    "carGurusQuery": "d2438",
+                    "trueCarQuery": "g80"
+                },
+                {
+                    "name": "G90",
+                    "autotraderQuery": "GENG90",
+                    "carsDotComQuery": "35518730",
+                    "carGurusQuery": "d2401",
+                    "trueCarQuery": "g90"
+                },
+                {
+                    "name": "GV80",
+                    "autotraderQuery": "GENGV80",
+                    "carsDotComQuery": "36795191",
+                    "carGurusQuery": "d3038",
+                    "trueCarQuery": "gv80"
                 },
             ]
         },
@@ -2431,11 +2452,207 @@
             "make": "gmc",
             "models": [
                 {
-                    "name": "",
+                    "name": "Acadia",
+                    "autotraderQuery": "ACADIA",
+                    "carsDotComQuery": "20607",
+                    "carGurusQuery": "d925",
+                    "trueCarQuery": "acadia"
+                },
+                {
+                    "name": "Acadia Limited",
+                    "autotraderQuery": "ACADIA",
+                    "carsDotComQuery": "34280445",
+                    "carGurusQuery": "d925",
+                    "trueCarQuery": "acadia-limited"
+                },
+                {
+                    "name": "Canyon",
+                    "autotraderQuery": "CANYON",
+                    "carsDotComQuery": "20778",
+                    "carGurusQuery": "d103",
+                    "trueCarQuery": "canyon"
+                },
+                {
+                    "name": "Envoy",
+                    "autotraderQuery": "ENVOY",
+                    "carsDotComQuery": "21062",
+                    "carGurusQuery": "d104",
+                    "trueCarQuery": "envoy"
+                },
+                {
+                    "name": "Envoy XL",
+                    "autotraderQuery": "ENVOYXL",
+                    "carsDotComQuery": "21075",
+                    "carGurusQuery": "d105",
+                    "trueCarQuery": "envoy"
+                },
+                {
+                    "name": "Envoy XuV",
+                    "autotraderQuery": "ENVOYXUV",
+                    "carsDotComQuery": "21063",
+                    "carGurusQuery": "d106",
+                    "trueCarQuery": "envoy"
+                },
+                {
+                    "name": "Jimmy",
+                    "autotraderQuery": "JIM",
+                    "carsDotComQuery": "21324",
+                    "carGurusQuery": "d107",
+                    "trueCarQuery": "jimmy"
+                },
+                {
+                    "name": "S-15 Jimmy",
+                    "autotraderQuery": "GMCS15",
+                    "carsDotComQuery": "21904",
+                    "carGurusQuery": "d111",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Safari",
+                    "autotraderQuery": "SAFARIGMC",
+                    "carsDotComQuery": "21897",
+                    "carGurusQuery": "d112",
+                    "trueCarQuery": "safari-passenger"
+                },
+                {
+                    "name": "Safari Cargo",
+                    "autotraderQuery": "SAFARIGMC",
+                    "carsDotComQuery": "21897",
+                    "carGurusQuery": "d113",
+                    "trueCarQuery": "safari-cargo-van"
+                },
+                {
+                    "name": "Savana 1500",
+                    "autotraderQuery": "GMCSAVANA",
+                    "carsDotComQuery": "21907",
+                    "carGurusQuery": "d115",
+                    "trueCarQuery": "savana-passenger/"
+                },
+                {
+                    "name": "Savana 2500",
+                    "autotraderQuery": "GMCSAV2500",
+                    "carsDotComQuery": "26509",
+                    "carGurusQuery": "d115",
+                    "trueCarQuery": "savana-cargo-van"
+                },
+                {
+                    "name": "Savana 3500",
+                    "autotraderQuery": "GMCSAV3500",
+                    "carsDotComQuery": "26505",
+                    "carGurusQuery": "d114",
+                    "trueCarQuery": "savana-commercial-cutaway"
+                },
+                {
+                    "name": "Sierra 1500",
+                    "autotraderQuery": "15SIPU4WD",
+                    "carsDotComQuery": "22044",
+                    "carGurusQuery": "d116",
+                    "trueCarQuery": "sierra-1500"
+                },
+                {
+                    "name": "Sierra 1500 Classic",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d122",
+                    "trueCarQuery": "sierra-1500-classic"
+                },
+                {
+                    "name": "Sierra 1500 Limited",
+                    "autotraderQuery": "15SIPU4WD",
+                    "carsDotComQuery": "36400007",
+                    "carGurusQuery": "d2790",
+                    "trueCarQuery": "sierra-1500-limited"
+                },
+                {
+                    "name": "Sierra 1500HD",
+                    "autotraderQuery": "15SIPU4WD",
+                    "carsDotComQuery": "22044",
+                    "carGurusQuery": "d117",
+                    "trueCarQuery": "sierra-1500"
+                },
+                {
+                    "name": "Sierra 2500",
+                    "autotraderQuery": "GMCC25PU",
+                    "carsDotComQuery": "22107",
+                    "carGurusQuery": "d118",
+                    "trueCarQuery": "sierra-2500hd"
+                },
+                {
+                    "name": "Sierra 2500 Classic",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d123",
                     "trueCarQuery": ""
+                },
+                {
+                    "name": "Sierra 2500HD",
+                    "autotraderQuery": "GMCC25PU",
+                    "carsDotComQuery": "22107",
+                    "carGurusQuery": "d119",
+                    "trueCarQuery": "sierra-2500hd-classic"
+                },
+                {
+                    "name": "Sierra 2500HD Classic",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d972",
+                    "trueCarQuery": "sierra-2500hd-classic"
+                },
+                {
+                    "name": "Sierra 3500",
+                    "autotraderQuery": "GMC3500PU",
+                    "carsDotComQuery": "22045",
+                    "carGurusQuery": "d120",
+                    "trueCarQuery": "sierra-3500"
+                },
+                {
+                    "name": "Sierra 3500 Classic",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d124",
+                    "trueCarQuery": "sierra-3500-classic"
+                },
+                {
+                    "name": "Sierra 3500HD",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d973",
+                    "trueCarQuery": "sierra-3500hd"
+                },
+                {
+                    "name": "Sierra 3500 Chassis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d3028",
+                    "trueCarQuery": "sierra-3500hd-chassis"
+                },
+                {
+                    "name": "Sonoma",
+                    "autotraderQuery": "SONOMA",
+                    "carsDotComQuery": "22148",
+                    "carGurusQuery": "d125",
+                    "trueCarQuery": "sonoma"
+                },
+                {
+                    "name": "Suburban",
+                    "autotraderQuery": "SUB",
+                    "carsDotComQuery": "22124",
+                    "carGurusQuery": "d126",
+                    "trueCarQuery": "suburban"
+                },
+                {
+                    "name": "Yukon",
+                    "autotraderQuery": "YUKON",
+                    "carsDotComQuery": "22393",
+                    "carGurusQuery": "d130",
+                    "trueCarQuery": "yukon"
+                },
+                {
+                    "name": "Yukon XL",
+                    "autotraderQuery": "YUKONXL",
+                    "carsDotComQuery": "22394",
+                    "carGurusQuery": "d132",
+                    "trueCarQuery": "yukon"
                 },
             ]
         },
