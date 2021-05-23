@@ -2840,11 +2840,46 @@
             "make": "hummer",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "H1",
+                    "autotraderQuery": "HUMMER",
+                    "carsDotComQuery": "21229",
+                    "carGurusQuery": "d230",
+                    "trueCarQuery": "h1"
+                },
+                {
+                    "name": "H1 Alpha",
+                    "autotraderQuery": "HUMMER",
+                    "carsDotComQuery": "21257",
+                    "carGurusQuery": "d842",
+                    "trueCarQuery": "h1"
+                },
+                {
+                    "name": "H2",
+                    "autotraderQuery": "H2",
+                    "carsDotComQuery": "21230",
+                    "carGurusQuery": "d231",
+                    "trueCarQuery": "h2"
+                },
+                {
+                    "name": "H2 SUT",
+                    "autotraderQuery": "H2",
+                    "carsDotComQuery": "21230",
+                    "carGurusQuery": "d232",
+                    "trueCarQuery": "h2"
+                },
+                {
+                    "name": "H3",
+                    "autotraderQuery": "H3",
+                    "carsDotComQuery": "21258",
+                    "carGurusQuery": "d843",
+                    "trueCarQuery": "h3"
+                },
+                {
+                    "name": "H3T",
+                    "autotraderQuery": "H3",
+                    "carsDotComQuery": "26261",
+                    "carGurusQuery": "d1524",
+                    "trueCarQuery": "h3"
                 },
             ]
         },
@@ -2852,11 +2887,221 @@
             "make": "hyundai",
             "models": [
                 {
-                    "name": "",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "name": "Accent",
+                    "autotraderQuery": "ACCENT",
+                    "carsDotComQuery": "20605",
+                    "carGurusQuery": "d91",
+                    "trueCarQuery": "accent"
+                },
+                {
+                    "name": "Azera",
+                    "autotraderQuery": "AZERA",
+                    "carsDotComQuery": "20666",
+                    "carGurusQuery": "d831",
+                    "trueCarQuery": "azera"
+                },
+                {
+                    "name": "Elantra",
+                    "autotraderQuery": "ELANTR",
+                    "carsDotComQuery": "21053",
+                    "carGurusQuery": "d92",
+                    "trueCarQuery": "elantra"
+                },
+                {
+                    "name": "Elantra Coupe",
+                    "autotraderQuery": "HYUELANCPE",
+                    "carsDotComQuery": "21053",
+                    "carGurusQuery": "d2143",
+                    "trueCarQuery": "elantra"
+                },
+                {
+                    "name": "Elantra GT",
+                    "autotraderQuery": "ELANTR",
+                    "carsDotComQuery": "49764",
+                    "carGurusQuery": "d2144",
+                    "trueCarQuery": "elantra"
+                },
+                {
+                    "name": "Elantra Hybrid",
+                    "autotraderQuery": "ELANTR",
+                    "carsDotComQuery": "36879447",
+                    "carGurusQuery": "d3139",
                     "trueCarQuery": ""
+                },
+                {
+                    "name": "Elantra Touring",
+                    "autotraderQuery": "ELANTOUR",
+                    "carsDotComQuery": "27781",
+                    "carGurusQuery": "d2033",
+                    "trueCarQuery": "elantra"
+                },
+                {
+                    "name": "Entourage",
+                    "autotraderQuery": "ENTOURAGE",
+                    "carsDotComQuery": "21073",
+                    "carGurusQuery": "d942",
+                    "trueCarQuery": "entourage"
+                },
+                {
+                    "name": "Equus",
+                    "autotraderQuery": "EQUUS",
+                    "carsDotComQuery": "35963",
+                    "carGurusQuery": "d2087",
+                    "trueCarQuery": "equus"
+                },
+                {
+                    "name": "Genesis",
+                    "autotraderQuery": "GENESIS",
+                    "carsDotComQuery": "21221",
+                    "carGurusQuery": "d1510",
+                    "trueCarQuery": "genesis"
+                },
+                {
+                    "name": "Genesis Coupe",
+                    "autotraderQuery": "GENESISCPE",
+                    "carsDotComQuery": "30263",
+                    "carGurusQuery": "d2034",
+                    "trueCarQuery": "genesis-coupe"
+                },
+                {
+                    "name": "Ioniq Electric",
+                    "autotraderQuery": "HYUIONIQ",
+                    "carsDotComQuery": "36301306",
+                    "carGurusQuery": "d2684",
+                    "trueCarQuery": "ioniq"
+                },
+                {
+                    "name": "Ioniq Hybrid",
+                    "autotraderQuery": "HYUIONIQ",
+                    "carsDotComQuery": "36301312",
+                    "carGurusQuery": "d2419",
+                    "trueCarQuery": "ioniq"
+                },
+                {
+                    "name": "Ioniq Hybrid Plug-In",
+                    "autotraderQuery": "HYUIONIQ",
+                    "carsDotComQuery": "36372410",
+                    "carGurusQuery": "d2685",
+                    "trueCarQuery": "ioniq"
+                },
+                {
+                    "name": "Kona",
+                    "autotraderQuery": "HYUKONA",
+                    "carsDotComQuery": "36362537",
+                    "carGurusQuery": "d2663",
+                    "trueCarQuery": "kona"
+                },
+                {
+                    "name": "Kona Electric",
+                    "autotraderQuery": "HYUKONA",
+                    "carsDotComQuery": "36706432",
+                    "carGurusQuery": "d2699",
+                    "trueCarQuery": "kona"
+                },
+                {
+                    "name": "NEXO",
+                    "autotraderQuery": "HYUNDNEXO",
+                    "carsDotComQuery": "36628943",
+                    "carGurusQuery": "d2668",
+                    "trueCarQuery": "nexo"
+                },
+                {
+                    "name": "Palisade",
+                    "autotraderQuery": "HYUNDPALIS",
+                    "carsDotComQuery": "36620695",
+                    "carGurusQuery": "d2836",
+                    "trueCarQuery": "palisade"
+                },
+                {
+                    "name": "Santa Fe",
+                    "autotraderQuery": "SANTAFE",
+                    "carsDotComQuery": "21899",
+                    "carGurusQuery": "d94",
+                    "trueCarQuery": "santa-fe"
+                },
+                {
+                    "name": "Santa Fe Sport",
+                    "autotraderQuery": "SANTAFE",
+                    "carsDotComQuery": "50643",
+                    "carGurusQuery": "d2383",
+                    "trueCarQuery": "santa-fe-sport"
+                },
+                {
+                    "name": "Santa Fe XL",
+                    "autotraderQuery": "SANTAFE",
+                    "carsDotComQuery": "36447417",
+                    "carGurusQuery": "d2382",
+                    "trueCarQuery": "santa-fe-xl"
+                },
+                {
+                    "name": "Sonata",
+                    "autotraderQuery": "SONATA",
+                    "carsDotComQuery": "22146",
+                    "carGurusQuery": "d96",
+                    "trueCarQuery": "sonata"
+                },
+                {
+                    "name": "Sonata Hybrid",
+                    "autotraderQuery": "SONATA",
+                    "carsDotComQuery": "39583",
+                    "carGurusQuery": "d2107",
+                    "trueCarQuery": "sonata"
+                },
+                {
+                    "name": "Sonata Hybrid Plug-In",
+                    "autotraderQuery": "SONATA",
+                    "carsDotComQuery": "33386193",
+                    "carGurusQuery": "d2322",
+                    "trueCarQuery": "sonata"
+                },
+                {
+                    "name": "Tiburon",
+                    "autotraderQuery": "TIBURO",
+                    "carsDotComQuery": "22264",
+                    "carGurusQuery": "d97",
+                    "trueCarQuery": "tiburon"
+                },
+                {
+                    "name": "Tucson",
+                    "autotraderQuery": "TUCSON",
+                    "carsDotComQuery": "22302",
+                    "carGurusQuery": "d98",
+                    "trueCarQuery": "tucson"
+                },
+                {
+                    "name": "Veloster",
+                    "autotraderQuery": "VELOSTER",
+                    "carsDotComQuery": "42323",
+                    "carGurusQuery": "d2124",
+                    "trueCarQuery": "veloster"
+                },
+                {
+                    "name": "Veloster N",
+                    "autotraderQuery": "VELOSTER",
+                    "carsDotComQuery": "36744667",
+                    "carGurusQuery": "d2686",
+                    "trueCarQuery": "veloster"
+                },
+                {
+                    "name": "Venue",
+                    "autotraderQuery": "HYUNDVENUE",
+                    "carsDotComQuery": "36723428",
+                    "carGurusQuery": "d2882",
+                    "trueCarQuery": "venue"
+                },
+                {
+                    "name": "Veracruz",
+                    "autotraderQuery": "VERACRUZ",
+                    "carsDotComQuery": "22272",
+                    "carGurusQuery": "d943",
+                    "trueCarQuery": "veracruz"
+                },
+                {
+                    "name": "XG350",
+                    "autotraderQuery": "XG350",
+                    "carsDotComQuery": "22317",
+                    "carGurusQuery": "d100",
+                    "trueCarQuery": "xg350"
                 },
             ]
         },
