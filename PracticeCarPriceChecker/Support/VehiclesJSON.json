@@ -3109,11 +3109,319 @@
             "make": "infiniti",
             "models": [
                 {
-                    "name": "",
+                    "name": "EX35",
+                    "autotraderQuery": "EX35",
+                    "carsDotComQuery": "21046",
+                    "carGurusQuery": "d1138",
+                    "trueCarQuery": "ex35"
+                },
+                {
+                    "name": "EX37",
+                    "autotraderQuery": "EX37",
+                    "carsDotComQuery": "49584",
+                    "carGurusQuery": "d2182",
+                    "trueCarQuery": "ex37"
+                },
+                {
+                    "name": "FX35",
+                    "autotraderQuery": "FX35",
+                    "carsDotComQuery": "21108",
+                    "carGurusQuery": "d573",
+                    "trueCarQuery": "fx"
+                },
+                {
+                    "name": "FX37",
+                    "autotraderQuery": "FX37",
+                    "carsDotComQuery": "49585",
+                    "carGurusQuery": "d2174",
+                    "trueCarQuery": "fx"
+                },
+                {
+                    "name": "FX45",
+                    "autotraderQuery": "FX45",
+                    "carsDotComQuery": "21129",
+                    "carGurusQuery": "d574",
+                    "trueCarQuery": "fx"
+                },
+                {
+                    "name": "FX50",
+                    "autotraderQuery": "FX50",
+                    "carsDotComQuery": "21110",
+                    "carGurusQuery": "d1990",
+                    "trueCarQuery": "fx"
+                },
+                {
+                    "name": "G20",
+                    "autotraderQuery": "G20",
+                    "carsDotComQuery": "21151",
+                    "carGurusQuery": "d575",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G25",
+                    "autotraderQuery": "G25",
+                    "carsDotComQuery": "38826",
+                    "carGurusQuery": "d2088",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G25x",
+                    "autotraderQuery": "G25",
+                    "carsDotComQuery": "36428709",
+                    "carGurusQuery": "d2088",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G35",
+                    "autotraderQuery": "G35",
+                    "carsDotComQuery": "21179",
+                    "carGurusQuery": "d576",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G35x",
+                    "autotraderQuery": "G35",
+                    "carsDotComQuery": "33743",
+                    "carGurusQuery": "d576",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G37",
+                    "autotraderQuery": "G37",
+                    "carsDotComQuery": "21153",
+                    "carGurusQuery": "d1036",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "G37x",
+                    "autotraderQuery": "G37",
+                    "carsDotComQuery": "36428714",
+                    "carGurusQuery": "d1036",
+                    "trueCarQuery": "g"
+                },
+                {
+                    "name": "I30",
+                    "autotraderQuery": "I30",
+                    "carsDotComQuery": "21236",
+                    "carGurusQuery": "d577",
+                    "trueCarQuery": "i30"
+                },
+                {
+                    "name": "I35",
+                    "autotraderQuery": "I35",
+                    "carsDotComQuery": "21279",
+                    "carGurusQuery": "d578",
+                    "trueCarQuery": "i35"
+                },
+                {
+                    "name": "IPL G",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "49665",
+                    "carGurusQuery": "d2165",
                     "trueCarQuery": ""
+                },
+                {
+                    "name": "J30",
+                    "autotraderQuery": "J30",
+                    "carsDotComQuery": "21311",
+                    "carGurusQuery": "d579",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "JX35",
+                    "autotraderQuery": "JX35",
+                    "carsDotComQuery": "47283",
+                    "carGurusQuery": "d2148",
+                    "trueCarQuery": "jx35"
+                },
+                {
+                    "name": "M30",
+                    "autotraderQuery": "M30",
+                    "carsDotComQuery": "21416",
+                    "carGurusQuery": "d580",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "M35",
+                    "autotraderQuery": "M35",
+                    "carsDotComQuery": "21394",
+                    "carGurusQuery": "d735",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M35x",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "36428717",
+                    "carGurusQuery": "d735",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M37",
+                    "autotraderQuery": "M37",
+                    "carsDotComQuery": "35027",
+                    "carGurusQuery": "d2073",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M37x",
+                    "autotraderQuery": "M37",
+                    "carsDotComQuery": "36428720",
+                    "carGurusQuery": "d2073",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M45",
+                    "autotraderQuery": "M45",
+                    "carsDotComQuery": "21418",
+                    "carGurusQuery": "d581",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M45x",
+                    "autotraderQuery": "M45",
+                    "carsDotComQuery": "36428721",
+                    "carGurusQuery": "d581",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "M56",
+                    "autotraderQuery": "M56",
+                    "carsDotComQuery": "35028",
+                    "carGurusQuery": "d2074",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "M56x",
+                    "autotraderQuery": "M56",
+                    "carsDotComQuery": "36428722",
+                    "carGurusQuery": "d2074",
+                    "trueCarQuery": "m"
+                },
+                {
+                    "name": "Q40",
+                    "autotraderQuery": "INFINQ40",
+                    "carsDotComQuery": "58407",
+                    "carGurusQuery": "d2287",
+                    "trueCarQuery": "q40"
+                },
+                {
+                    "name": "Q45",
+                    "autotraderQuery": "Q45",
+                    "carsDotComQuery": "21806",
+                    "carGurusQuery": "d582",
+                    "trueCarQuery": "q45"
+                },
+                {
+                    "name": "Q50",
+                    "autotraderQuery": "INFINQ50",
+                    "carsDotComQuery": "52108",
+                    "carGurusQuery": "d2207",
+                    "trueCarQuery": "q50"
+                },
+                {
+                    "name": "Q50 Hybrid",
+                    "autotraderQuery": "INFINQ50",
+                    "carsDotComQuery": "52969",
+                    "carGurusQuery": "d2208",
+                    "trueCarQuery": "q50"
+                },
+                {
+                    "name": "Q60",
+                    "autotraderQuery": "INFINQ60",
+                    "carsDotComQuery": "54539",
+                    "carGurusQuery": "d2251",
+                    "trueCarQuery": "q60"
+                },
+                {
+                    "name": "Q60 IPL",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "54868",
+                    "carGurusQuery": "d2252",
+                    "trueCarQuery": "q60"
+                },
+                {
+                    "name": "Q70",
+                    "autotraderQuery": "INFINQ70",
+                    "carsDotComQuery": "54814",
+                    "carGurusQuery": "d2265",
+                    "trueCarQuery": "q70"
+                },
+                {
+                    "name": "Q70 Hybrid",
+                    "autotraderQuery": "INFINQ70",
+                    "carsDotComQuery": "56611",
+                    "carGurusQuery": "d2395",
+                    "trueCarQuery": "q70"
+                },
+                {
+                    "name": "Q70 L",
+                    "autotraderQuery": "INFINQ70",
+                    "carsDotComQuery": "58567",
+                    "carGurusQuery": "d2289",
+                    "trueCarQuery": "q70l"
+                },
+                {
+                    "name": "QX30",
+                    "autotraderQuery": "INFINQX30",
+                    "carsDotComQuery": "33482960",
+                    "carGurusQuery": "d2356",
+                    "trueCarQuery": "qx30"
+                },
+                {
+                    "name": "QX4",
+                    "autotraderQuery": "QX4",
+                    "carsDotComQuery": "21808",
+                    "carGurusQuery": "d583",
+                    "trueCarQuery": "qx4"
+                },
+                {
+                    "name": "QX50",
+                    "autotraderQuery": "INFINQX50",
+                    "carsDotComQuery": "54450",
+                    "carGurusQuery": "d2247",
+                    "trueCarQuery": "qx50"
+                },
+                {
+                    "name": "QX55",
+                    "autotraderQuery": "INFINQX55",
+                    "carsDotComQuery": "36916451",
+                    "carGurusQuery": "d3132",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "QX56",
+                    "autotraderQuery": "QX56",
+                    "carsDotComQuery": "21760",
+                    "carGurusQuery": "d584",
+                    "trueCarQuery": "qx56"
+                },
+                {
+                    "name": "QX60",
+                    "autotraderQuery": "INFINQX60",
+                    "carsDotComQuery": "54187",
+                    "carGurusQuery": "d2243",
+                    "trueCarQuery": "qx60"
+                },
+                {
+                    "name": "QX60 Hybrid",
+                    "autotraderQuery": "INFINQX60",
+                    "carsDotComQuery": "52654",
+                    "carGurusQuery": "d2253",
+                    "trueCarQuery": "qx60"
+                },
+                {
+                    "name": "QX70",
+                    "autotraderQuery": "INFINQX70",
+                    "carsDotComQuery": "54413",
+                    "carGurusQuery": "d2242",
+                    "trueCarQuery": "qx70"
+                },
+                {
+                    "name": "QX80",
+                    "autotraderQuery": "INFINQX80",
+                    "carsDotComQuery": "54451",
+                    "carGurusQuery": "d2248",
+                    "trueCarQuery": "qx80"
                 },
             ]
         },
