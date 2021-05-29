@@ -3712,11 +3712,151 @@
             "make": "jeep",
             "models": [
                 {
-                    "name": "",
+                    "name": "Cherokee",
+                    "autotraderQuery": "CHER",
+                    "carsDotComQuery": "20814",
+                    "carGurusQuery": "d488",
+                    "trueCarQuery": "cherokee"
+                },
+                {
+                    "name": "CJ-5",
+                    "autotraderQuery": "JEEPCJ",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d1575",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CJ-7",
+                    "autotraderQuery": "JEEPCJ",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d1549",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CJ-8",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d1576",
                     "trueCarQuery": ""
+                },
+                {
+                    "name": "Comanche",
+                    "autotraderQuery": "COMANC",
+                    "carsDotComQuery": "20858",
+                    "carGurusQuery": "d489",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Commander",
+                    "autotraderQuery": "COMMANDER",
+                    "carsDotComQuery": "20860",
+                    "carGurusQuery": "d849",
+                    "trueCarQuery": "commander"
+                },
+                {
+                    "name": "Commando",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d2662",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Compass",
+                    "autotraderQuery": "COMPASS",
+                    "carsDotComQuery": "20864",
+                    "carGurusQuery": "d905",
+                    "trueCarQuery": "compass"
+                },
+                {
+                    "name": "Gladiator",
+                    "autotraderQuery": "JEEPGLAD",
+                    "carsDotComQuery": "36620416",
+                    "carGurusQuery": "d2021",
+                    "trueCarQuery": "gladiator"
+                },
+                {
+                    "name": "Grand Cherokee",
+                    "autotraderQuery": "JEEPGRAND",
+                    "carsDotComQuery": "21222",
+                    "carGurusQuery": "d490",
+                    "trueCarQuery": "grand-cherokee"
+                },
+                {
+                    "name": "Grand Cherokee L",
+                    "autotraderQuery": "JEEPGRANDL",
+                    "carsDotComQuery": "36918445",
+                    "carGurusQuery": "d3108",
+                    "trueCarQuery": "grand-cherokee"
+                },
+                {
+                    "name": "Grand Wagoneer",
+                    "autotraderQuery": "GRWAG",
+                    "carsDotComQuery": "21226",
+                    "carGurusQuery": "d491",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Liberty",
+                    "autotraderQuery": "LIBERTY",
+                    "carsDotComQuery": "21399",
+                    "carGurusQuery": "d492",
+                    "trueCarQuery": "liberty"
+                },
+                {
+                    "name": "Patriot",
+                    "autotraderQuery": "PATRIOT",
+                    "carsDotComQuery": "21766",
+                    "carGurusQuery": "d906",
+                    "trueCarQuery": "patriot"
+                },
+                {
+                    "name": "Renegade",
+                    "autotraderQuery": "JEEPRENEG",
+                    "carsDotComQuery": "56807",
+                    "carGurusQuery": "d2268",
+                    "trueCarQuery": "renegade"
+                },
+                {
+                    "name": "Wagoneer",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "d493",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Wrangler",
+                    "autotraderQuery": "WRANGLER",
+                    "carsDotComQuery": "22306",
+                    "carGurusQuery": "d494",
+                    "trueCarQuery": "wrangler"
+                },
+                {
+                    "name": "Wrangler JK",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "36343030",
+                    "carGurusQuery": "d494",
+                    "trueCarQuery": "wrangler"
+                },
+                {
+                    "name": "Wrangler JK Unlimited",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "36342936",
+                    "carGurusQuery": "d2412",
+                    "trueCarQuery": "wrangler"
+                },
+                {
+                    "name": "Wrangler Unlimited",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "26381",
+                    "carGurusQuery": "d494",
+                    "trueCarQuery": "wrangler"
+                },
+                {
+                    "name": "Wrangler Unlimited 4xe",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "36906962",
+                    "carGurusQuery": "d3134",
+                    "trueCarQuery": "wrangler"
                 },
             ]
         },
