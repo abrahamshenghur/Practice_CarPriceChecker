@@ -4973,7 +4973,196 @@
             "make": "mazda",
             "models": [
                 {
-                    "name": "",
+                    "name": "323",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "626",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "929",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "B-Series Truck",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CX-3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CX-30",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CX-5",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CX-7",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CX-9",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDA2",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDA3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDA5",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDA6",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDASPEED3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MAZDASPEED6",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Millenia",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MPV",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MX-3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MX-5 Miata",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MX-5 Miata RF",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MX-6",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Navajo",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Protege",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Protege5",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "RX-7",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "RX-8",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Tribute",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Tribute Hybrid",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -4985,7 +5174,91 @@
             "make": "mclaren",
             "models": [
                 {
-                    "name": "",
+                    "name": "570GT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "570S",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "600LT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "620R",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "650S",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "675LT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "720S",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "765LT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Artura",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "MP4-12C",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "P1",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Senna",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -4997,7 +5270,224 @@
             "make": "mercedes-benz",
             "models": [
                 {
-                    "name": "",
+                    "name": "AMG GT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "A-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "B-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "C-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CL",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CLA",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CLK",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "CLS",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "E-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "G-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GL",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLA",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLB",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLC",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLE",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLK",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GLS",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "M-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Metris Cargo Van",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Metris Passenger Van",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "R-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "S-Class",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "SL",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "SLC",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "SLK",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "SLR McLaren",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "SLS AMG",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter 1500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter 2500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter 3500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter 3500XD",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sprinter 4500",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -5009,7 +5499,84 @@
             "make": "mercury",
             "models": [
                 {
-                    "name": "",
+                    "name": "Cougar",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Grand Marquis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Marauder",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Mariner",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Milan",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Montego",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Monterey",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Mountaineer",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Mystique",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sable",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Tracer",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Villager",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -5021,7 +5588,49 @@
             "make": "mini",
             "models": [
                 {
-                    "name": "",
+                    "name": "Cooper",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper S",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper Clubman",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper Countryman",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper Coupe",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper Paceman",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cooper Roadster",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -5033,7 +5642,119 @@
             "make": "mitsubishi",
             "models": [
                 {
-                    "name": "",
+                    "name": "3000GT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Diamante",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Eclipse",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Eclipse Cross",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Endeavor",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Galant",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "i-MiEV",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Lancer",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Lancer Evolution",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Mirage",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Mirage G4",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Montero",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Montero Sport",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Outlander",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Outlander Hybrid Plug-in",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Outlander Sport",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Raider",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -5045,7 +5766,217 @@
             "make": "nissan",
             "models": [
                 {
-                    "name": "",
+                    "name": "350Z",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "370Z",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Altima",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Armada",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cube",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Frontier",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GT-R",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "JUKE",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Kicks",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "LEAF",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Maxima",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Murano",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Murano CrossCabriolet",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "NV",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "NV Cargo",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "NV Passenger",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "NV200",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "NV200 Compact Cargo",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Pathfinder",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Pathfinder Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Quest",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Rogue",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Rogue Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Rogue Select",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Rogue Sport",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sentra",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Titan",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Titan XD",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Versa",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Versa Note",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Xterra",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
