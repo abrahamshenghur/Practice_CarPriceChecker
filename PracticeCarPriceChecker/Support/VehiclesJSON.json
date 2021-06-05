@@ -5988,7 +5988,77 @@
             "make": "oldsmobile",
             "models": [
                 {
-                    "name": "",
+                    "name": "88",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Alero",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Aurora",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Bravada",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cutlass",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cutlass Calais",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cutlass Ciera",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cutlass Supreme",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Intrigue",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Silhouette",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Tornado",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6000,7 +6070,21 @@
             "make": "plymouth",
             "models": [
                 {
-                    "name": "",
+                    "name": "Neon",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Prowler",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Voyager",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6012,7 +6096,119 @@
             "make": "pontiac",
             "models": [
                 {
-                    "name": "",
+                    "name": "Aztek",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Bonneville",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Firebird",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "G3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "G5",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "G6",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "G8",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Grand Am",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Grand Prix",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "GTO",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Montana",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Montana SV6",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Solstice",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sunbird",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Sunfire",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Torrent",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Vibe",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6024,7 +6220,140 @@
             "make": "porsche",
             "models": [
                 {
-                    "name": "",
+                    "name": "718 Boxster",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "718 Cayman",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "911",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "918 Spyder",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "924",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "928",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "944",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "968",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Boxster",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Carerra GT",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cayenne",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cayenne E-Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cayenne Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cayman",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Macan",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Panamera",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Panamera e-Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Panamera Hybrid",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Taycan",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Taycan Cross Turmismo",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6036,7 +6365,112 @@
             "make": "ram",
             "models": [
                 {
-                    "name": "",
+                    "name": "1500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "1500 Classic",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "2500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "3500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "3500 Chassis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "4500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "4500 Chassis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "5500",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "5500 Chassis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Cargo Van",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster Cargo Van",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster Chassis",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster City Cargo Van",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster City Wagon",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "ProMaster Window Van",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6048,7 +6482,42 @@
             "make": "rolls-royce",
             "models": [
                 {
-                    "name": "",
+                    "name": "Cullinan",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Dawn",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Ghost",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Phantom",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Phantom Drophead Coupe",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "Wraith",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
@@ -6060,7 +6529,56 @@
             "make": "saab",
             "models": [
                 {
-                    "name": "",
+                    "name": "9-2X",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-3",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-3 SportCombi",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-4X",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-5",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-5 SportCombi",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "9-7X",
+                    "autotraderQuery": "",
+                    "carsDotComQuery": "",
+                    "carGurusQuery": "",
+                    "trueCarQuery": ""
+                },
+                {
+                    "name": "900",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
