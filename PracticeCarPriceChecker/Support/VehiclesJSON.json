@@ -3891,199 +3891,206 @@
             "models": [
                 {
                     "name": "Amanti",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AMANTI",
+                    "carsDotComQuery": "20629",
+                    "carGurusQuery": "d157",
+                    "trueCarQuery": "amanti"
                 },
                 {
                     "name": "Borrego",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BORREGO",
+                    "carsDotComQuery": "20711",
+                    "carGurusQuery": "d1169",
+                    "trueCarQuery": "borrego"
                 },
                 {
                     "name": "Cadenza",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIACADENZA",
+                    "carsDotComQuery": "52087",
+                    "carGurusQuery": "d2215",
+                    "trueCarQuery": "cadenza"
                 },
                 {
                     "name": "Carnival",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "KIACARN",
+                    "carsDotComQuery": "36911263",
+                    "carGurusQuery": "d3117",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Forte",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FORTE",
+                    "carsDotComQuery": "28323",
+                    "carGurusQuery": "d2043",
+                    "trueCarQuery": "forte"
                 },
                 {
                     "name": "Forte Koup",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "FORTEKOUP",
+                    "carsDotComQuery": "32883",
+                    "carGurusQuery": "d2044",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "K5",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIAK5",
+                    "carsDotComQuery": "36834235",
+                    "carGurusQuery": "d3092",
+                    "trueCarQuery": "k5"
                 },
                 {
                     "name": "K900",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIAK900",
+                    "carsDotComQuery": "56013",
+                    "carGurusQuery": "d2264",
+                    "trueCarQuery": "k900"
                 },
                 {
                     "name": "Niro",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIANIRO",
+                    "carsDotComQuery": "33910101",
+                    "carGurusQuery": "d2405",
+                    "trueCarQuery": "niro"
                 },
                 {
                     "name": "Niro EV",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIANIRO",
+                    "carsDotComQuery": "36728809",
+                    "carGurusQuery": "d2838",
+                    "trueCarQuery": "niro"
                 },
                 {
                     "name": "Niro Hybrid Plug-In",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIANIRO",
+                    "carsDotComQuery": "36369375",
+                    "carGurusQuery": "d2653",
+                    "trueCarQuery": "niro"
                 },
                 {
                     "name": "Optima",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OPTIMA",
+                    "carsDotComQuery": "21740",
+                    "carGurusQuery": "d158",
+                    "trueCarQuery": "optima"
                 },
                 {
                     "name": "Optima Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OPTIMA",
+                    "carsDotComQuery": "40463",
+                    "carGurusQuery": "d2154",
+                    "trueCarQuery": "optima"
                 },
                 {
                     "name": "Optima Hybrid Plug-In",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "36296927",
+                    "carGurusQuery": "d2406",
+                    "trueCarQuery": "optima"
                 },
                 {
                     "name": "Rio",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RIO",
+                    "carsDotComQuery": "21828",
+                    "carGurusQuery": "d159",
+                    "trueCarQuery": "rio"
                 },
                 {
                     "name": "Rio5",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "RIO5",
+                    "carsDotComQuery": "21885",
+                    "carGurusQuery": "d2152",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Rondo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RONDO",
+                    "carsDotComQuery": "21840",
+                    "carGurusQuery": "d958",
+                    "trueCarQuery": "rondo"
                 },
                 {
                     "name": "Sedona",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SEDONA",
+                    "carsDotComQuery": "21970",
+                    "carGurusQuery": "d160",
+                    "trueCarQuery": "sedona"
                 },
                 {
                     "name": "Seltos",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIASELTOS",
+                    "carsDotComQuery": "36783959",
+                    "carGurusQuery": "d2991",
+                    "trueCarQuery": "seltos"
                 },
                 {
                     "name": "Sephia",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "autotraderQuery": "SEPHIA",
+                    "carsDotComQuery": "21974",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "sephia"
                 },
                 {
                     "name": "Sorento",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SORENTO",
+                    "carsDotComQuery": "22084",
+                    "carGurusQuery": "d162",
+                    "trueCarQuery": "sorento"
                 },
                 {
                     "name": "Sorento Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "SORENTO",
+                    "carsDotComQuery": "36901711",
+                    "carGurusQuery": "d3106",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Soul",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SOUL",
+                    "carsDotComQuery": "27761",
+                    "carGurusQuery": "d2020",
+                    "trueCarQuery": "soul"
                 },
                 {
                     "name": "Soul EV",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SOUL",
+                    "carsDotComQuery": "56687",
+                    "carGurusQuery": "d2290",
+                    "trueCarQuery": "soul"
                 },
                 {
                     "name": "Spectra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SPECTRA",
+                    "carsDotComQuery": "22090",
+                    "carGurusQuery": "d163",
+                    "trueCarQuery": "spectra"
                 },
                 {
                     "name": "Spectra5",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SPECTRA5",
+                    "carsDotComQuery": "22161",
+                    "carGurusQuery": "d163",
+                    "trueCarQuery": "spectra"
+                },
+                {
+                    "name": "Sportage",
+                    "autotraderQuery": "SPORTA",
+                    "carsDotComQuery": "22095",
+                    "carGurusQuery": "d164",
+                    "trueCarQuery": "sportage"
                 },
                 {
                     "name": "Stinger",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIASTING",
+                    "carsDotComQuery": "36293408",
+                    "carGurusQuery": "d2510",
+                    "trueCarQuery": "stinger"
                 },
                 {
                     "name": "Telluride",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIATELLURD",
+                    "carsDotComQuery": "36651476",
+                    "carGurusQuery": "d2830",
+                    "trueCarQuery": "telluride"
                 },
             ]
         },
@@ -4092,80 +4099,80 @@
             "models": [
                 {
                     "name": "Aventador",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVENT",
+                    "carsDotComQuery": "42843",
+                    "carGurusQuery": "d2125",
+                    "trueCarQuery": "aventador"
                 },
                 {
                     "name": "Aventador S",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVENT",
+                    "carsDotComQuery": "36376457",
+                    "carGurusQuery": "d2125",
+                    "trueCarQuery": "aventador"
                 },
                 {
                     "name": "Aventador SVJ",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVENT",
+                    "carsDotComQuery": "36783430",
+                    "carGurusQuery": "d2125",
+                    "trueCarQuery": "aventador"
                 },
                 {
                     "name": "Centenario",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "LAMCENTEN",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d2881",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Countach",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "COUNT",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d1163",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Diablo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "DIABLO",
+                    "carsDotComQuery": "20994",
+                    "carGurusQuery": "d254",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Gallardo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GALLARDO",
+                    "carsDotComQuery": "21195",
+                    "carGurusQuery": "d255",
+                    "trueCarQuery": "gallardo"
                 },
                 {
                     "name": "Huracan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LAMHURACAN",
+                    "carsDotComQuery": "56867",
+                    "carGurusQuery": "d2285",
+                    "trueCarQuery": "huracan"
                 },
                 {
                     "name": "Huracan EVO",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LAMHURACAN",
+                    "carsDotComQuery": "36711959",
+                    "carGurusQuery": "d2285",
+                    "trueCarQuery": "huracan-evo"
                 },
                 {
                     "name": "Murcielago",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MURCIELAGO",
+                    "carsDotComQuery": "21683",
+                    "carGurusQuery": "d256",
+                    "trueCarQuery": "murcielago"
                 },
                 {
                     "name": "Urus",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LAMURUS",
+                    "carsDotComQuery": "36629010",
+                    "carGurusQuery": "d2787",
+                    "trueCarQuery": "urus"
                 },
             ]
         },
