@@ -4380,136 +4380,136 @@
             "models": [
                 {
                     "name": "Aviator",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVIATOR",
+                    "carsDotComQuery": "20669",
+                    "carGurusQuery": "d524",
+                    "trueCarQuery": "aviator"
                 },
                 {
                     "name": "Blackwood",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BLKWOOD",
+                    "carsDotComQuery": "20701",
+                    "carGurusQuery": "d525",
+                    "trueCarQuery": "blackwood"
                 },
                 {
                     "name": "Continental",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CONT",
+                    "carsDotComQuery": "20849",
+                    "carGurusQuery": "d526",
+                    "trueCarQuery": "continental"
                 },
                 {
                     "name": "Corsair",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LINCCORS",
+                    "carsDotComQuery": "20869",
+                    "carGurusQuery": "d2884",
+                    "trueCarQuery": "corsair"
                 },
                 {
                     "name": "LS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LSLINCOLN",
+                    "carsDotComQuery": "21362",
+                    "carGurusQuery": "d527",
+                    "trueCarQuery": "ls"
                 },
                 {
                     "name": "Mark LT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MARKLT",
+                    "carsDotComQuery": "21457",
+                    "carGurusQuery": "d762",
+                    "trueCarQuery": "mark-lt"
                 },
                 {
                     "name": "Mark VII",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "MARK7",
+                    "carsDotComQuery": "21434",
+                    "carGurusQuery": "d528",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Mark VIII",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "MARK8",
+                    "carsDotComQuery": "21461",
+                    "carGurusQuery": "d529",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "MKC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LINCMKC",
+                    "carsDotComQuery": "56027",
+                    "carGurusQuery": "d2259",
+                    "trueCarQuery": "mkc"
                 },
                 {
                     "name": "MKS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MKS",
+                    "carsDotComQuery": "21403",
+                    "carGurusQuery": "d1152",
+                    "trueCarQuery": "mks"
                 },
                 {
                     "name": "MKT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MKT",
+                    "carsDotComQuery": "27841",
+                    "carGurusQuery": "d2032",
+                    "trueCarQuery": "mkt"
                 },
                 {
                     "name": "MKX",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MKX",
+                    "carsDotComQuery": "21425",
+                    "carGurusQuery": "d2032",
+                    "trueCarQuery": "mkx"
                 },
                 {
                     "name": "MKZ",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MKZ",
+                    "carsDotComQuery": "21404",
+                    "carGurusQuery": "d2032",
+                    "trueCarQuery": "mkz"
                 },
                 {
                     "name": "MKZ Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MKZ",
+                    "carsDotComQuery": "38163",
+                    "carGurusQuery": "d2664",
+                    "trueCarQuery": "mkz"
                 },
                 {
                     "name": "Nautilus",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LINCNAUT",
+                    "carsDotComQuery": "36362493",
+                    "carGurusQuery": "d2680",
+                    "trueCarQuery": "nautilus"
                 },
                 {
                     "name": "Navigator",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NAVIGA",
+                    "carsDotComQuery": "21719",
+                    "carGurusQuery": "d530",
+                    "trueCarQuery": "navigator"
                 },
                 {
                     "name": "Navigator L",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NAVIGAL",
+                    "carsDotComQuery": "30016700",
+                    "carGurusQuery": "d530",
+                    "trueCarQuery": "navigator"
                 },
                 {
                     "name": "Town Car",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LINCTC",
+                    "carsDotComQuery": "22286",
+                    "carGurusQuery": "d531",
+                    "trueCarQuery": "town-car"
                 },
                 {
                     "name": "Zephyr",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ZEPHYR",
+                    "carsDotComQuery": "22336",
+                    "carGurusQuery": "d763",
+                    "trueCarQuery": "zephyr"
                 },
             ]
         },
@@ -4518,51 +4518,51 @@
             "models": [
                 {
                     "name": "Elan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "ELAN",
+                    "carsDotComQuery": "21057",
+                    "carGurusQuery": "d1325",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Elise",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LOTELISE",
+                    "carsDotComQuery": "21056",
+                    "carGurusQuery": "d554",
+                    "trueCarQuery": "elise"
                 },
                 {
                     "name": "Esprit",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "ESPRIT",
+                    "carsDotComQuery": "21094",
+                    "carGurusQuery": "d555",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Evora",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EVORA",
+                    "carsDotComQuery": "34703",
+                    "carGurusQuery": "d2058",
+                    "trueCarQuery": "evora"
                 },
                 {
                     "name": "Evora 400",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EVORA",
+                    "carsDotComQuery": "36282116",
+                    "carGurusQuery": "d2058",
+                    "trueCarQuery": "evora"
                 },
                 {
                     "name": "Evora GT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EVORA",
+                    "carsDotComQuery": "36752854",
+                    "carGurusQuery": "d2058",
+                    "trueCarQuery": "evora"
                 },
                 {
                     "name": "Exige",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "EXIGE",
+                    "carsDotComQuery": "21103",
+                    "carGurusQuery": "d852",
                     "trueCarQuery": ""
                 },
             ]
@@ -4572,59 +4572,59 @@
             "models": [
                 {
                     "name": "Coupe",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COUPEMAS",
+                    "carsDotComQuery": "20891",
+                    "carGurusQuery": "d400",
+                    "trueCarQuery": "coupe"
                 },
                 {
                     "name": "Ghibli",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GHIB",
+                    "carsDotComQuery": "21197",
+                    "carGurusQuery": "d1456",
+                    "trueCarQuery": "ghibli"
                 },
                 {
                     "name": "GranSport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GRANSPORT",
+                    "carsDotComQuery": "21246",
+                    "carGurusQuery": "d401",
+                    "trueCarQuery": "gransport"
                 },
                 {
                     "name": "GranSport Spyder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GRANSPORT",
+                    "carsDotComQuery": "21216",
+                    "carGurusQuery": "d401",
+                    "trueCarQuery": "gransport"
                 },
                 {
                     "name": "GranTurismo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GRANTURISM",
+                    "carsDotComQuery": "21247",
+                    "carGurusQuery": "d1465",
+                    "trueCarQuery": "granturismo"
                 },
                 {
                     "name": "Levante",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MASLEVAN",
+                    "carsDotComQuery": "34226822",
+                    "carGurusQuery": "d2415",
+                    "trueCarQuery": "levante"
                 },
                 {
                     "name": "Quattroporte",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "QP",
+                    "carsDotComQuery": "21814",
+                    "carGurusQuery": "d402",
+                    "trueCarQuery": "quattroporte"
                 },
                 {
                     "name": "Spyder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SPYDER",
+                    "carsDotComQuery": "22185",
+                    "carGurusQuery": "d403",
+                    "trueCarQuery": "spyder"
                 },
             ]
         },
