@@ -4181,87 +4181,87 @@
             "models": [
                 {
                     "name": "Defender",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "DEFEND",
+                    "carsDotComQuery": "21002",
+                    "carGurusQuery": "d151",
+                    "trueCarQuery": "defender"
                 },
                 {
                     "name": "Discovery",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "DISCOV",
+                    "carsDotComQuery": "20999",
+                    "carGurusQuery": "d152",
+                    "trueCarQuery": "discovery"
                 },
                 {
                     "name": "Discovery Series II",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carGurusQuery": "d153",
+                    "trueCarQuery": "discovery-series-ii"
                 },
                 {
                     "name": "Discovery Sport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROVDISCSPT",
+                    "carsDotComQuery": "58230",
+                    "carGurusQuery": "d2304",
+                    "trueCarQuery": "discovery-sport"
                 },
                 {
                     "name": "Freelander",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FRELNDR",
+                    "carsDotComQuery": "21143",
+                    "carGurusQuery": "d154",
+                    "trueCarQuery": "freelander"
                 },
                 {
                     "name": "LR2",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LR2",
+                    "carsDotComQuery": "21360",
+                    "carGurusQuery": "d927",
+                    "trueCarQuery": "lr2"
                 },
                 {
                     "name": "LR3",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LR3",
+                    "carsDotComQuery": "21335",
+                    "carGurusQuery": "d155",
+                    "trueCarQuery": "lr3"
                 },
                 {
                     "name": "LR4",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LR4",
+                    "carsDotComQuery": "30004",
+                    "carGurusQuery": "d2041",
+                    "trueCarQuery": "lr4"
                 },
                 {
                     "name": "Range Rover",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RANGE",
+                    "carsDotComQuery": "21872",
+                    "carGurusQuery": "d156",
+                    "trueCarQuery": "range-rover"
                 },
                 {
                     "name": "Range Rover Evoque",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EVOQUE",
+                    "carsDotComQuery": "43403",
+                    "carGurusQuery": "d2121",
+                    "trueCarQuery": "range-rover-evoque"
                 },
                 {
                     "name": "Range Rover Sport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RANGESPORT",
+                    "carsDotComQuery": "21811",
+                    "carGurusQuery": "d834",
+                    "trueCarQuery": "range-rover-sport"
                 },
                 {
                     "name": "Range Rover Velar",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROVVELAR",
+                    "carsDotComQuery": "36308693",
+                    "carGurusQuery": "d2558",
+                    "trueCarQuery": "range-rover-velar"
                 },
             ]
         },
@@ -4269,431 +4269,109 @@
             "make": "lexus",
             "models": [
                 {
-                    "name": "CT Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "CT",
+                    "autotraderQuery": "CT200H",
+                    "carsDotComQuery": "35964",
+                    "carGurusQuery": "d2115",
+                    "trueCarQuery": "ct"
                 },
                 {
-                    "name": "ES 250",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "ES",
+                    "autotraderQuery": "ES_MODELS",
+                    "carsDotComQuery": "21043,21025,48266,21044,21027",
+                    "carGurusQuery": "d2720",
+                    "trueCarQuery": "es"
                 },
                 {
-                    "name": "ES 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "GS",
+                    "autotraderQuery": "GS_MODELS",
+                    "carsDotComQuery": "30023412,21168,21196,21170,21198,21172,21174,30038753",
+                    "carGurusQuery": "d2822",
+                    "trueCarQuery": "gs"
                 },
                 {
-                    "name": "ES 300h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "GX",
+                    "autotraderQuery": "GX_MODELS",
+                    "carsDotComQuery": "34883,21213",
+                    "carGurusQuery": "d2063",
+                    "trueCarQuery": "gx"
                 },
                 {
-                    "name": "ES 330",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "ES 350",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "ES Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 200t",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 350",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 400",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 430",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 450h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS 460h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS F",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GS Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GX 460",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GX 470",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "HS 250h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "HS",
+                    "autotraderQuery": "HS250H",
+                    "carsDotComQuery": "27821",
+                    "carGurusQuery": "d2038",
+                    "trueCarQuery": "hs"
                 },
                 {
                     "name": "IS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "IS_MODELS",
+                    "carsDotComQuery": "30028219,21281,30465,21239,21289,30466,21241",
+                    "carGurusQuery": "d2824",
+                    "trueCarQuery": "is"
                 },
                 {
-                    "name": "IS 200t",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS 250",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS 250C",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS 350",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS 350C",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "IS F",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LC 500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LC 500h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "LC",
+                    "autotraderQuery": "LC_MODELS",
+                    "carsDotComQuery": "33796915,36308889",
+                    "carGurusQuery": "d2400",
+                    "trueCarQuery": "lc"
                 },
                 {
                     "name": "LFA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "LEXLFA",
+                    "carsDotComQuery": "35029",
+                    "carGurusQuery": "d2082",
                     "trueCarQuery": ""
                 },
                 {
-                    "name": "LS 400",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "LS",
+                    "autotraderQuery": "LS_MODELS",
+                    "carsDotComQuery": "21337,21363,21339,36293903,36310230,21364",
+                    "carGurusQuery": "d3040",
+                    "trueCarQuery": "ls"
                 },
                 {
-                    "name": "LS 430",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "LX",
+                    "autotraderQuery": "LX_MODELS",
+                    "carsDotComQuery": "21369,21353,21371",
+                    "carGurusQuery": "d3042",
+                    "trueCarQuery": "lx"
                 },
                 {
-                    "name": "LS 460",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "NX",
+                    "autotraderQuery": "NX_MODELS",
+                    "carsDotComQuery": "57887,36348273,57888",
+                    "carGurusQuery": "d2616",
+                    "trueCarQuery": "nx"
                 },
                 {
-                    "name": "LS 500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "RC",
+                    "autotraderQuery": "RC_MODELS",
+                    "carsDotComQuery": "30034963,30035060,57928,56307",
+                    "carGurusQuery": "d2827",
+                    "trueCarQuery": "rc"
                 },
                 {
-                    "name": "LS 500h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "RX",
+                    "autotraderQuery": "RX_MODELS",
+                    "carsDotComQuery": "21785,21839,1787,36366385,21841,27664,36381836",
+                    "carGurusQuery": "d2647",
+                    "trueCarQuery": "rx"
                 },
                 {
-                    "name": "LS 600h L",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "SC",
+                    "autotraderQuery": "SC_MODELS",
+                    "carsDotComQuery": "21869,21925,21871",
+                    "carGurusQuery": "d572",
+                    "trueCarQuery": "sc"
                 },
                 {
-                    "name": "LS Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LX 450",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LX 470",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LX 570",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "NX 200t",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "NX 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "NX 300h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "NX Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RC 200t",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RC 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RC 350",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RC F",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 330",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 350",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 350L",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 400h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 450h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX 450hL",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "RX Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "SC 300",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "SC 400",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "SC 430",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "UX 200",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "UX 200h",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "UX",
+                    "autotraderQuery": "UX_MODELS",
+                    "carsDotComQuery": "36388188,36388196",
+                    "carGurusQuery": "d2682",
+                    "trueCarQuery": "ux"
                 },
             ]
         },
