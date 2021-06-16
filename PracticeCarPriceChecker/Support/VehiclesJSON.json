@@ -5122,87 +5122,87 @@
             "models": [
                 {
                     "name": "Cougar",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COUGAR",
+                    "carsDotComQuery": "20886",
+                    "carGurusQuery": "d361",
+                    "trueCarQuery": "cougar"
                 },
                 {
                     "name": "Grand Marquis",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MERCGRAND",
+                    "carsDotComQuery": "21223",
+                    "carGurusQuery": "d362",
+                    "trueCarQuery": "grand-marquis"
                 },
                 {
                     "name": "Marauder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MARAUDER",
+                    "carsDotComQuery": "21449",
+                    "carGurusQuery": "d363",
+                    "trueCarQuery": "marauder"
                 },
                 {
                     "name": "Mariner",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MARINER",
+                    "carsDotComQuery": "21421",
+                    "carGurusQuery": "d364",
+                    "trueCarQuery": "mariner"
                 },
                 {
                     "name": "Milan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MILAN",
+                    "carsDotComQuery": "21504",
+                    "carGurusQuery": "d846",
+                    "trueCarQuery": "milan"
                 },
                 {
                     "name": "Montego",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONTEGO",
+                    "carsDotComQuery": "21674",
+                    "carGurusQuery": "d365",
+                    "trueCarQuery": "montego"
                 },
                 {
                     "name": "Monterey",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONTEREY",
+                    "carsDotComQuery": "21704",
+                    "carGurusQuery": "d366",
+                    "trueCarQuery": "monterey"
                 },
                 {
                     "name": "Mountaineer",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MOUNTA",
+                    "carsDotComQuery": "21706",
+                    "carGurusQuery": "d367",
+                    "trueCarQuery": "mountaineer"
                 },
                 {
                     "name": "Mystique",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MYSTIQ",
+                    "carsDotComQuery": "21714",
+                    "carGurusQuery": "d368",
+                    "trueCarQuery": "mystique"
                 },
                 {
                     "name": "Sable",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SABLE",
+                    "carsDotComQuery": "21944",
+                    "carGurusQuery": "d369",
+                    "trueCarQuery": "sable"
                 },
                 {
                     "name": "Tracer",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TRACER",
+                    "carsDotComQuery": "22288",
+                    "carGurusQuery": "d371",
+                    "trueCarQuery": "tracer"
                 },
                 {
                     "name": "Villager",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VILLA",
+                    "carsDotComQuery": "22280",
+                    "carGurusQuery": "d372",
+                    "trueCarQuery": "villager"
                 },
             ]
         },
@@ -5211,52 +5211,52 @@
             "models": [
                 {
                     "name": "Cooper",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COOPER",
+                    "carsDotComQuery": "20872",
+                    "carGurusQuery": "d436",
+                    "trueCarQuery": "cooper"
                 },
                 {
                     "name": "Cooper S",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COOPER",
+                    "carsDotComQuery": "20874",
+                    "carGurusQuery": "d436",
+                    "trueCarQuery": "cooper"
                 },
                 {
                     "name": "Cooper Clubman",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COOPERCLUB",
+                    "carsDotComQuery": "20855",
+                    "carGurusQuery": "d1044",
+                    "trueCarQuery": "clubman"
                 },
                 {
                     "name": "Cooper Countryman",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COUNTRYMAN",
+                    "carsDotComQuery": "41883",
+                    "carGurusQuery": "d2098",
+                    "trueCarQuery": "countryman"
                 },
                 {
                     "name": "Cooper Coupe",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MINICOUPE",
+                    "carsDotComQuery": "20891",
+                    "carGurusQuery": "d2123",
+                    "trueCarQuery": "cooper-coupe"
                 },
                 {
                     "name": "Cooper Paceman",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MINIPACE",
+                    "carsDotComQuery": "51887",
+                    "carGurusQuery": "d2222",
+                    "trueCarQuery": "cooper-paceman"
                 },
                 {
                     "name": "Cooper Roadster",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COOPERROAD",
+                    "carsDotComQuery": "21834",
+                    "carGurusQuery": "d2130",
+                    "trueCarQuery": "cooper-roadster"
                 },
             ]
         },
@@ -5265,122 +5265,122 @@
             "models": [
                 {
                     "name": "3000GT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "3000GT",
+                    "carsDotComQuery": "20392",
+                    "carGurusQuery": "d415",
+                    "trueCarQuery": "3000gt"
                 },
                 {
                     "name": "Diamante",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "DIAMAN",
+                    "carsDotComQuery": "21011",
+                    "carGurusQuery": "d416",
+                    "trueCarQuery": "diamante"
                 },
                 {
                     "name": "Eclipse",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ECLIP",
+                    "carsDotComQuery": "21037",
+                    "carGurusQuery": "d417",
+                    "trueCarQuery": "eclipse"
                 },
                 {
                     "name": "Eclipse Cross",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MITECLCROS",
+                    "carsDotComQuery": "36362434",
+                    "carGurusQuery": "d2666",
+                    "trueCarQuery": "eclipse-cross"
                 },
                 {
                     "name": "Endeavor",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ENDEAVOR",
+                    "carsDotComQuery": "21060",
+                    "carGurusQuery": "d419",
+                    "trueCarQuery": "endeavor"
                 },
                 {
                     "name": "Galant",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GALANT",
+                    "carsDotComQuery": "21189",
+                    "carGurusQuery": "d421",
+                    "trueCarQuery": "galant"
                 },
                 {
                     "name": "i-MiEV",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MITI",
+                    "carsDotComQuery": "45843",
+                    "carGurusQuery": "d2166",
+                    "trueCarQuery": "i-miev"
                 },
                 {
                     "name": "Lancer",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LANCERMITS",
+                    "carsDotComQuery": "21361",
+                    "carGurusQuery": "d422",
+                    "trueCarQuery": "lancer"
                 },
                 {
                     "name": "Lancer Evolution",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LANCEREVO",
+                    "carsDotComQuery": "21379",
+                    "carGurusQuery": "d423",
+                    "trueCarQuery": "lancer-evolution"
                 },
                 {
                     "name": "Mirage",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MIRAGE",
+                    "carsDotComQuery": "21466",
+                    "carGurusQuery": "d426",
+                    "trueCarQuery": "mirage"
                 },
                 {
                     "name": "Mirage G4",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MITMIRG4",
+                    "carsDotComQuery": "34227059",
+                    "carGurusQuery": "d2420",
+                    "trueCarQuery": "mirage"
                 },
                 {
                     "name": "Montero",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONT",
+                    "carsDotComQuery": "21676",
+                    "carGurusQuery": "d427",
+                    "trueCarQuery": "montero"
                 },
                 {
                     "name": "Montero Sport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONTSPORT",
+                    "carsDotComQuery": "21705",
+                    "carGurusQuery": "d428",
+                    "trueCarQuery": "montero-sport"
                 },
                 {
                     "name": "Outlander",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OUTLANDER",
+                    "carsDotComQuery": "21742",
+                    "carGurusQuery": "d429",
+                    "trueCarQuery": "outlander"
                 },
                 {
                     "name": "Outlander Hybrid Plug-in",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OUTLANDER",
+                    "carsDotComQuery": "36369778",
+                    "carGurusQuery": "d2652",
+                    "trueCarQuery": "outlander"
                 },
                 {
                     "name": "Outlander Sport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OUTLANDSPT",
+                    "carsDotComQuery": "35966",
+                    "carGurusQuery": "d2093",
+                    "trueCarQuery": "outlander-sport"
                 },
                 {
                     "name": "Raider",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RAIDERMITS",
+                    "carsDotComQuery": "21854",
+                    "carGurusQuery": "d761",
+                    "trueCarQuery": "raider"
                 },
             ]
         },
