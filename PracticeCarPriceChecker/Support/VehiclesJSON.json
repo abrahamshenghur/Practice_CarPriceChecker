@@ -4914,227 +4914,206 @@
             "models": [
                 {
                     "name": "AMG GT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MBAMGGT",
+                    "carsDotComQuery": "30000114",
+                    "carGurusQuery": "d2282",
+                    "trueCarQuery": "amg-gt"
                 },
                 {
                     "name": "A-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "A_CLASS",
+                    "carsDotComQuery": "36658915",
+                    "carGurusQuery": "d1206",
+                    "trueCarQuery": "a-class"
                 },
                 {
                     "name": "B-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "autotraderQuery": "B_CLASS",
+                    "carsDotComQuery": "35084701",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "b-class"
                 },
                 {
                     "name": "C-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "C_CLASS",
+                    "carsDotComQuery": "20745",
+                    "carGurusQuery": "d66",
+                    "trueCarQuery": "c-class"
                 },
                 {
                     "name": "CL",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CL_CLASS",
+                    "carsDotComQuery": "20756",
+                    "carGurusQuery": "d71",
+                    "trueCarQuery": "cl"
                 },
                 {
                     "name": "CLA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CLA_CLASS",
+                    "carsDotComQuery": "52909",
+                    "carGurusQuery": "d2216",
+                    "trueCarQuery": "cla"
                 },
                 {
                     "name": "CLK",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CLK_CLASS",
+                    "carsDotComQuery": "20775",
+                    "carGurusQuery": "d74",
+                    "trueCarQuery": "clk"
                 },
                 {
                     "name": "CLS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CLS_CLASS",
+                    "carsDotComQuery": "20758",
+                    "carGurusQuery": "d751",
+                    "trueCarQuery": "cls"
                 },
                 {
                     "name": "E-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "E_CLASS",
+                    "carsDotComQuery": "21014",
+                    "carGurusQuery": "d76",
+                    "trueCarQuery": "e-class"
                 },
                 {
                     "name": "G-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "G_CLASS",
+                    "carsDotComQuery": "21177",
+                    "carGurusQuery": "d78",
+                    "trueCarQuery": "g-class"
                 },
                 {
                     "name": "GL",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GL_CLASS",
+                    "carsDotComQuery": "21190",
+                    "carGurusQuery": "d936",
+                    "trueCarQuery": "gl"
                 },
                 {
                     "name": "GLA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLA_CLASS",
+                    "carsDotComQuery": "56288",
+                    "carGurusQuery": "d2286",
+                    "trueCarQuery": "gla"
                 },
                 {
                     "name": "GLB",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLB_CLASS",
+                    "carsDotComQuery": "36749118",
+                    "carGurusQuery": "d2905",
+                    "trueCarQuery": "glb"
                 },
                 {
                     "name": "GLC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLC_CLASS",
+                    "carsDotComQuery": "30011556",
+                    "carGurusQuery": "d2361",
+                    "trueCarQuery": "glc"
                 },
                 {
                     "name": "GLE",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLE_CLASS",
+                    "carsDotComQuery": "30003456",
+                    "carGurusQuery": "d2317",
+                    "trueCarQuery": "gle"
                 },
                 {
                     "name": "GLK",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLK_CLASS",
+                    "carsDotComQuery": "27621",
+                    "carGurusQuery": "d1618",
+                    "trueCarQuery": "glk"
                 },
                 {
                     "name": "GLS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GLS_CLASS",
+                    "carsDotComQuery": "36279866,36279950,36279952,36279886,36771377,36893079",
+                    "carGurusQuery": "d2421",
+                    "trueCarQuery": "gls"
                 },
                 {
                     "name": "M-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "M_CLASS",
+                    "carsDotComQuery": "21414",
+                    "carGurusQuery": "d80",
+                    "trueCarQuery": "m-class"
                 },
                 {
                     "name": "Metris Cargo Van",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MBMETRIS",
+                    "carsDotComQuery": "36279957",
+                    "carGurusQuery": "d2349",
+                    "trueCarQuery": "metris-cargo-van"
                 },
                 {
                     "name": "Metris Passenger Van",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MBMETRIS",
+                    "carsDotComQuery": "36279957",
+                    "carGurusQuery": "d2348",
+                    "trueCarQuery": "metris-passenger-van"
                 },
                 {
                     "name": "R-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "R_CLASS",
+                    "carsDotComQuery": "21824",
+                    "carGurusQuery": "d829",
+                    "trueCarQuery": "r-class"
                 },
                 {
                     "name": "S-Class",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S_CLASS",
+                    "carsDotComQuery": "21906",
+                    "carGurusQuery": "d82",
+                    "trueCarQuery": "s-class"
                 },
                 {
                     "name": "SL",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SL_CLASS",
+                    "carsDotComQuery": "21930",
+                    "carGurusQuery": "d84",
+                    "trueCarQuery": "sl"
                 },
                 {
                     "name": "SLC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SLC_CLASS",
+                    "carsDotComQuery": "36279924,36279891",
+                    "carGurusQuery": "d2394",
+                    "trueCarQuery": "slc"
                 },
                 {
                     "name": "SLK",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SLK_CLASS",
+                    "carsDotComQuery": "21877",
+                    "carGurusQuery": "d87",
+                    "trueCarQuery": "slk"
                 },
                 {
                     "name": "SLR McLaren",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SLR",
+                    "carsDotComQuery": "21932",
+                    "carGurusQuery": "d90",
+                    "trueCarQuery": "slr-mclaren"
                 },
                 {
                     "name": "SLS AMG",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SLSAMG",
+                    "carsDotComQuery": "36043",
+                    "carGurusQuery": "d2078",
+                    "trueCarQuery": "sls-amg"
                 },
                 {
-                    "name": "Sprinter 1500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "Sprinter",
+                    "autotraderQuery": "MBSPRINTER",
+                    "carsDotComQuery": "22183",
+                    "carGurusQuery": "d1830",
+                    "trueCarQuery": "sprinter-passenger-van"
                 },
                 {
-                    "name": "Sprinter 2500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "Sprinter 3500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "Sprinter 3500XD",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "Sprinter 4500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "Sprinter Cargo",
+                    "autotraderQuery": "MBSPRINTER",
+                    "carsDotComQuery": "36283002",
+                    "carGurusQuery": "d2219",
+                    "trueCarQuery": "sprinter-cargo-van"
                 },
             ]
         },
