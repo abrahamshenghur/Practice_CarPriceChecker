@@ -224,18 +224,47 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
                 URLQueryItem(name: "seriesCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)")
             ]
         } else if websiteName == "Cars.com" {
-            var carsDotComVehicleMakeCode = String()
-            if let make = carsDotComVehicleMakes[make] {
-                carsDotComVehicleMakeCode = make
-            }
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "mdId", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
-                URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
-                URLQueryItem(name: "rd", value: "20"),
-                URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
-                URLQueryItem(name: "stkTypId", value: "28881")
+            // On 6/17/21 Cars.com seemingly changed their format of url query parameters while the json file was still being populsted; therefore, a workaround is done for all mokes starting with Nissan until the end of the list
+            let updatedVehicleMakeArrayFromCarsDotCom = [
+                "nissan", "oldsmobile", "plymouth", "pontiac", "porsche", "ram", "rolls-royce", "saab", "20038", "saturn", "scion", "smart", "subaru", "suzuki", "tesla", "toyota", "volkswagen", "volvo"
             ]
+            if updatedVehicleMakeArrayFromCarsDotCom.contains(selectedVehicleMake) {
+                // use new query parameters uaing as a workaround b/c Cars.com changed their url parameters to use words instead of numbers
+                let updatedVehicleMake = selectedVehicleMake
+                let updatedPath = "/shopping/results"
+                components.path = updatedPath
+                if selectedVehicleModelUsingCarsDotComQuery.contains("&") {
+                    // If Cars.com has multiple models under a certain model name, seen in the json file, then use this hardcoded url
+                    let domain = "https://www.cars.com"
+                    let query = selectedVehicleModelUsingCarsDotComQuery
+                    let endpoint = "/shopping/results/?makes[]=\(selectedVehicleMake)&maximum_distance=&models[]=\(query)&searchSource=QUICK_FORM&stock_type=used"
+                    let url = URL(string: domain + endpoint)
+                    return url
+                } else {
+                    // Otherwise, it's a single model query and just build a url using URLComponents
+                    components.queryItems = [
+                        URLQueryItem(name: "makes[]", value: "\(updatedVehicleMake)"),
+                        URLQueryItem(name: "maximum_distance", value: ""),
+                        URLQueryItem(name: "models[]", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
+                        URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
+                        URLQueryItem(name: "stock_type", value: "used")
+                    ]
+                }
+            } else {
+                // use original way when Cars.com used an integer for mkId and mdId, and stock type
+                var carsDotComVehicleMakeCode = String()
+                if let make = carsDotComVehicleMakes[make] {
+                    carsDotComVehicleMakeCode = make
+                }
+                components.path = websitePath
+                components.queryItems = [
+                    URLQueryItem(name: "mdId", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
+                    URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
+                    URLQueryItem(name: "rd", value: ""),
+                    URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
+                    URLQueryItem(name: "stkTypId", value: "28881")
+                ]
+            }
         } else if websiteName == "CarGurus" {
             components.path = websitePath
             components.queryItems = [

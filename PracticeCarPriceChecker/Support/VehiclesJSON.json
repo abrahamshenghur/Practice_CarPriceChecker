@@ -5389,220 +5389,220 @@
             "models": [
                 {
                     "name": "350Z",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "350Z",
+                    "carsDotComQuery": "nissan-350z",
+                    "carGurusQuery": "d236",
+                    "trueCarQuery": "350z"
                 },
                 {
                     "name": "370Z",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "370Z",
+                    "carsDotComQuery": "nissan-370z",
+                    "carGurusQuery": "d2018",
+                    "trueCarQuery": "370z"
                 },
                 {
                     "name": "Altima",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ALTIMA",
+                    "carsDotComQuery": "nissan-altima",
+                    "carGurusQuery": "d237",
+                    "trueCarQuery": "altima"
                 },
                 {
                     "name": "Armada",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PATHARMADA",
+                    "carsDotComQuery": "nissan-armada",
+                    "carGurusQuery": "d238",
+                    "trueCarQuery": "armada"
                 },
                 {
                     "name": "Cube",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CUBE",
+                    "carsDotComQuery": "nissan-cube",
+                    "carGurusQuery": "d1764",
+                    "trueCarQuery": "cube"
                 },
                 {
                     "name": "Frontier",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FRONTI",
+                    "carsDotComQuery": "nissan-frontier",
+                    "carGurusQuery": "d240",
+                    "trueCarQuery": "frontier"
                 },
                 {
                     "name": "GT-R",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GT-R",
+                    "carsDotComQuery": "nissan-gt_r",
+                    "carGurusQuery": "d1103",
+                    "trueCarQuery": "gt-r"
                 },
                 {
                     "name": "JUKE",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "JUKE",
+                    "carsDotComQuery": "nissan-juke",
+                    "carGurusQuery": "d2072",
+                    "trueCarQuery": "juke"
                 },
                 {
                     "name": "Kicks",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NISKICKS",
+                    "carsDotComQuery": "nissan-kicks",
+                    "carGurusQuery": "d2660",
+                    "trueCarQuery": "kicks"
                 },
                 {
                     "name": "LEAF",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NISKICKS",
+                    "carsDotComQuery": "nissan-leaf",
+                    "carGurusQuery": "d2077",
+                    "trueCarQuery": "leaf"
                 },
                 {
                     "name": "Maxima",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MAX",
+                    "carsDotComQuery": "nissan-maxima",
+                    "carGurusQuery": "d242",
+                    "trueCarQuery": "maxima"
                 },
                 {
                     "name": "Murano",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MURANO",
+                    "carsDotComQuery": "nissan-murano",
+                    "carGurusQuery": "d243",
+                    "trueCarQuery": "murano"
                 },
                 {
                     "name": "Murano CrossCabriolet",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "MURANOCROS",
+                    "carsDotComQuery": "nissan-murano_crosscabriolet",
+                    "carGurusQuery": "d2151",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "NV",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "autotraderQuery": "NV",
+                    "carsDotComQuery": "nissan-nv_passenger_nv3500_hd&models[]=nissan-nv_passenger&models[]=nissan-nv_cargo_nv3500_hd&models[]=nissan-nv_cargo_nv2500_hd&models[]=nissan-nv_cargo_nv1500&models[]=nissan-nv_cargo&models[]=nissan-nv200",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "nv"
                 },
                 {
                     "name": "NV Cargo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NV",
+                    "carsDotComQuery": "nissan-nv_cargo&models[]=nissan-nv_cargo_nv1500&models[]=nissan-nv_cargo_nv2500_hd&models[]=nissan-nv_cargo_nv3500_hd",
+                    "carGurusQuery": "d2188",
+                    "trueCarQuery": "nv-cargo"
                 },
                 {
                     "name": "NV Passenger",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "nissan-nv_passenger_nv3500_hd",
+                    "carGurusQuery": "d2189",
+                    "trueCarQuery": "nv-passenger"
                 },
                 {
                     "name": "NV200",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NISNV200",
+                    "carsDotComQuery": "nissan-nv200",
+                    "carGurusQuery": "d2200",
+                    "trueCarQuery": "nv200"
                 },
                 {
                     "name": "NV200 Compact Cargo",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "nv200-compact-cargo"
                 },
                 {
                     "name": "Pathfinder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PATH",
+                    "carsDotComQuery": "nissan-pathfinder",
+                    "carGurusQuery": "d245",
+                    "trueCarQuery": "pathfinder"
                 },
                 {
                     "name": "Pathfinder Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PATH",
+                    "carsDotComQuery": "nissan-pathfinder_hybrid",
+                    "carGurusQuery": "d2254",
+                    "trueCarQuery": "pathfinder"
                 },
                 {
                     "name": "Quest",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "QUEST",
+                    "carsDotComQuery": "nissan-quest",
+                    "carGurusQuery": "d248",
+                    "trueCarQuery": "quest"
                 },
                 {
                     "name": "Rogue",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROGUE",
+                    "carsDotComQuery": "nissan-rogue",
+                    "carGurusQuery": "d1047",
+                    "trueCarQuery": "rogue"
                 },
                 {
                     "name": "Rogue Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROGUE",
+                    "carsDotComQuery": "nissan-rogue_hybrid",
+                    "carGurusQuery": "d2362",
+                    "trueCarQuery": "rogue"
                 },
                 {
                     "name": "Rogue Select",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROGUE",
+                    "carsDotComQuery": "nissan-rogue_select",
+                    "carGurusQuery": "d2273",
+                    "trueCarQuery": "rogue-select"
                 },
                 {
                     "name": "Rogue Sport",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NISROGSPT",
+                    "carsDotComQuery": "nissan-rogue_sport",
+                    "carGurusQuery": "d2513",
+                    "trueCarQuery": "rogue-sport"
                 },
                 {
                     "name": "Sentra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SENTRA",
+                    "carsDotComQuery": "nissan-sentra",
+                    "carGurusQuery": "d249",
+                    "trueCarQuery": "sentra"
                 },
                 {
                     "name": "Titan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TITAN",
+                    "carsDotComQuery": "nissan-titan",
+                    "carGurusQuery": "d251",
+                    "trueCarQuery": "titan"
                 },
                 {
                     "name": "Titan XD",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TITAN",
+                    "carsDotComQuery": "nissan-titan_xd",
+                    "carGurusQuery": "d251",
+                    "trueCarQuery": "titan-xd"
                 },
                 {
                     "name": "Versa",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VERSA",
+                    "carsDotComQuery": "nissan-versa",
+                    "carGurusQuery": "d937",
+                    "trueCarQuery": "versa"
                 },
                 {
                     "name": "Versa Note",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NISVERSNOT",
+                    "carsDotComQuery": "nissan-versa_note",
+                    "carGurusQuery": "d2234",
+                    "trueCarQuery": "versa"
                 },
                 {
                     "name": "Xterra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XTERRA",
+                    "carsDotComQuery": "nissan-xterra",
+                    "carGurusQuery": "d253",
+                    "trueCarQuery": "xterra"
                 },
             ]
         },
@@ -5611,79 +5611,79 @@
             "models": [
                 {
                     "name": "88",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "88",
+                    "carsDotComQuery": "oldsmobile-eighty_eight",
+                    "carGurusQuery": "d455",
+                    "trueCarQuery": "88"
                 },
                 {
                     "name": "Alero",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ALERO",
+                    "carsDotComQuery": "oldsmobile-alero",
+                    "carGurusQuery": "d446",
+                    "trueCarQuery": "alero"
                 },
                 {
                     "name": "Aurora",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AURORA",
+                    "carsDotComQuery": "oldsmobile-aurora",
+                    "carGurusQuery": "d447",
+                    "trueCarQuery": "aurora"
                 },
                 {
                     "name": "Bravada",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BRAV",
+                    "carsDotComQuery": "oldsmobile-bravada",
+                    "carGurusQuery": "d448",
+                    "trueCarQuery": "bravada"
                 },
                 {
                     "name": "Cutlass",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "OLDCUS",
+                    "carsDotComQuery": "oldsmobile-cutlass",
+                    "carGurusQuery": "d451",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cutlass Calais",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "OLDCALAIS",
+                    "carsDotComQuery": "oldsmobile-cutlass_calais",
+                    "carGurusQuery": "d452",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cutlass Ciera",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "CIERA",
+                    "carsDotComQuery": "oldsmobile-cutlass_ciera",
+                    "carGurusQuery": "d453",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cutlass Supreme",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "CSUPR",
+                    "carsDotComQuery": "oldsmobile-cutlass_supreme",
+                    "carGurusQuery": "d454",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Intrigue",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "INTRIG",
+                    "carsDotComQuery": "oldsmobile-intrigue",
+                    "carGurusQuery": "d457",
+                    "trueCarQuery": "intrigue"
                 },
                 {
                     "name": "Silhouette",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SILHO",
+                    "carsDotComQuery": "oldsmobile-silhouette",
+                    "carGurusQuery": "d461",
+                    "trueCarQuery": "silhouette"
                 },
                 {
                     "name": "Tornado",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "TORO",
+                    "carsDotComQuery": "oldsmobile-toronado",
+                    "carGurusQuery": "d462",
                     "trueCarQuery": ""
                 },
             ]
@@ -5693,24 +5693,24 @@
             "models": [
                 {
                     "name": "Neon",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "NEON",
+                    "carsDotComQuery": "plymouth-neon",
+                    "carGurusQuery": "d484",
+                    "trueCarQuery": "neon"
                 },
                 {
                     "name": "Prowler",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PROWLE",
+                    "carsDotComQuery": "plymouth-prowler",
+                    "carGurusQuery": "d485",
+                    "trueCarQuery": "prowler"
                 },
                 {
                     "name": "Voyager",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOYA",
+                    "carsDotComQuery": "plymouth-voyager",
+                    "carGurusQuery": "d487",
+                    "trueCarQuery": "voyager"
                 },
             ]
         },
