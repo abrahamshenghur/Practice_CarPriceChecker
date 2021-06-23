@@ -5719,122 +5719,122 @@
             "models": [
                 {
                     "name": "Aztek",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AZTEK",
+                    "carsDotComQuery": "pontiac-aztek",
+                    "carGurusQuery": "d464",
+                    "trueCarQuery": "aztek"
                 },
                 {
                     "name": "Bonneville",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BON",
+                    "carsDotComQuery": "pontiac-bonneville",
+                    "carGurusQuery": "d465",
+                    "trueCarQuery": "bonneville"
                 },
                 {
                     "name": "Firebird",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FBIRD",
+                    "carsDotComQuery": "pontiac-firebird",
+                    "carGurusQuery": "d466",
+                    "trueCarQuery": "firebird"
                 },
                 {
                     "name": "G3",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "G3",
+                    "carsDotComQuery": "pontiac-g3",
+                    "carGurusQuery": "d2017",
+                    "trueCarQuery": "g3"
                 },
                 {
                     "name": "G5",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "G5",
+                    "carsDotComQuery": "pontiac-g5",
+                    "carGurusQuery": "d944",
+                    "trueCarQuery": "g5"
                 },
                 {
                     "name": "G6",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "G6",
+                    "carsDotComQuery": "pontiac-g6",
+                    "carGurusQuery": "d467",
+                    "trueCarQuery": "g6"
                 },
                 {
                     "name": "G8",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "G8",
+                    "carsDotComQuery": "pontiac-g8",
+                    "carGurusQuery": "d979",
+                    "trueCarQuery": "g8"
                 },
                 {
                     "name": "Grand Am",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "GRNDAM",
+                    "carsDotComQuery": "pontiac-grand_am",
+                    "carGurusQuery": "d468",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Grand Prix",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GP",
+                    "carsDotComQuery": "pontiac-grand_prix",
+                    "carGurusQuery": "d469",
+                    "trueCarQuery": "grand-am"
                 },
                 {
                     "name": "GTO",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GTO",
+                    "carsDotComQuery": "pontiac-gto",
+                    "carGurusQuery": "d470",
+                    "trueCarQuery": "gto"
                 },
                 {
                     "name": "Montana",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONTANA",
+                    "carsDotComQuery": "pontiac-montana",
+                    "carGurusQuery": "d472",
+                    "trueCarQuery": "montana"
                 },
                 {
                     "name": "Montana SV6",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MONTANA",
+                    "carsDotComQuery": "pontiac-montana_sv6",
+                    "carGurusQuery": "d473",
+                    "trueCarQuery": "montana-sv6"
                 },
                 {
                     "name": "Solstice",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SOLSTICE",
+                    "carsDotComQuery": "pontiac-solstice",
+                    "carGurusQuery": "d737",
+                    "trueCarQuery": "solstice"
                 },
                 {
                     "name": "Sunbird",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "SUNBIR",
+                    "carsDotComQuery": "pontiac-sunbird",
+                    "carGurusQuery": "d474",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Sunfire",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUNFIR",
+                    "carsDotComQuery": "pontiac-sunfire",
+                    "carGurusQuery": "d475",
+                    "trueCarQuery": "sunfire"
                 },
                 {
                     "name": "Torrent",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TORRENT",
+                    "carsDotComQuery": "pontiac-torrent",
+                    "carGurusQuery": "d738",
+                    "trueCarQuery": "torrent"
                 },
                 {
                     "name": "Vibe",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VIBE",
+                    "carsDotComQuery": "pontiac-vibe",
+                    "carGurusQuery": "d477",
+                    "trueCarQuery": "vibe"
                 },
             ]
         },
@@ -5843,143 +5843,136 @@
             "models": [
                 {
                     "name": "718 Boxster",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "POR718BOX",
+                    "carsDotComQuery": "porsche-718_boxster",
+                    "carGurusQuery": "d2416",
+                    "trueCarQuery": "718-boxster"
                 },
                 {
                     "name": "718 Cayman",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "POR718CAY",
+                    "carsDotComQuery": "porsche-718_cayman",
+                    "carGurusQuery": "d2430",
+                    "trueCarQuery": "718-cayman"
                 },
                 {
                     "name": "911",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "911",
+                    "carsDotComQuery": "porsche-911",
+                    "carGurusQuery": "d404",
+                    "trueCarQuery": "911"
                 },
                 {
                     "name": "918 Spyder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "POR918SPYD",
+                    "carsDotComQuery": "porsche-918_spyde",
+                    "carGurusQuery": "d2291",
+                    "trueCarQuery": "918-spyder"
                 },
                 {
                     "name": "924",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "924",
+                    "carsDotComQuery": "porsche-924",
+                    "carGurusQuery": "d953",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "928",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "928",
+                    "carsDotComQuery": "porsche-928",
+                    "carGurusQuery": "d405",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "944",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "944",
+                    "carsDotComQuery": "porsche-944",
+                    "carGurusQuery": "d406",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "968",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "968",
+                    "carsDotComQuery": "porsche-968",
+                    "carGurusQuery": "d407",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Boxster",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BOXSTE",
+                    "carsDotComQuery": "porsche-boxster",
+                    "carGurusQuery": "d408",
+                    "trueCarQuery": "boxster"
                 },
                 {
                     "name": "Carerra GT",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "CARRERAGT",
+                    "carsDotComQuery": "porsche-carrera_gt",
+                    "carGurusQuery": "d409",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cayenne",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAYENNE",
+                    "carsDotComQuery": "porsche-cayenne",
+                    "carGurusQuery": "d410",
+                    "trueCarQuery": "cayenne"
                 },
                 {
                     "name": "Cayenne E-Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAYENNE",
+                    "carsDotComQuery": "porsche-cayenne_e_hybrid",
+                    "carGurusQuery": "d2723",
+                    "trueCarQuery": "cayenne"
                 },
                 {
                     "name": "Cayenne Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAYENNE",
+                    "carsDotComQuery": "porsche-cayenne_hybrid",
+                    "carGurusQuery": "d2929",
+                    "trueCarQuery": "cayenne"
                 },
                 {
                     "name": "Cayman",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAYMAN",
+                    "carsDotComQuery": "porsche-cayman",
+                    "carGurusQuery": "d993",
+                    "trueCarQuery": "cayman"
                 },
                 {
                     "name": "Macan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PORMACAN",
+                    "carsDotComQuery": "porsche-macan",
+                    "carGurusQuery": "d2261",
+                    "trueCarQuery": "macan"
                 },
                 {
                     "name": "Panamera",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PANAMERA",
+                    "carsDotComQuery": "porsche-panamera",
+                    "carGurusQuery": "d1037",
+                    "trueCarQuery": "panamera"
                 },
                 {
                     "name": "Panamera e-Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PANAMERA",
+                    "carsDotComQuery": "porsche-panamera_e_hybrid",
+                    "carGurusQuery": "d2930",
+                    "trueCarQuery": "panamera"
                 },
                 {
                     "name": "Panamera Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PANAMERA",
+                    "carsDotComQuery": "porsche-panamera_hybrid",
+                    "carGurusQuery": "d2116",
+                    "trueCarQuery": "panamera"
                 },
                 {
                     "name": "Taycan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "Taycan Cross Turmismo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PORTAYCAN",
+                    "carsDotComQuery": "porsche-taycan",
+                    "carGurusQuery": "d2974",
+                    "trueCarQuery": "taycan"
                 },
             ]
         },
