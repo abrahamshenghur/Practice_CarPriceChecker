@@ -5981,115 +5981,108 @@
             "models": [
                 {
                     "name": "1500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RM1500",
+                    "carsDotComQuery": "ram-1500",
+                    "carGurusQuery": "d2110",
+                    "trueCarQuery": "1500"
                 },
                 {
                     "name": "1500 Classic",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "carsDotComQuery": "ram-1500_classic",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "1500-classic"
                 },
                 {
                     "name": "2500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RM2500",
+                    "carsDotComQuery": "ram-2500",
+                    "carGurusQuery": "d2102",
+                    "trueCarQuery": "2500"
                 },
                 {
                     "name": "3500",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RM3500",
+                    "carsDotComQuery": "am-3500",
+                    "carGurusQuery": "d2103",
+                    "trueCarQuery": "3500"
                 },
                 {
                     "name": "3500 Chassis",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carGurusQuery": "d2226",
+                    "trueCarQuery": "3500-chassis-cab"
                 },
                 {
                     "name": "4500",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "RM4500",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "4500"
                 },
                 {
                     "name": "4500 Chassis",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d2225",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "5500",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "RM5500",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "5500"
                 },
                 {
                     "name": "5500 Chassis",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d3022",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cargo Van",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RMCV",
+                    "carsDotComQuery": "ram-cargo",
+                    "carGurusQuery": "d2220",
+                    "trueCarQuery": "cargo-van"
                 },
                 {
                     "name": "ProMaster",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "ProMaster Cargo Van",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RMPROMAST",
+                    "carsDotComQuery": "ram-promaster_1500&models[]=ram-promaster_2500&models[]=ram-promaster_3500",
+                    "carGurusQuery": "d2229",
+                    "trueCarQuery": "promaster-cargo-van"
                 },
                 {
                     "name": "ProMaster Chassis",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carGurusQuery": "d3023",
+                    "trueCarQuery": "promaster-chassis-cab"
                 },
                 {
                     "name": "ProMaster City Cargo Van",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RMPROCITY",
+                    "carsDotComQuery": "ram-promaster_city",
+                    "carGurusQuery": "d2279",
+                    "trueCarQuery": "promaster-city-cargo-van"
                 },
                 {
                     "name": "ProMaster City Wagon",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "promaster-city-wagon"
                 },
                 {
                     "name": "ProMaster Window Van",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "carsDotComQuery": "ram-promaster_2500_window_van&models[]=ram-promaster_3500_window_van",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "promaster-window-van"
                 },
             ]
         },
@@ -6098,45 +6091,45 @@
             "models": [
                 {
                     "name": "Cullinan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RRCULLINAN",
+                    "carsDotComQuery": "rolls_royce-cullinan",
+                    "carGurusQuery": "d2789",
+                    "trueCarQuery": "cullinan"
                 },
                 {
                     "name": "Dawn",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RRDAWN",
+                    "carsDotComQuery": "rolls_royce-dawn",
+                    "carGurusQuery": "d2408",
+                    "trueCarQuery": "dawn"
                 },
                 {
                     "name": "Ghost",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GHOST",
+                    "carsDotComQuery": "rolls_royce-ghost",
+                    "carGurusQuery": "d2193",
+                    "trueCarQuery": "ghost"
                 },
                 {
                     "name": "Phantom",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PHANT",
+                    "carsDotComQuery": "rolls_royce-phantom&models[]=rolls_royce-phantom_coupe&models[]=rolls_royce-phantom_v&models[]=rolls_royce-phantom_vi",
+                    "carGurusQuery": "d413",
+                    "trueCarQuery": "phantom"
                 },
                 {
                     "name": "Phantom Drophead Coupe",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PHANT",
+                    "carsDotComQuery": "rolls_royce-phantom_drophead_coupe",
+                    "carGurusQuery": "d956",
+                    "trueCarQuery": "phantom-drophead-coupe"
                 },
                 {
                     "name": "Wraith",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "WRAI",
+                    "carsDotComQuery": "rolls_royce-wraith",
+                    "carGurusQuery": "d2213",
+                    "trueCarQuery": "wraith"
                 },
             ]
         },
@@ -6145,59 +6138,59 @@
             "models": [
                 {
                     "name": "9-2X",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "9-2X",
+                    "carsDotComQuery": "saab-9_2x",
+                    "carGurusQuery": "d495",
+                    "trueCarQuery": "9-2x"
                 },
                 {
                     "name": "9-3",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "9-3",
+                    "carsDotComQuery": "saab-9_3",
+                    "carGurusQuery": "d496",
+                    "trueCarQuery": "9-3"
                 },
                 {
                     "name": "9-3 SportCombi",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d957",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "9-4X",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "9-4X",
+                    "carsDotComQuery": "saab-9_4x",
+                    "carGurusQuery": "d2108",
+                    "trueCarQuery": "9-4x"
                 },
                 {
                     "name": "9-5",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "9-5",
+                    "carsDotComQuery": "saab-9_5",
+                    "carGurusQuery": "d497",
+                    "trueCarQuery": "9-5"
                 },
                 {
                     "name": "9-5 SportCombi",
                     "autotraderQuery": "",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d1021",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "9-7X",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "97X",
+                    "carsDotComQuery": "saab-9_7x",
+                    "carGurusQuery": "d498",
+                    "trueCarQuery": "9-7x"
                 },
                 {
                     "name": "900",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "900",
+                    "carsDotComQuery": "saab-900",
+                    "carGurusQuery": "d499",
+                    "trueCarQuery": "900"
                 },
             ]
         },
@@ -6206,100 +6199,86 @@
             "models": [
                 {
                     "name": "Astra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ASTRA",
+                    "carsDotComQuery": "saturn-astra",
+                    "carGurusQuery": "d1048",
+                    "trueCarQuery": "astra"
                 },
                 {
                     "name": "Aura",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AURA",
+                    "carsDotComQuery": "saturn-aura",
+                    "carGurusQuery": "d938",
+                    "trueCarQuery": "aura"
                 },
                 {
                     "name": "ION",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ION",
+                    "carsDotComQuery": "saturn-ion",
+                    "carGurusQuery": "d532",
+                    "trueCarQuery": "ion"
                 },
                 {
-                    "name": "L",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LS",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "LW",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "name": "L-Series",
+                    "autotraderQuery": "SATLSE",
+                    "carsDotComQuery": "saturn-l&models[]=saturn-ls&models[]=saturn-lw",
+                    "carGurusQuery": "d534",
+                    "trueCarQuery": "l-series"
                 },
                 {
                     "name": "Outlook",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "OUTLOOK",
+                    "carsDotComQuery": "saturn-outlook",
+                    "carGurusQuery": "d929",
+                    "trueCarQuery": "outlook"
                 },
                 {
                     "name": "Relay",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RELAY",
+                    "carsDotComQuery": "saturn-relay",
+                    "carGurusQuery": "d536",
+                    "trueCarQuery": "relay"
                 },
                 {
                     "name": "SC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "SATSSE",
+                    "carsDotComQuery": "saturn-sc",
+                    "carGurusQuery": "d537",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Sky",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SKY",
+                    "carsDotComQuery": "saturn-sky",
+                    "carGurusQuery": "d939",
+                    "trueCarQuery": "sky"
                 },
                 {
                     "name": "SL",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SATSSE",
+                    "carsDotComQuery": "saturn-sl",
+                    "carGurusQuery": "d537",
+                    "trueCarQuery": "sl"
                 },
                 {
                     "name": "SW",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SATSSE",
+                    "carsDotComQuery": "saturn-sw",
+                    "carGurusQuery": "d537",
+                    "trueCarQuery": "sw"
                 },
                 {
                     "name": "VUE",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VUE",
+                    "carsDotComQuery": "saturn-vue",
+                    "carGurusQuery": "d538",
+                    "trueCarQuery": "vue"
                 },
                 {
                     "name": "VUE Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "VUE",
+                    "carsDotComQuery": "saturn-vue_hybrid&models[]=saturn-vue_green_line",
+                    "carGurusQuery": "d2931",
                     "trueCarQuery": ""
                 },
             ]
