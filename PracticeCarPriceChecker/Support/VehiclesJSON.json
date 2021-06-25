@@ -6288,59 +6288,59 @@
             "models": [
                 {
                     "name": "FR-S",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SCIFRS",
+                    "carsDotComQuery": "scion-fr_s",
+                    "carGurusQuery": "d2140",
+                    "trueCarQuery": "fr-s"
                 },
                 {
                     "name": "iA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SCIIA",
+                    "carsDotComQuery": "scion-ia",
+                    "carGurusQuery": "d2320",
+                    "trueCarQuery": "ia"
                 },
                 {
                     "name": "iM",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SCIIM",
+                    "carsDotComQuery": "scion-im",
+                    "carGurusQuery": "d2319",
+                    "trueCarQuery": "im"
                 },
                 {
                     "name": "iQ",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "IQ",
+                    "carsDotComQuery": "scion-iq",
+                    "carGurusQuery": "d2122",
+                    "trueCarQuery": "iq"
                 },
                 {
                     "name": "tC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TC",
+                    "carsDotComQuery": "scion-tc",
+                    "carGurusQuery": "d433",
+                    "trueCarQuery": "tc"
                 },
                 {
                     "name": "xA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XA",
+                    "carsDotComQuery": "scion-xa",
+                    "carGurusQuery": "d434",
+                    "trueCarQuery": "xa"
                 },
                 {
                     "name": "xB",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XB",
+                    "carsDotComQuery": "scion-xb",
+                    "carGurusQuery": "d435",
+                    "trueCarQuery": "xb"
                 },
                 {
                     "name": "xD",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XD",
+                    "carsDotComQuery": "scion-xd",
+                    "carGurusQuery": "d1033",
+                    "trueCarQuery": "xd"
                 },
             ]
         },
@@ -6350,23 +6350,23 @@
                 {
                     "name": "EQ ForTwo",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "carsDotComQuery": "smart-eq_fortwo",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "eq-fortwo"
                 },
                 {
                     "name": "ForTwo",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FORTWO",
+                    "carsDotComQuery": "smart-fortwo",
+                    "carGurusQuery": "d1040",
+                    "trueCarQuery": "fortwo"
                 },
                 {
                     "name": "ForTwo Electric Drive",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "smart-fortwo_electric_drive",
+                    "carGurusQuery": "d2621",
+                    "trueCarQuery": "fortwo"
                 },
             ]
         },
@@ -6375,122 +6375,122 @@
             "models": [
                 {
                     "name": "Ascent",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBASCENT",
+                    "carsDotComQuery": "subaru-ascent",
+                    "carGurusQuery": "d2650",
+                    "trueCarQuery": "ascent"
                 },
                 {
                     "name": "B9 Tribeca",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "B9TRIBECA",
+                    "carsDotComQuery": "subaru-b9_tribeca",
+                    "carGurusQuery": "d847",
+                    "trueCarQuery": "b9-tribeca"
                 },
                 {
                     "name": "Baja",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BAJA",
+                    "carsDotComQuery": "subaru-baja",
+                    "carGurusQuery": "d373",
+                    "trueCarQuery": "baja"
                 },
                 {
                     "name": "BRZ",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBBRZ",
+                    "carsDotComQuery": "subaru-brz",
+                    "carGurusQuery": "d2134",
+                    "trueCarQuery": "brz"
                 },
                 {
                     "name": "Crosstrek",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBCRSSTRK",
+                    "carsDotComQuery": "subaru-crosstrek",
+                    "carGurusQuery": "d2387",
+                    "trueCarQuery": "crosstrek"
                 },
                 {
                     "name": "Crosstrek Hybrid",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "subaru-crosstrek_hybrid",
+                    "carGurusQuery": "d2388",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Forester",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FOREST",
+                    "carsDotComQuery": "subaru-forester",
+                    "carGurusQuery": "d374",
+                    "trueCarQuery": "forester"
                 },
                 {
                     "name": "Impreza",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "IMPREZ",
+                    "carsDotComQuery": "subaru-impreza",
+                    "carGurusQuery": "d375",
+                    "trueCarQuery": "impreza"
                 },
                 {
                     "name": "Impreza WRX",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "IMPWRX",
+                    "carsDotComQuery": "subaru-impreza_wrx",
+                    "carGurusQuery": "d2233",
+                    "trueCarQuery": "impreza-wrx"
                 },
                 {
                     "name": "Impreza WRX STI",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "IMPWRX",
+                    "carsDotComQuery": "subaru-impreza_wrx_sti",
+                    "carGurusQuery": "d376",
+                    "trueCarQuery": "impreza-wrx"
                 },
                 {
                     "name": "Legacy",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LEGACY",
+                    "carsDotComQuery": "subaru-legacy",
+                    "carGurusQuery": "d378",
+                    "trueCarQuery": "legacy"
                 },
                 {
                     "name": "Outback",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBOUTBK",
+                    "carsDotComQuery": "subaru-outback",
+                    "carGurusQuery": "d380",
+                    "trueCarQuery": "outback"
                 },
                 {
                     "name": "Tribeca",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "B9TRIBECA",
+                    "carsDotComQuery": "subaru-tribeca",
+                    "carGurusQuery": "d1039",
+                    "trueCarQuery": "tribeca"
                 },
                 {
                     "name": "WRX",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBWRX",
+                    "carsDotComQuery": "subaru-wrx",
+                    "carGurusQuery": "d1039",
+                    "trueCarQuery": "wrx"
                 },
                 {
                     "name": "WRX STI",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SUBWRX",
+                    "carsDotComQuery": "subaru-wrx_sti",
+                    "carGurusQuery": "d2341",
+                    "trueCarQuery": "wrx"
                 },
                 {
                     "name": "XV Crosstrek",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XVCRSSTREK",
+                    "carsDotComQuery": "subaru-xv_crosstrek",
+                    "carGurusQuery": "d2179",
+                    "trueCarQuery": "xv-crosstrek"
                 },
                 {
                     "name": "XV Crosstrek Hybrid",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "subaru-xv_crosstrek_hybrid",
+                    "carGurusQuery": "d2255",
+                    "trueCarQuery": "xv-crosstrek"
                 },
             ]
         },
@@ -6499,101 +6499,101 @@
             "models": [
                 {
                     "name": "Aerio",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AERIO",
+                    "carsDotComQuery": "suzuki-aerio",
+                    "carGurusQuery": "d257",
+                    "trueCarQuery": "aerio"
                 },
                 {
                     "name": "Equator",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EQUATOR",
+                    "carsDotComQuery": "suzuki-equator",
+                    "carGurusQuery": "d1523",
+                    "trueCarQuery": "equator"
                 },
                 {
                     "name": "Esteem",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ESTEEM",
+                    "carsDotComQuery": "suzuki-esteem",
+                    "carGurusQuery": "d258",
+                    "trueCarQuery": "esteem"
                 },
                 {
                     "name": "Forenza",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FORENZA",
+                    "carsDotComQuery": "suzuki-forenza",
+                    "carGurusQuery": "d259",
+                    "trueCarQuery": "forenza"
                 },
                 {
                     "name": "Grand Vitara",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GRANDV",
+                    "carsDotComQuery": "suzuki-grand_vitara",
+                    "carGurusQuery": "d260",
+                    "trueCarQuery": "grand-vitara"
                 },
                 {
                     "name": "Kizashi",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "KIZASHI",
+                    "carsDotComQuery": "suzuki-kizashi",
+                    "carGurusQuery": "d2070",
+                    "trueCarQuery": "kizashi"
                 },
                 {
                     "name": "Reno",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RENO",
+                    "carsDotComQuery": "suzuki-reno",
+                    "carGurusQuery": "d261",
+                    "trueCarQuery": "reno"
                 },
                 {
                     "name": "Samurai",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "SAMUR",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d262",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Sidekick",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "SIDE",
+                    "carsDotComQuery": "suzuki-sidekick",
+                    "carGurusQuery": "d2255",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Swift",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "SWIFT",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d264",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "SX4",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SX4",
+                    "carsDotComQuery": "suzuki-sx4",
+                    "carGurusQuery": "d946",
+                    "trueCarQuery": "sx4"
                 },
                 {
                     "name": "Verona",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VERONA",
+                    "carsDotComQuery": "suzuki-verona",
+                    "carGurusQuery": "d265",
+                    "trueCarQuery": "verona"
                 },
                 {
                     "name": "Vitara",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VITARA",
+                    "carsDotComQuery": "suzuki-vitara",
+                    "carGurusQuery": "d266",
+                    "trueCarQuery": "vitara"
                 },
                 {
                     "name": "XL7",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XL7",
+                    "carsDotComQuery": "suzuki-xl7",
+                    "carGurusQuery": "d268",
+                    "trueCarQuery": "xl7"
                 },
             ]
         },
