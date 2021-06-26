@@ -6602,31 +6602,31 @@
             "models": [
                 {
                     "name": "Model 3",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TESMOD3",
+                    "carsDotComQuery": "tesla-model_3",
+                    "carGurusQuery": "d2475",
+                    "trueCarQuery": "model-3"
                 },
                 {
                     "name": "Model S",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TESMODS",
+                    "carsDotComQuery": "tesla-model_s",
+                    "carGurusQuery": "d2039",
+                    "trueCarQuery": "model-s"
                 },
                 {
                     "name": "Model X",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TESMODX",
+                    "carsDotComQuery": "tesla-model_x",
+                    "carGurusQuery": "d2132",
+                    "trueCarQuery": "model-x"
                 },
                 {
                     "name": "Model Y",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TESMODY",
+                    "carsDotComQuery": "tesla-model_y",
+                    "carGurusQuery": "d3044",
+                    "trueCarQuery": "model-y"
                 },
             ]
         },
@@ -6635,318 +6635,318 @@
             "models": [
                 {
                     "name": "4Runner",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "4RUN",
+                    "carsDotComQuery": "toyota-4runner",
+                    "carGurusQuery": "d290",
+                    "trueCarQuery": "4runner"
                 },
                 {
                     "name": "86",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TOY86",
+                    "carsDotComQuery": "toyota-86",
+                    "carGurusQuery": "d2436",
+                    "trueCarQuery": "86"
                 },
                 {
                     "name": "Avalon",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVALON",
+                    "carsDotComQuery": "toyota-avalon",
+                    "carGurusQuery": "d291",
+                    "trueCarQuery": "avalon"
                 },
                 {
                     "name": "Avalon Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "AVALON",
+                    "carsDotComQuery": "toyota-avalon_hybrid",
+                    "carGurusQuery": "d2665",
+                    "trueCarQuery": "avalon"
                 },
                 {
                     "name": "C-HR",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TOYCHR",
+                    "carsDotComQuery": "toyota-c_hr",
+                    "carGurusQuery": "d2474",
+                    "trueCarQuery": "c-hr"
                 },
                 {
                     "name": "Camry",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAMRY",
+                    "carsDotComQuery": "toyota-camry",
+                    "carGurusQuery": "d292",
+                    "trueCarQuery": "camry"
                 },
                 {
                     "name": "Camry Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAMRY",
+                    "carsDotComQuery": "toyota-camry_hybrid",
+                    "carGurusQuery": "d2908",
+                    "trueCarQuery": "camry"
                 },
                 {
                     "name": "Camry Solara",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SOLARA",
+                    "carsDotComQuery": "toyota-camry_solara",
+                    "carGurusQuery": "d293",
+                    "trueCarQuery": "camry-solara"
                 },
                 {
                     "name": "Celica",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CELICA",
+                    "carsDotComQuery": "toyota-celica",
+                    "carGurusQuery": "d294",
+                    "trueCarQuery": "celica"
                 },
                 {
                     "name": "Corolla",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COROL",
+                    "carsDotComQuery": "toyota-corolla",
+                    "carGurusQuery": "d295",
+                    "trueCarQuery": "corolla"
                 },
                 {
                     "name": "Corolla Hatchback",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COROL",
+                    "carsDotComQuery": "toyota-corolla_hatchback",
+                    "carGurusQuery": "d2697",
+                    "trueCarQuery": "corolla-hatchback"
                 },
                 {
                     "name": "Corolla Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COROL",
+                    "carsDotComQuery": "toyota-corolla_hybrid",
+                    "carGurusQuery": "d2840",
+                    "trueCarQuery": "corolla"
                 },
                 {
                     "name": "Corolla iM",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "COROL",
+                    "carsDotComQuery": "toyota-corolla_im",
+                    "carGurusQuery": "d2565",
+                    "trueCarQuery": "corolla-im"
                 },
                 {
                     "name": "Cressida",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "CRESS",
+                    "carsDotComQuery": "toyota-cressida",
+                    "carGurusQuery": "d296",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "ECHO",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ECHO",
+                    "carsDotComQuery": "toyota-echo",
+                    "carGurusQuery": "d297",
+                    "trueCarQuery": "echo"
                 },
                 {
                     "name": "FJ Cruiser",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "FJCRUIS",
+                    "carsDotComQuery": "toyota-fj_cruiser",
+                    "carGurusQuery": "d826",
+                    "trueCarQuery": "fj-cruiser"
                 },
                 {
                     "name": "Highlander",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "HIGHLANDER",
+                    "carsDotComQuery": "toyota-highlander",
+                    "carGurusQuery": "d298",
+                    "trueCarQuery": "highlander"
                 },
                 {
                     "name": "Highlander Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "HIGHLANDER",
+                    "carsDotComQuery": "toyota-highlander_hybrid",
+                    "carGurusQuery": "d757",
+                    "trueCarQuery": "highlander"
                 },
                 {
                     "name": "Land Cruiser",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "LC",
+                    "carsDotComQuery": "toyota-land_cruiser",
+                    "carGurusQuery": "d299",
+                    "trueCarQuery": "land-cruiser"
                 },
                 {
                     "name": "Matrix",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MATRIX",
+                    "carsDotComQuery": "toyota-matrix",
+                    "carGurusQuery": "d300",
+                    "trueCarQuery": "matrix"
                 },
                 {
                     "name": "Mirai",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TOYMIRAI",
+                    "carsDotComQuery": "toyota-mirai",
+                    "carGurusQuery": "d2359",
+                    "trueCarQuery": "mirai"
                 },
                 {
                     "name": "MR2",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MR2",
+                    "carsDotComQuery": "toyota-mr2",
+                    "carGurusQuery": "d301",
+                    "trueCarQuery": "mr2-spyder"
                 },
                 {
                     "name": "MR2 Spyder",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "MR2SPYDR",
+                    "carsDotComQuery": "toyota-mr2",
+                    "carGurusQuery": "d302",
+                    "trueCarQuery": "mr2-spyder"
                 },
                 {
                     "name": "Paseo",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "PASEO",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carGurusQuery": "d303",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Pickup",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "PICKUP",
+                    "carsDotComQuery": "toyota-pickup_truck",
+                    "carGurusQuery": "d304",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Previa",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "PREVIA",
+                    "carsDotComQuery": "toyota-previa",
+                    "carGurusQuery": "d305",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Prius",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PRIUS",
+                    "carsDotComQuery": "toyota-prius",
+                    "carGurusQuery": "d15",
+                    "trueCarQuery": "prius"
                 },
                 {
                     "name": "Prius C",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PRIUSC",
+                    "carsDotComQuery": "toyota-prius_c",
+                    "carGurusQuery": "d2127",
+                    "trueCarQuery": "prius-c"
                 },
                 {
                     "name": "Prius Plug-in",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "toyota-prius_plug_in",
+                    "carGurusQuery": "d2191",
+                    "trueCarQuery": "prius"
                 },
                 {
                     "name": "Prius Prime",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TOYPRIPRM",
+                    "carsDotComQuery": "toyota-prius_prime",
+                    "carGurusQuery": "d2418",
+                    "trueCarQuery": "prius-prime"
                 },
                 {
                     "name": "Prius V",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PRIUSV",
+                    "carsDotComQuery": "toyota-prius_v",
+                    "carGurusQuery": "d2150",
+                    "trueCarQuery": "prius-v"
                 },
                 {
                     "name": "RAV4",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RAV4",
+                    "carsDotComQuery": "toyota-rav4",
+                    "carGurusQuery": "d306",
+                    "trueCarQuery": "rav4"
                 },
                 {
                     "name": "RAV4 EV",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RAV4",
+                    "carsDotComQuery": "toyota-rav4_ev",
+                    "carGurusQuery": "d306",
+                    "trueCarQuery": "rav4"
                 },
                 {
                     "name": "RAV4 Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RAV4",
+                    "carsDotComQuery": "toyota-rav4_hybrid",
+                    "carGurusQuery": "d2318",
+                    "trueCarQuery": "rav4"
                 },
                 {
                     "name": "RAV4 Prime",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RAV4",
+                    "carsDotComQuery": "toyota-rav4_prime",
+                    "carGurusQuery": "d2992",
+                    "trueCarQuery": "rav4-prime"
                 },
                 {
                     "name": "Sequoia",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SEQUOIA",
+                    "carsDotComQuery": "toyota-sequoia",
+                    "carGurusQuery": "d307",
+                    "trueCarQuery": "sequoia"
                 },
                 {
                     "name": "Sienna",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "SIENNA",
+                    "carsDotComQuery": "toyota-sienna",
+                    "carGurusQuery": "d308",
+                    "trueCarQuery": "sienna"
                 },
                 {
                     "name": "Supra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "SUPRA",
+                    "carsDotComQuery": "toyota-supra",
+                    "carGurusQuery": "d309",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "T100",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "T100",
+                    "carsDotComQuery": "toyota-t100",
+                    "carGurusQuery": "d310",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Tacoma",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TACOMA",
+                    "carsDotComQuery": "toyota-tacoma",
+                    "carGurusQuery": "d311",
+                    "trueCarQuery": "tacoma"
                 },
                 {
                     "name": "Tercel",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "TERCEL",
+                    "carsDotComQuery": "oyota-tercel",
+                    "carGurusQuery": "d312",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Tundra",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TUNDRA",
+                    "carsDotComQuery": "toyota-tundra",
+                    "carGurusQuery": "d313",
+                    "trueCarQuery": "tundra"
                 },
                 {
                     "name": "Venza",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VENZA",
+                    "carsDotComQuery": "toyota-venza",
+                    "carGurusQuery": "d1516",
+                    "trueCarQuery": "venza"
                 },
                 {
                     "name": "Yaris",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "YARIS",
+                    "carsDotComQuery": "toyota-yaris",
+                    "carGurusQuery": "d827",
+                    "trueCarQuery": "yaris"
                 },
                 {
                     "name": "Yaris iA",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "YARIS",
+                    "carsDotComQuery": "toyota-yaris_ia",
+                    "carGurusQuery": "d2566",
+                    "trueCarQuery": "yaris-ia"
                 },
             ]
         },
@@ -6955,226 +6955,219 @@
             "models": [
                 {
                     "name": "Arteon",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLKSARTE",
+                    "carsDotComQuery": "volkswagen-arteon",
+                    "carGurusQuery": "d2669",
+                    "trueCarQuery": "arteon"
                 },
                 {
                     "name": "Atlas",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLKSATL",
+                    "carsDotComQuery": "volkswagen-atlas",
+                    "carGurusQuery": "d2507",
+                    "trueCarQuery": "atlas"
                 },
                 {
                     "name": "Atlas Cross Sport",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "volkswagen-atlas_cross_sport",
+                    "carGurusQuery": "d2995",
+                    "trueCarQuery": "atlas-cross-sport"
                 },
                 {
                     "name": "Beetle",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "BEETLE",
+                    "carsDotComQuery": "volkswagen-beetle",
+                    "carGurusQuery": "d201",
+                    "trueCarQuery": "beetle"
                 },
                 {
                     "name": "Cabrio",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "VOLKSCAB",
+                    "carsDotComQuery": "volkswagen-cabrio",
+                    "carGurusQuery": "d193",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Cabriolet",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CAB",
+                    "carsDotComQuery": "volkswagen-cabriolet",
+                    "carGurusQuery": "d194",
+                    "trueCarQuery": "cabrio"
                 },
                 {
                     "name": "CC",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "CC",
+                    "carsDotComQuery": "volkswagen-cc",
+                    "carGurusQuery": "d2014",
+                    "trueCarQuery": "cc"
                 },
                 {
                     "name": "Corrado",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "autotraderQuery": "CORR",
+                    "carsDotComQuery": "volkswagen-corrado",
+                    "carGurusQuery": "d195",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "e-Golf",
-                    "autotraderQuery": "",
+                    "autotraderQuery": "VOLKSEGOLF",
                     "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carGurusQuery": "d2284",
+                    "trueCarQuery": "e-golf"
                 },
                 {
                     "name": "Eos",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EOS",
+                    "carsDotComQuery": "volkswagen-eos",
+                    "carGurusQuery": "d915",
+                    "trueCarQuery": "eos"
                 },
                 {
                     "name": "EuroVan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "EUROVAN",
+                    "carsDotComQuery": "volkswagen-eurovan",
+                    "carGurusQuery": "d196",
+                    "trueCarQuery": "eurovan"
                 },
                 {
                     "name": "Golf",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GOLF",
+                    "carsDotComQuery": "volkswagen-golf",
+                    "carGurusQuery": "d198",
+                    "trueCarQuery": "golf"
                 },
                 {
                     "name": "Golf Alltrack",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "volkswagen-golf_alltrack",
+                    "carGurusQuery": "d2437",
+                    "trueCarQuery": "golf-alltrack"
                 },
                 {
                     "name": "Golf GTI",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GTI",
+                    "carsDotComQuery": "volkswagen-golf_gti",
+                    "carGurusQuery": "d199",
+                    "trueCarQuery": "golf-gti"
                 },
                 {
                     "name": "Golf R",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "GOLFR",
+                    "carsDotComQuery": "volkswagen-golf_r",
+                    "carGurusQuery": "d2131",
+                    "trueCarQuery": "golf-r"
                 },
                 {
                     "name": "Golf SportWagen",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "GTI",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "carsDotComQuery": "volkswagen-golf_sportwagen",
+                    "carGurusQuery": "d2307",
+                    "trueCarQuery": "golf-sportwagen"
                 },
                 {
                     "name": "ID.4",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLKSID4",
+                    "carsDotComQuery": "volkswagen-id.4",
+                    "carGurusQuery": "d3098",
+                    "trueCarQuery": "id-4"
                 },
                 {
                     "name": "Jetta",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "JET",
+                    "carsDotComQuery": "volkswagen-jetta",
+                    "carGurusQuery": "d200",
+                    "trueCarQuery": "jetta"
                 },
                 {
                     "name": "Jetta GLI",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "volkswagen-jetta_gli",
+                    "carGurusQuery": "d2860",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Jetta Hybrid",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "volkswagen-jetta_hybrid",
+                    "carGurusQuery": "d2936",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Jetta SportWagen",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "volkswagen-jetta_sportwagen",
+                    "carGurusQuery": "d2094",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "New Beetle",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
+                    "carsDotComQuery": "volkswagen-new_beetle",
                     "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "trueCarQuery": "new-beetle"
                 },
                 {
                     "name": "Passat",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PASS",
+                    "carsDotComQuery": "volkswagen-passat",
+                    "carGurusQuery": "d202",
+                    "trueCarQuery": "passat"
                 },
                 {
                     "name": "Phaeton",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "PHAETON",
+                    "carsDotComQuery": "volkswagen-phaeton",
+                    "carGurusQuery": "d203",
+                    "trueCarQuery": "phaeton"
                 },
                 {
                     "name": "R32",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "R32",
+                    "carsDotComQuery": "volkswagen-r32",
+                    "carGurusQuery": "d204",
+                    "trueCarQuery": "r32"
                 },
                 {
                     "name": "Rabbit",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "RABBIT",
+                    "carsDotComQuery": "volkswagen-rabbit",
+                    "carGurusQuery": "d839",
+                    "trueCarQuery": "rabbit"
                 },
                 {
                     "name": "Routan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "ROUTAN",
+                    "carsDotComQuery": "volkswagen-routan",
+                    "carGurusQuery": "d1522",
+                    "trueCarQuery": "routan"
                 },
                 {
                     "name": "Tiguan",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TIGUAN",
+                    "carsDotComQuery": "volkswagen-tiguan",
+                    "carGurusQuery": "d1104",
+                    "trueCarQuery": "tiguan"
                 },
                 {
                     "name": "Tiguan Limited",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "volkswagen-tiguan_limited",
+                    "carGurusQuery": "tiguan-limited",
                     "trueCarQuery": ""
                 },
                 {
                     "name": "Touareg",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "TOUAREG",
+                    "carsDotComQuery": "volkswagen-touareg",
+                    "carGurusQuery": "d205",
+                    "trueCarQuery": "touareg"
                 },
                 {
                     "name": "Touareg 2",
                     "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
+                    "carsDotComQuery": "volkswagen-touareg_2",
+                    "carGurusQuery": "d1045",
                     "trueCarQuery": ""
                 },
             ]
@@ -7184,171 +7177,129 @@
             "models": [
                 {
                     "name": "C30",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "C30",
+                    "carsDotComQuery": "volvo-c30",
+                    "carGurusQuery": "d1043",
+                    "trueCarQuery": "c30"
                 },
                 {
                     "name": "C70",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "C70",
+                    "carsDotComQuery": "volvo-c70",
+                    "carGurusQuery": "d508",
+                    "trueCarQuery": "c70"
                 },
                 {
                     "name": "S40",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S40",
+                    "carsDotComQuery": "volvo-s40",
+                    "carGurusQuery": "d510",
+                    "trueCarQuery": "s40"
                 },
                 {
                     "name": "S60",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "S60 Cross Country",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "S60 Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "S60 Inscription",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S60",
+                    "carsDotComQuery": "volvo-s60&models[]=volvo-s60_cross_country&models[]=volvo-s60_hybrid&models[]=volvo-s60_inscription&models[]=volvo-s60_recharge_plug_in_hybrid",
+                    "carGurusQuery": "d511",
+                    "trueCarQuery": "s60"
                 },
                 {
                     "name": "S70",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S70",
+                    "carsDotComQuery": "volvo-s70",
+                    "carGurusQuery": "d513",
+                    "trueCarQuery": "s70"
                 },
                 {
                     "name": "S80",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S80",
+                    "carsDotComQuery": "volvo-s80",
+                    "carGurusQuery": "d514",
+                    "trueCarQuery": "s80"
                 },
                 {
                     "name": "S90",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "S90 Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "S90",
+                    "carsDotComQuery": "volvo-s90&models[]=volvo-s90_hybrid",
+                    "carGurusQuery": "d515",
+                    "trueCarQuery": "s90"
                 },
                 {
                     "name": "V40",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "V40",
+                    "carsDotComQuery": "volvo-v40",
+                    "carGurusQuery": "d516",
+                    "trueCarQuery": "v40"
                 },
                 {
                     "name": "V50",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "V50",
+                    "carsDotComQuery": "volvo-v50",
+                    "carGurusQuery": "d517",
+                    "trueCarQuery": "v50"
                 },
                 {
                     "name": "V60",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLVOV60",
+                    "carsDotComQuery": "volvo-v60&models[]=volvo-v60_cross_country",
+                    "carGurusQuery": "d2266",
+                    "trueCarQuery": "v60"
                 },
                 {
                     "name": "V60 Cross Country",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLVOV60",
+                    "carsDotComQuery": "volvo-v60_cross_country",
+                    "carGurusQuery": "d2266",
+                    "trueCarQuery": "v60-cross-country"
                 },
                 {
                     "name": "V70",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "V70",
+                    "carsDotComQuery": "volvo-v70",
+                    "carGurusQuery": "d518",
+                    "trueCarQuery": "v70"
                 },
                 {
                     "name": "V90",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "V90",
+                    "carsDotComQuery": "volvo-v90&models[]=volvo-v90_cross_country",
+                    "carGurusQuery": "d520",
+                    "trueCarQuery": "v90"
                 },
                 {
                     "name": "V90 Cross Country",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "V90",
+                    "carsDotComQuery": "volvo-v90_cross_country",
+                    "carGurusQuery": "d520",
+                    "trueCarQuery": "v90-cross-country"
                 },
                 {
                     "name": "XC40",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "VOLVOXC40",
+                    "carsDotComQuery": "volvo-xc40&models[]=volvo-xc40_recharge_pure_electric",
+                    "carGurusQuery": "d2624",
+                    "trueCarQuery": "xc40"
                 },
                 {
                     "name": "XC60",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "XC60 Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XC60",
+                    "carsDotComQuery": "volvo-xc60&models[]=volvo-xc60_hybrid&models[]=volvo-xc60_recharge_plug_in_hybrid",
+                    "carGurusQuery": "d1629",
+                    "trueCarQuery": "xc60"
                 },
                 {
                     "name": "XC70",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XC",
+                    "carsDotComQuery": "volvo-xc70",
+                    "carGurusQuery": "d522",
+                    "trueCarQuery": "xc70"
                 },
                 {
                     "name": "XC90",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
-                },
-                {
-                    "name": "XC90 Hybrid",
-                    "autotraderQuery": "",
-                    "carsDotComQuery": "",
-                    "carGurusQuery": "",
-                    "trueCarQuery": ""
+                    "autotraderQuery": "XC90",
+                    "carsDotComQuery": "volvo-xc90&models[]=volvo-xc90_hybrid&models[]=volvo-xc90_recharge_plug_in_hybrid",
+                    "carGurusQuery": "d523",
+                    "trueCarQuery": "xc90"
                 },
             ]
         },
