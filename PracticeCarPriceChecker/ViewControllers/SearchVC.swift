@@ -110,6 +110,43 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     }()
     
     
+    let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.backgroundColor = .lightGray
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        return scrollView
+    }()
+    
+    
+    let contentView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .green
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let stackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.backgroundColor = .blue
+        stackView.distribution = .fillEqually
+        stackView.spacing = 20
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        return stackView
+    }()
+    
+    
+    var testLabelCounter = 1
+    var testLabel: UILabel {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.backgroundColor = .white
+        label.text = "\(testLabelCounter). This is a test for horizontal scrolling"
+        return label
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         getVehicle()
@@ -226,7 +263,15 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     func configurePopupCard() {
         view.addSubview(parentContainerView)
         parentContainerView.addSubview(childViewForHideCardButton)
+        parentContainerView.addSubview(scrollView)
+        scrollView.addSubview(contentView)
+        contentView.addSubview(stackView)
         childViewForHideCardButton.addSubview(hideCardButton)
+        
+        for _ in 0...4 {
+            stackView.addArrangedSubview(testLabel)
+            testLabelCounter += 1
+        }
     }
 
     
@@ -373,6 +418,23 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
             childViewForHideCardButton.leadingAnchor.constraint(equalTo: parentContainerView.leadingAnchor, constant: padding),
             childViewForHideCardButton.trailingAnchor.constraint(equalTo: parentContainerView.trailingAnchor, constant: -padding),
             childViewForHideCardButton.heightAnchor.constraint(equalToConstant: 45),
+            
+            scrollView.topAnchor.constraint(equalTo: childViewForHideCardButton.bottomAnchor),
+            scrollView.leadingAnchor.constraint(equalTo: parentContainerView.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: parentContainerView.trailingAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: parentContainerView.bottomAnchor),
+            
+            contentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            contentView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
+            contentView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
+            contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+            
+            contentView.heightAnchor.constraint(equalTo: scrollView.heightAnchor),
+            
+            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
+            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10),
             
             hideCardButton.topAnchor.constraint(equalTo: childViewForHideCardButton.topAnchor),
             hideCardButton.centerXAnchor.constraint(equalTo: childViewForHideCardButton.centerXAnchor),
