@@ -77,6 +77,38 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
 
     let carsDotComVehicleMakes = ["acura": "20001", "alfa romeo": "20047", "aston martin": "20003", "audi": "20049", "bentley": "20051", "bmw": "20005", "buick": "20006", "cadillac": "20052", "chevrolet": "20053", "chrysler": "20008", "dodge": "20012", "ferrari": "20014", "fiat": "20060", "fisker": "41703", "ford": "20015","genesis": "35354491", "gmc": "20061", "honda": "20017", "hummer": "20018","hyundai": "20064", "infiniti": "20019", "isuzu": "20020", "jaguar": "20066", "jeep": "20021", "karma": "36365359", "kia": "20068", "lamborghini": "20069", "land rover": "20024" ,"lexus": "20070", "lincoln": "20025", "lotus": "20071", "maserati": "20072", "maybach": "20027", "mazda": "20073", "mclaren": "47903", "mercedes-benz" : "20028", "mercury": "20074", "mini": "20075", "mitsubishi": "20030", "nissan": "20077", "oldsmobile": "20032", "plymouth": "20080", "pontiac": "20035", "porsche": "20081", "ram": "44763", "rolls-royce": "20037", "saab": "20038", "saturn": "20039", "scion": "20085", "smart": "20228", "subaru": "20041", "suzuki": "20042", "tesla": "28263", "toyota": "20088", "volkswagen": "20089", "volvo": "20044"]
     
+    var cardVisible = false
+
+    
+    let parentContainerView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        view.layer.cornerRadius = 12
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let childViewForHideCardButton: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let hideCardButton: UIButton = {
+        let symbolConfiguration = UIImage.SymbolConfiguration(pointSize: 70, weight: .regular, scale: .medium)
+        let chevronCompactDown = UIImage(systemName: "chevron.compact.down", withConfiguration: symbolConfiguration)?.withTintColor(.lightGray, renderingMode: .alwaysOriginal)
+        
+        let button = UIButton()
+        button.setTitle("", for: .normal)
+        button.setImage(chevronCompactDown, for: .normal)
+        button.addTarget(self, action: #selector(hideCard), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,6 +118,7 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         configureLogoView()
         configureTableView()
         configureSearchButton()
+        configurePopupCard()
         layoutUI()
     }
     
@@ -188,6 +221,13 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         searchButton.setTitleColor(.white, for: .normal)
         searchButton.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
     }
+    
+    
+    func configurePopupCard() {
+        view.addSubview(parentContainerView)
+        parentContainerView.addSubview(childViewForHideCardButton)
+        childViewForHideCardButton.addSubview(hideCardButton)
+    }
 
     
     @objc func searchButtonTapped() {
@@ -195,11 +235,32 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         let model = selectedVehicleModel
 
         let url = buildURL(make, model)
-        let safariVC = SFSafariViewController(url: url!)
-        safariVC.delegate = self
+
+//        let safariVC = SFSafariViewController(url: url!)
+//        safariVC.delegate = self
+//
+//        self.present(safariVC, animated: true)
         
-        self.present(safariVC, animated: true)
+        showCard()
+
     }
+    
+    
+    @objc func showCard() {
+        cardVisible = !cardVisible
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
+            self.parentContainerView.frame.origin.y = self.view.frame.height - self.parentContainerView.frame.height
+        })
+    }
+    
+    
+    @objc func hideCard() {
+        cardVisible = !cardVisible
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
+            self.parentContainerView.frame.origin.y = self.view.frame.height
+        })
+    }
+    
     
     func buildURL(_ make: String, _ model: String) -> URL? {
         var components = URLComponents()
@@ -301,7 +362,22 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
             searchButton.heightAnchor.constraint(equalToConstant: 60),
             searchButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             searchButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65)
+            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65),
+            
+            parentContainerView.topAnchor.constraint(equalTo: view.bottomAnchor),
+            parentContainerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            parentContainerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            parentContainerView.heightAnchor.constraint(equalToConstant: view.frame.height * 0.90),
+            
+            childViewForHideCardButton.topAnchor.constraint(equalTo: parentContainerView.topAnchor),
+            childViewForHideCardButton.leadingAnchor.constraint(equalTo: parentContainerView.leadingAnchor, constant: padding),
+            childViewForHideCardButton.trailingAnchor.constraint(equalTo: parentContainerView.trailingAnchor, constant: -padding),
+            childViewForHideCardButton.heightAnchor.constraint(equalToConstant: 45),
+            
+            hideCardButton.topAnchor.constraint(equalTo: childViewForHideCardButton.topAnchor),
+            hideCardButton.centerXAnchor.constraint(equalTo: childViewForHideCardButton.centerXAnchor),
+            hideCardButton.widthAnchor.constraint(equalToConstant: 100),
+            hideCardButton.heightAnchor.constraint(equalToConstant: 45),
         ])
     }
 }
