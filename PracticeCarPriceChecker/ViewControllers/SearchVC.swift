@@ -77,8 +77,14 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
 
     let carsDotComVehicleMakes = ["acura": "20001", "alfa romeo": "20047", "aston martin": "20003", "audi": "20049", "bentley": "20051", "bmw": "20005", "buick": "20006", "cadillac": "20052", "chevrolet": "20053", "chrysler": "20008", "dodge": "20012", "ferrari": "20014", "fiat": "20060", "fisker": "41703", "ford": "20015","genesis": "35354491", "gmc": "20061", "honda": "20017", "hummer": "20018","hyundai": "20064", "infiniti": "20019", "isuzu": "20020", "jaguar": "20066", "jeep": "20021", "karma": "36365359", "kia": "20068", "lamborghini": "20069", "land rover": "20024" ,"lexus": "20070", "lincoln": "20025", "lotus": "20071", "maserati": "20072", "maybach": "20027", "mazda": "20073", "mclaren": "47903", "mercedes-benz" : "20028", "mercury": "20074", "mini": "20075", "mitsubishi": "20030", "nissan": "20077", "oldsmobile": "20032", "plymouth": "20080", "pontiac": "20035", "porsche": "20081", "ram": "44763", "rolls-royce": "20037", "saab": "20038", "saturn": "20039", "scion": "20085", "smart": "20228", "subaru": "20041", "suzuki": "20042", "tesla": "28263", "toyota": "20088", "volkswagen": "20089", "volvo": "20044"]
     
-    var cardVisible = false
+    var autotraderWebView = PCPCWebView()
+    var carGurusWebView = PCPCWebView()
+    var carsDotComWebView = PCPCWebView()
+    var craigslistWebView = PCPCWebView()
+    var trueCarWebView = PCPCWebView()
 
+    var popupCardTopAnchor: NSLayoutConstraint?
+    var popupCardBottomAnchor: NSLayoutConstraint?
     
     let parentContainerView: UIView = {
         let view = UIView()
@@ -129,22 +135,11 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     let stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-        stackView.backgroundColor = .blue
         stackView.distribution = .fillEqually
         stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
-    
-    
-    var testLabelCounter = 1
-    var testLabel: UILabel {
-        let label = UILabel()
-        label.textAlignment = .center
-        label.backgroundColor = .white
-        label.text = "\(testLabelCounter). This is a test for horizontal scrolling"
-        return label
-    }
     
     
     override func viewDidLoad() {
@@ -156,6 +151,8 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         configureTableView()
         configureSearchButton()
         configurePopupCard()
+        setPopupCardConstraints()
+        addWebViews()
         layoutUI()
     }
     
@@ -267,125 +264,71 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         scrollView.addSubview(contentView)
         contentView.addSubview(stackView)
         childViewForHideCardButton.addSubview(hideCardButton)
-        
-        for _ in 0...4 {
-            stackView.addArrangedSubview(testLabel)
-            testLabelCounter += 1
-        }
     }
 
     
-    @objc func searchButtonTapped() {
-        let make = selectedVehicleMake
-        let model = selectedVehicleModel
-
-        let url = buildURL(make, model)
-
-//        let safariVC = SFSafariViewController(url: url!)
-//        safariVC.delegate = self
-//
-//        self.present(safariVC, animated: true)
+    func setPopupCardConstraints() {
+        popupCardBottomAnchor = parentContainerView.topAnchor.constraint(equalTo: view.bottomAnchor)
+        popupCardBottomAnchor?.isActive = true
         
+        popupCardTopAnchor = parentContainerView.topAnchor.constraint(equalTo: view.topAnchor, constant: 75)
+    }
+    
+    
+    func addWebViews() {
+        autotraderWebView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.8).isActive = true
+        
+        autotraderWebView.loadURL(url: URL(string: "https://www.autotrader.com")!)
+        carGurusWebView.loadURL(url: URL(string: "https://www.cargurus.com")!)
+        carsDotComWebView.loadURL(url: URL(string: "https://www.cars.com")!)
+        craigslistWebView.loadURL(url: URL(string: "https://www.craigslist.org")!)
+        trueCarWebView.loadURL(url: URL(string: "https://www.truecar.com")!)
+        
+        stackView.addArrangedSubview(autotraderWebView)
+        stackView.addArrangedSubview(carGurusWebView)
+        stackView.addArrangedSubview(carsDotComWebView)
+        stackView.addArrangedSubview(craigslistWebView)
+        stackView.addArrangedSubview(trueCarWebView)
+    }
+    
+    
+    @objc func searchButtonTapped() {
         showCard()
 
     }
     
     
     @objc func showCard() {
-        cardVisible = !cardVisible
+        popupCardBottomAnchor?.isActive = false
+        popupCardTopAnchor?.isActive = true
+        
         UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
-            self.parentContainerView.frame.origin.y = self.view.frame.height - self.parentContainerView.frame.height
+            self.view.layoutIfNeeded()
         })
+
+        let autoTraderURL = autotraderWebView.buildAutotraderURL(selectedVehicleMake, selectedVehicleModelUsingAutotraderQuery)
+        let carGurusURL = carGurusWebView.buildCarGurusURL(selectedVehicleMake, selectedVehicleModelUsingCarGurusQuery)
+        let carsDotComURL = carsDotComWebView.buildCarsDotComURL(selectedVehicleMake, selectedVehicleModelUsingCarsDotComQuery)
+        let craigslistURL = craigslistWebView.buildCraigslistURL(selectedVehicleMake, selectedVehicleModel)
+        let trueCarURL = trueCarWebView.buildTrueCarURL(selectedVehicleMake, selectedVehicleModelUsingTrueCarQuery)
+
+        autotraderWebView.loadURL(url: autoTraderURL!)
+        carGurusWebView.loadURL(url: carGurusURL!)
+        carsDotComWebView.loadURL(url: carsDotComURL!)
+        craigslistWebView.loadURL(url: craigslistURL!)
+        trueCarWebView.loadURL(url: trueCarURL!)
     }
     
     
     @objc func hideCard() {
-        cardVisible = !cardVisible
+        popupCardBottomAnchor?.isActive = true
+        popupCardTopAnchor?.isActive = false
+
         UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
-            self.parentContainerView.frame.origin.y = self.view.frame.height
+            self.view.layoutIfNeeded()
         })
     }
     
-    
-    func buildURL(_ make: String, _ model: String) -> URL? {
-        var components = URLComponents()
-        components.scheme = "https"
-        components.host = websiteHost
-
-        if websiteName == "Craigslist" {
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "query", value: "\(make)+\(model)"),
-                URLQueryItem(name: "purveyor-input", value: "all")
-            ]
-        } else if websiteName == "AutoTrader" {
-            var autotraderVehicleMakeCode = String()
-            if let make = autotraderVehicleMakes[make] {
-                autotraderVehicleMakeCode = make
-            }
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "makeCodeList", value: "\(autotraderVehicleMakeCode)"),
-                URLQueryItem(name: "modelCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)"),
-                URLQueryItem(name: "seriesCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)")
-            ]
-        } else if websiteName == "Cars.com" {
-            // On 6/17/21 Cars.com seemingly changed their format of url query parameters while the json file was still being populsted; therefore, a workaround is done for all mokes starting with Nissan until the end of the list
-            let updatedVehicleMakeArrayFromCarsDotCom = [
-                "nissan", "oldsmobile", "plymouth", "pontiac", "porsche", "ram", "rolls-royce", "saab", "20038", "saturn", "scion", "smart", "subaru", "suzuki", "tesla", "toyota", "volkswagen", "volvo"
-            ]
-            if updatedVehicleMakeArrayFromCarsDotCom.contains(selectedVehicleMake) {
-                // use new query parameters uaing as a workaround b/c Cars.com changed their url parameters to use words instead of numbers
-                let updatedVehicleMake = selectedVehicleMake
-                let updatedPath = "/shopping/results"
-                components.path = updatedPath
-                if selectedVehicleModelUsingCarsDotComQuery.contains("&") {
-                    // If Cars.com has multiple models under a certain model name, seen in the json file, then use this hardcoded url
-                    let domain = "https://www.cars.com"
-                    let query = selectedVehicleModelUsingCarsDotComQuery
-                    let endpoint = "/shopping/results/?makes[]=\(selectedVehicleMake)&maximum_distance=&models[]=\(query)&searchSource=QUICK_FORM&stock_type=used"
-                    let url = URL(string: domain + endpoint)
-                    return url
-                } else {
-                    // Otherwise, it's a single model query and just build a url using URLComponents
-                    components.queryItems = [
-                        URLQueryItem(name: "makes[]", value: "\(updatedVehicleMake)"),
-                        URLQueryItem(name: "maximum_distance", value: ""),
-                        URLQueryItem(name: "models[]", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
-                        URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
-                        URLQueryItem(name: "stock_type", value: "used")
-                    ]
-                }
-            } else {
-                // use original way when Cars.com used an integer for mkId and mdId, and stock type
-                var carsDotComVehicleMakeCode = String()
-                if let make = carsDotComVehicleMakes[make] {
-                    carsDotComVehicleMakeCode = make
-                }
-                components.path = websitePath
-                components.queryItems = [
-                    URLQueryItem(name: "mdId", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
-                    URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
-                    URLQueryItem(name: "rd", value: ""),
-                    URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
-                    URLQueryItem(name: "stkTypId", value: "28881")
-                ]
-            }
-        } else if websiteName == "CarGurus" {
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "sourceContext", value: "carGurusHomePageModel"),
-                URLQueryItem(name: "entitySelectingHelper.selectedEntity", value: "\(selectedVehicleModelUsingCarGurusQuery)"),
-            ]
-        } else if websiteName == "TrueCar" {
-            components.path = websitePath + "/\(make)/\(selectedVehicleModelUsingTrueCarQuery)"
-            components.queryItems = [
-                URLQueryItem(name: "sort[]", value: "best_match")
-            ]
-        }
-        
-        return components.url
-    }
     
     func layoutUI() {
         let padding = CGFloat(20)
