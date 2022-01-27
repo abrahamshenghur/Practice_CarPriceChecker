@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SafariServices
 
 enum Section: Int {
     case website = 0
@@ -40,7 +39,7 @@ extension ExpandableSectionData {
 }
 
 
-class SearchVC: UIViewController, SFSafariViewControllerDelegate {
+class SearchVC: UIViewController {
     
     let logoView = UIView()
     var tableView = UITableView()
@@ -77,11 +76,11 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
 
     let carsDotComVehicleMakes = ["acura": "20001", "alfa romeo": "20047", "aston martin": "20003", "audi": "20049", "bentley": "20051", "bmw": "20005", "buick": "20006", "cadillac": "20052", "chevrolet": "20053", "chrysler": "20008", "dodge": "20012", "ferrari": "20014", "fiat": "20060", "fisker": "41703", "ford": "20015","genesis": "35354491", "gmc": "20061", "honda": "20017", "hummer": "20018","hyundai": "20064", "infiniti": "20019", "isuzu": "20020", "jaguar": "20066", "jeep": "20021", "karma": "36365359", "kia": "20068", "lamborghini": "20069", "land rover": "20024" ,"lexus": "20070", "lincoln": "20025", "lotus": "20071", "maserati": "20072", "maybach": "20027", "mazda": "20073", "mclaren": "47903", "mercedes-benz" : "20028", "mercury": "20074", "mini": "20075", "mitsubishi": "20030", "nissan": "20077", "oldsmobile": "20032", "plymouth": "20080", "pontiac": "20035", "porsche": "20081", "ram": "44763", "rolls-royce": "20037", "saab": "20038", "saturn": "20039", "scion": "20085", "smart": "20228", "subaru": "20041", "suzuki": "20042", "tesla": "28263", "toyota": "20088", "volkswagen": "20089", "volvo": "20044"]
     
-    var autotraderWebView = PCPCWebView()
-    var carGurusWebView = PCPCWebView()
-    var carsDotComWebView = PCPCWebView()
-    var craigslistWebView = PCPCWebView()
-    var trueCarWebView = PCPCWebView()
+    let autotraderVC = VehicleWebsiteVC(websiteName: WebsiteName.autotrader)
+    let carsDotComVC = VehicleWebsiteVC(websiteName: WebsiteName.cars)
+    let carGurusVC = VehicleWebsiteVC(websiteName: WebsiteName.carGurus)
+    let craigslistVC = VehicleWebsiteVC(websiteName: WebsiteName.craigslist)
+    let truecarVC = VehicleWebsiteVC(websiteName: WebsiteName.trueCar)
 
     var popupCardTopAnchor: NSLayoutConstraint?
     var popupCardBottomAnchor: NSLayoutConstraint?
@@ -276,19 +275,11 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
     
     
     func addWebViews() {
-        autotraderWebView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.8).isActive = true
-        
-        autotraderWebView.loadURL(url: URL(string: "https://www.autotrader.com")!)
-        carGurusWebView.loadURL(url: URL(string: "https://www.cargurus.com")!)
-        carsDotComWebView.loadURL(url: URL(string: "https://www.cars.com")!)
-        craigslistWebView.loadURL(url: URL(string: "https://www.craigslist.org")!)
-        trueCarWebView.loadURL(url: URL(string: "https://www.truecar.com")!)
-        
-        stackView.addArrangedSubview(autotraderWebView)
-        stackView.addArrangedSubview(carGurusWebView)
-        stackView.addArrangedSubview(carsDotComWebView)
-        stackView.addArrangedSubview(craigslistWebView)
-        stackView.addArrangedSubview(trueCarWebView)
+        stackView.addArrangedSubview(autotraderVC.view)
+        stackView.addArrangedSubview(carsDotComVC.view)
+        stackView.addArrangedSubview(carGurusVC.view)
+        stackView.addArrangedSubview(craigslistVC.view)
+        stackView.addArrangedSubview(truecarVC.view)
     }
     
     
@@ -305,18 +296,19 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
             self.view.layoutIfNeeded()
         })
-
-        let autoTraderURL = autotraderWebView.buildAutotraderURL(selectedVehicleMake, selectedVehicleModelUsingAutotraderQuery)
-        let carGurusURL = carGurusWebView.buildCarGurusURL(selectedVehicleMake, selectedVehicleModelUsingCarGurusQuery)
-        let carsDotComURL = carsDotComWebView.buildCarsDotComURL(selectedVehicleMake, selectedVehicleModelUsingCarsDotComQuery)
-        let craigslistURL = craigslistWebView.buildCraigslistURL(selectedVehicleMake, selectedVehicleModel)
-        let trueCarURL = trueCarWebView.buildTrueCarURL(selectedVehicleMake, selectedVehicleModelUsingTrueCarQuery)
-
-        autotraderWebView.loadURL(url: autoTraderURL!)
-        carGurusWebView.loadURL(url: carGurusURL!)
-        carsDotComWebView.loadURL(url: carsDotComURL!)
-        craigslistWebView.loadURL(url: craigslistURL!)
-        trueCarWebView.loadURL(url: trueCarURL!)
+        
+        loadVehicleWebsites()
+    }
+    
+    
+    func loadVehicleWebsites() {
+        autotraderVC.view.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.8).isActive = true
+        
+        autotraderVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingAutotraderQuery,for: WebsiteName.autotrader)
+        carsDotComVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingCarsDotComQuery,for: WebsiteName.cars)
+        carGurusVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingCarGurusQuery,for: WebsiteName.carGurus)
+        craigslistVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModel,for: WebsiteName.craigslist)
+        truecarVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingTrueCarQuery,for: WebsiteName.trueCar)
     }
     
     
