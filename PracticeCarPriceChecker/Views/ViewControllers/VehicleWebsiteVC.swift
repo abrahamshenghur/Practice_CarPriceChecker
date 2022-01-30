@@ -9,6 +9,10 @@
 import UIKit
 import WebKit
 
+protocol VehicleListVCTapGestureDelegate: class {
+    func didUseGestureRecognizer(on vehicleWebsiteVC: VehicleWebsiteVC)
+}
+
 class VehicleWebsiteVC: UIViewController {
 
     var vehicleWebsite: WKWebView!
@@ -23,10 +27,14 @@ class VehicleWebsiteVC: UIViewController {
     let activityIndicator = UIActivityIndicatorView()
     let loadingView = UIView()
     
+    weak var gestureRecognizerDelegate: VehicleListVCTapGestureDelegate?
+    
     
     init(websiteName: String) {
         super.init(nibName: nil, bundle: nil)
         self.websiteName = websiteName
+        
+        addTapGesture()
     }
     
     
@@ -37,6 +45,19 @@ class VehicleWebsiteVC: UIViewController {
     
     override func viewDidLoad() {
         loadWebView()
+    }
+    
+    
+    func addTapGesture() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapVC))
+        tap.delegate = self
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    
+    @objc func tapVC(_ recognizer: VehicleWebsiteVC) {
+        gestureRecognizerDelegate?.didUseGestureRecognizer(on: self)
     }
     
     
@@ -129,5 +150,13 @@ extension VehicleWebsiteVC: WKNavigationDelegate {
 
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
         showActivityIndicator(show: false)
+    }
+}
+
+
+extension VehicleWebsiteVC: UIGestureRecognizerDelegate {
+    
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
     }
 }

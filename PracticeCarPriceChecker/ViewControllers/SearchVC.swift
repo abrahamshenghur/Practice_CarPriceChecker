@@ -275,6 +275,12 @@ class SearchVC: UIViewController {
     
     
     func addWebViews() {
+        autotraderVC.gestureRecognizerDelegate = self
+        carsDotComVC.gestureRecognizerDelegate = self
+        carGurusVC.gestureRecognizerDelegate = self
+        craigslistVC.gestureRecognizerDelegate = self
+        truecarVC.gestureRecognizerDelegate = self
+        
         stackView.addArrangedSubview(autotraderVC.view)
         stackView.addArrangedSubview(carsDotComVC.view)
         stackView.addArrangedSubview(carGurusVC.view)
@@ -562,3 +568,14 @@ extension SearchVC {
     }
 }
 
+
+extension SearchVC: VehicleListVCTapGestureDelegate {
+    
+    func didUseGestureRecognizer(on vehicleWebsiteVC: VehicleWebsiteVC) {
+        for view in stackView.arrangedSubviews {
+            view.layer.borderWidth = 0
+        }
+
+        vehicleWebsiteVC.view.layer.borderWidth = 3
+    }
+}
