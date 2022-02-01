@@ -45,6 +45,7 @@ class VehicleWebsiteVC: UIViewController {
     
     override func viewDidLoad() {
         loadWebView()
+        addBorderEffects()
     }
     
     
@@ -58,6 +59,14 @@ class VehicleWebsiteVC: UIViewController {
     
     @objc func tapVC(_ recognizer: VehicleWebsiteVC) {
         gestureRecognizerDelegate?.didUseGestureRecognizer(on: self)
+    }
+    
+    
+    func addBorderEffects() {
+        view.layer.cornerRadius = 12
+        view.layer.borderWidth = 3
+        view.layer.borderColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+        view.layer.masksToBounds = true
     }
     
     

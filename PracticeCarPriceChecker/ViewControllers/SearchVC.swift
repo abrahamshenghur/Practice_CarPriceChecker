@@ -117,7 +117,6 @@ class SearchVC: UIViewController {
     
     let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
-        scrollView.backgroundColor = .lightGray
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         return scrollView
     }()
@@ -125,7 +124,6 @@ class SearchVC: UIViewController {
     
     let contentView: UIView = {
         let view = UIView()
-        view.backgroundColor = .green
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -573,9 +571,9 @@ extension SearchVC: VehicleListVCTapGestureDelegate {
     
     func didUseGestureRecognizer(on vehicleWebsiteVC: VehicleWebsiteVC) {
         for view in stackView.arrangedSubviews {
-            view.layer.borderWidth = 0
+            view.layer.borderColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
         }
 
-        vehicleWebsiteVC.view.layer.borderWidth = 3
+        vehicleWebsiteVC.view.layer.borderColor = #colorLiteral(red: 0.9098039216, green: 0.6392156863, blue: 0.05098039216, alpha: 1)
     }
 }
