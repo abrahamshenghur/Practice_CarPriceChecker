@@ -290,7 +290,6 @@ class SearchVC: UIViewController {
     
     @objc func searchButtonTapped() {
         showCard()
-
     }
     
     
