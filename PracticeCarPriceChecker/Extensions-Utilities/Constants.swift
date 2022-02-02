@@ -35,3 +35,12 @@ struct ListingURL {
     static let url9 = "https://www.cargurus.com/Cars/l-Used-Coupe-bg0#listing=289380616"
     static let url10 = "https://www.cargurus.com/Cars/l-Used-Coupe-bg0#listing=288307272"
 }
+
+
+struct WebsiteName {
+    static let autotrader = "autotrader"
+    static let cars = "cars"
+    static let carGurus = "cargurus"
+    static let craigslist = "craigslist"
+    static let trueCar = "truecar"
+}

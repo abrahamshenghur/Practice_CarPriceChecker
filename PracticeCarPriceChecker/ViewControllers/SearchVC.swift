@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SafariServices
 
 enum Section: Int {
     case website = 0
@@ -40,7 +39,7 @@ extension ExpandableSectionData {
 }
 
 
-class SearchVC: UIViewController, SFSafariViewControllerDelegate {
+class SearchVC: UIViewController {
     
     let logoView = UIView()
     var tableView = UITableView()
@@ -77,6 +76,69 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
 
     let carsDotComVehicleMakes = ["acura": "20001", "alfa romeo": "20047", "aston martin": "20003", "audi": "20049", "bentley": "20051", "bmw": "20005", "buick": "20006", "cadillac": "20052", "chevrolet": "20053", "chrysler": "20008", "dodge": "20012", "ferrari": "20014", "fiat": "20060", "fisker": "41703", "ford": "20015","genesis": "35354491", "gmc": "20061", "honda": "20017", "hummer": "20018","hyundai": "20064", "infiniti": "20019", "isuzu": "20020", "jaguar": "20066", "jeep": "20021", "karma": "36365359", "kia": "20068", "lamborghini": "20069", "land rover": "20024" ,"lexus": "20070", "lincoln": "20025", "lotus": "20071", "maserati": "20072", "maybach": "20027", "mazda": "20073", "mclaren": "47903", "mercedes-benz" : "20028", "mercury": "20074", "mini": "20075", "mitsubishi": "20030", "nissan": "20077", "oldsmobile": "20032", "plymouth": "20080", "pontiac": "20035", "porsche": "20081", "ram": "44763", "rolls-royce": "20037", "saab": "20038", "saturn": "20039", "scion": "20085", "smart": "20228", "subaru": "20041", "suzuki": "20042", "tesla": "28263", "toyota": "20088", "volkswagen": "20089", "volvo": "20044"]
     
+    let autotraderVC = VehicleWebsiteVC(websiteName: WebsiteName.autotrader)
+    let carsDotComVC = VehicleWebsiteVC(websiteName: WebsiteName.cars)
+    let carGurusVC = VehicleWebsiteVC(websiteName: WebsiteName.carGurus)
+    let craigslistVC = VehicleWebsiteVC(websiteName: WebsiteName.craigslist)
+    let truecarVC = VehicleWebsiteVC(websiteName: WebsiteName.trueCar)
+
+    var popupCardTopAnchor: NSLayoutConstraint?
+    var popupCardBottomAnchor: NSLayoutConstraint?
+    
+    let parentContainerView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        view.layer.cornerRadius = 12
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let childViewForHideCardButton: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let hideCardButton: UIButton = {
+        let symbolConfiguration = UIImage.SymbolConfiguration(pointSize: 70, weight: .regular, scale: .medium)
+        let chevronCompactDown = UIImage(systemName: "chevron.compact.down", withConfiguration: symbolConfiguration)?.withTintColor(.lightGray, renderingMode: .alwaysOriginal)
+        
+        let button = UIButton()
+        button.setTitle("", for: .normal)
+        button.setImage(chevronCompactDown, for: .normal)
+        button.addTarget(self, action: #selector(hideCard), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
+    
+    let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        return scrollView
+    }()
+    
+    
+    let contentView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    
+    let stackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.distribution = .fillEqually
+        stackView.spacing = 20
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        return stackView
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,6 +148,9 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         configureLogoView()
         configureTableView()
         configureSearchButton()
+        configurePopupCard()
+        setPopupCardConstraints()
+        addWebViews()
         layoutUI()
     }
     
@@ -188,98 +253,98 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
         searchButton.setTitleColor(.white, for: .normal)
         searchButton.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
     }
+    
+    
+    func configurePopupCard() {
+        view.addSubview(parentContainerView)
+        parentContainerView.addSubview(childViewForHideCardButton)
+        parentContainerView.addSubview(scrollView)
+        scrollView.addSubview(contentView)
+        contentView.addSubview(stackView)
+        childViewForHideCardButton.addSubview(hideCardButton)
+    }
 
+    
+    func setPopupCardConstraints() {
+        popupCardBottomAnchor = parentContainerView.topAnchor.constraint(equalTo: view.bottomAnchor)
+        popupCardBottomAnchor?.isActive = true
+        
+        popupCardTopAnchor = parentContainerView.topAnchor.constraint(equalTo: view.topAnchor, constant: 75)
+    }
+    
+    
+    func addWebViews() {
+        autotraderVC.gestureRecognizerDelegate = self
+        carsDotComVC.gestureRecognizerDelegate = self
+        carGurusVC.gestureRecognizerDelegate = self
+        craigslistVC.gestureRecognizerDelegate = self
+        truecarVC.gestureRecognizerDelegate = self
+        
+        stackView.addArrangedSubview(autotraderVC.view)
+        stackView.addArrangedSubview(carsDotComVC.view)
+        stackView.addArrangedSubview(carGurusVC.view)
+        stackView.addArrangedSubview(craigslistVC.view)
+        stackView.addArrangedSubview(truecarVC.view)
+    }
+    
     
     @objc func searchButtonTapped() {
-        let make = selectedVehicleMake
-        let model = selectedVehicleModel
+        showCard()
 
-        let url = buildURL(make, model)
-        let safariVC = SFSafariViewController(url: url!)
-        safariVC.delegate = self
-        
-        self.present(safariVC, animated: true)
     }
     
-    func buildURL(_ make: String, _ model: String) -> URL? {
-        var components = URLComponents()
-        components.scheme = "https"
-        components.host = websiteHost
+    
+    @objc func showCard() {
+        popupCardBottomAnchor?.isActive = false
+        popupCardTopAnchor?.isActive = true
+        
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
+            self.view.layoutIfNeeded()
+        })
+        
+        loadVehicleWebsites()
+        toggleTabbar()
+    }
+    
+    
+    func loadVehicleWebsites() {
+        autotraderVC.view.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.8).isActive = true
+        
+        autotraderVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingAutotraderQuery,for: WebsiteName.autotrader)
+        carsDotComVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingCarsDotComQuery,for: WebsiteName.cars)
+        carGurusVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingCarGurusQuery,for: WebsiteName.carGurus)
+        craigslistVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModel,for: WebsiteName.craigslist)
+        truecarVC.buildURLFrom(make: selectedVehicleMake, model: selectedVehicleModelUsingTrueCarQuery,for: WebsiteName.trueCar)
+    }
+    
+    
+    @objc func hideCard() {
+        popupCardBottomAnchor?.isActive = true
+        popupCardTopAnchor?.isActive = false
 
-        if websiteName == "Craigslist" {
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "query", value: "\(make)+\(model)"),
-                URLQueryItem(name: "purveyor-input", value: "all")
-            ]
-        } else if websiteName == "AutoTrader" {
-            var autotraderVehicleMakeCode = String()
-            if let make = autotraderVehicleMakes[make] {
-                autotraderVehicleMakeCode = make
-            }
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "makeCodeList", value: "\(autotraderVehicleMakeCode)"),
-                URLQueryItem(name: "modelCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)"),
-                URLQueryItem(name: "seriesCodeList", value: "\(selectedVehicleModelUsingAutotraderQuery)")
-            ]
-        } else if websiteName == "Cars.com" {
-            // On 6/17/21 Cars.com seemingly changed their format of url query parameters while the json file was still being populsted; therefore, a workaround is done for all mokes starting with Nissan until the end of the list
-            let updatedVehicleMakeArrayFromCarsDotCom = [
-                "nissan", "oldsmobile", "plymouth", "pontiac", "porsche", "ram", "rolls-royce", "saab", "20038", "saturn", "scion", "smart", "subaru", "suzuki", "tesla", "toyota", "volkswagen", "volvo"
-            ]
-            if updatedVehicleMakeArrayFromCarsDotCom.contains(selectedVehicleMake) {
-                // use new query parameters uaing as a workaround b/c Cars.com changed their url parameters to use words instead of numbers
-                let updatedVehicleMake = selectedVehicleMake
-                let updatedPath = "/shopping/results"
-                components.path = updatedPath
-                if selectedVehicleModelUsingCarsDotComQuery.contains("&") {
-                    // If Cars.com has multiple models under a certain model name, seen in the json file, then use this hardcoded url
-                    let domain = "https://www.cars.com"
-                    let query = selectedVehicleModelUsingCarsDotComQuery
-                    let endpoint = "/shopping/results/?makes[]=\(selectedVehicleMake)&maximum_distance=&models[]=\(query)&searchSource=QUICK_FORM&stock_type=used"
-                    let url = URL(string: domain + endpoint)
-                    return url
-                } else {
-                    // Otherwise, it's a single model query and just build a url using URLComponents
-                    components.queryItems = [
-                        URLQueryItem(name: "makes[]", value: "\(updatedVehicleMake)"),
-                        URLQueryItem(name: "maximum_distance", value: ""),
-                        URLQueryItem(name: "models[]", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
-                        URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
-                        URLQueryItem(name: "stock_type", value: "used")
-                    ]
-                }
-            } else {
-                // use original way when Cars.com used an integer for mkId and mdId, and stock type
-                var carsDotComVehicleMakeCode = String()
-                if let make = carsDotComVehicleMakes[make] {
-                    carsDotComVehicleMakeCode = make
-                }
-                components.path = websitePath
-                components.queryItems = [
-                    URLQueryItem(name: "mdId", value: "\(selectedVehicleModelUsingCarsDotComQuery)"),
-                    URLQueryItem(name: "mkId", value: "\(carsDotComVehicleMakeCode)"),
-                    URLQueryItem(name: "rd", value: ""),
-                    URLQueryItem(name: "searchSource", value: "QUICK_FORM"),
-                    URLQueryItem(name: "stkTypId", value: "28881")
-                ]
-            }
-        } else if websiteName == "CarGurus" {
-            components.path = websitePath
-            components.queryItems = [
-                URLQueryItem(name: "sourceContext", value: "carGurusHomePageModel"),
-                URLQueryItem(name: "entitySelectingHelper.selectedEntity", value: "\(selectedVehicleModelUsingCarGurusQuery)"),
-            ]
-        } else if websiteName == "TrueCar" {
-            components.path = websitePath + "/\(make)/\(selectedVehicleModelUsingTrueCarQuery)"
-            components.queryItems = [
-                URLQueryItem(name: "sort[]", value: "best_match")
-            ]
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
+            self.view.layoutIfNeeded()
+        })
+        
+        toggleTabbar()
+    }
+    
+    
+    func toggleTabbar() {
+        guard var tabBarFrame = tabBarController?.tabBar.frame else { return }
+        let tabBarHidden = tabBarFrame.origin.y == view.frame.size.height
+        
+        if tabBarHidden {
+            tabBarFrame.origin.y = view.frame.size.height - tabBarFrame.size.height
+        } else {
+            tabBarFrame.origin.y = view.frame.size.height
         }
         
-        return components.url
+        UIView.animate(withDuration: 0.4) {
+            self.tabBarController?.tabBar.frame = tabBarFrame
+        }
     }
+    
     
     func layoutUI() {
         let padding = CGFloat(20)
@@ -301,7 +366,39 @@ class SearchVC: UIViewController, SFSafariViewControllerDelegate {
             searchButton.heightAnchor.constraint(equalToConstant: 60),
             searchButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             searchButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65)
+            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65),
+            
+            parentContainerView.topAnchor.constraint(equalTo: view.bottomAnchor),
+            parentContainerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            parentContainerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            parentContainerView.heightAnchor.constraint(equalToConstant: view.frame.height * 0.90),
+            
+            childViewForHideCardButton.topAnchor.constraint(equalTo: parentContainerView.topAnchor),
+            childViewForHideCardButton.leadingAnchor.constraint(equalTo: parentContainerView.leadingAnchor, constant: padding),
+            childViewForHideCardButton.trailingAnchor.constraint(equalTo: parentContainerView.trailingAnchor, constant: -padding),
+            childViewForHideCardButton.heightAnchor.constraint(equalToConstant: 45),
+            
+            scrollView.topAnchor.constraint(equalTo: childViewForHideCardButton.bottomAnchor),
+            scrollView.leadingAnchor.constraint(equalTo: parentContainerView.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: parentContainerView.trailingAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: parentContainerView.bottomAnchor),
+            
+            contentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            contentView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
+            contentView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
+            contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+            
+            contentView.heightAnchor.constraint(equalTo: scrollView.heightAnchor),
+            
+            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
+            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10),
+            
+            hideCardButton.topAnchor.constraint(equalTo: childViewForHideCardButton.topAnchor),
+            hideCardButton.centerXAnchor.constraint(equalTo: childViewForHideCardButton.centerXAnchor),
+            hideCardButton.widthAnchor.constraint(equalToConstant: 100),
+            hideCardButton.heightAnchor.constraint(equalToConstant: 45),
         ])
     }
 }
@@ -489,3 +586,14 @@ extension SearchVC {
     }
 }
 
+
+extension SearchVC: VehicleListVCTapGestureDelegate {
+    
+    func didUseGestureRecognizer(on vehicleWebsiteVC: VehicleWebsiteVC) {
+        for view in stackView.arrangedSubviews {
+            view.layer.borderColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+        }
+
+        vehicleWebsiteVC.view.layer.borderColor = #colorLiteral(red: 0.9098039216, green: 0.6392156863, blue: 0.05098039216, alpha: 1)
+    }
+}
