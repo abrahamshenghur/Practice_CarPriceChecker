@@ -117,6 +117,7 @@ class SearchVC: UIViewController {
     
     let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
+        scrollView.showsHorizontalScrollIndicator = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         return scrollView
     }()
@@ -302,6 +303,7 @@ class SearchVC: UIViewController {
         })
         
         loadVehicleWebsites()
+        toggleTabbar()
     }
     
     
@@ -323,6 +325,24 @@ class SearchVC: UIViewController {
         UIView.animate(withDuration: 0.4, delay: 0.0, options: .curveEaseOut, animations: {
             self.view.layoutIfNeeded()
         })
+        
+        toggleTabbar()
+    }
+    
+    
+    func toggleTabbar() {
+        guard var tabBarFrame = tabBarController?.tabBar.frame else { return }
+        let tabBarHidden = tabBarFrame.origin.y == view.frame.size.height
+        
+        if tabBarHidden {
+            tabBarFrame.origin.y = view.frame.size.height - tabBarFrame.size.height
+        } else {
+            tabBarFrame.origin.y = view.frame.size.height
+        }
+        
+        UIView.animate(withDuration: 0.4) {
+            self.tabBarController?.tabBar.frame = tabBarFrame
+        }
     }
     
     
