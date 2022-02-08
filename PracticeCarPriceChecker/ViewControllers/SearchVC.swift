@@ -85,6 +85,31 @@ class SearchVC: UIViewController {
     var popupCardTopAnchor: NSLayoutConstraint?
     var popupCardBottomAnchor: NSLayoutConstraint?
     
+    let fontFamilyName = "Futura"
+
+    let primaryBackgroundColor = #colorLiteral(red: 0.9224214702, green: 0.9224214702, blue: 0.9224214702, alpha: 1)
+    let secondaryBackgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+    let tertiaryBackgroundColor = #colorLiteral(red: 0.9098039216, green: 0.6392156863, blue: 0.05098039216, alpha: 1)
+    
+    
+    lazy var logoTextLabel: UILabel = {
+        let strNumber: NSString = "Find the \nbest car deals" as NSString
+        let range = (strNumber).range(of: "best")
+        let attribute = NSMutableAttributedString.init(string: strNumber as String)
+        attribute.addAttribute(NSAttributedString.Key.foregroundColor, value: tertiaryBackgroundColor, range: range)
+
+        let label = UILabel()
+        label.textAlignment = .left
+        label.textColor = .white
+        label.font = UIFont(name: fontFamilyName, size: 47)
+        label.numberOfLines = .zero
+        label.text = strNumber as String
+        label.attributedText = attribute
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    
     let parentContainerView: UIView = {
         let view = UIView()
         view.backgroundColor = .white
@@ -223,23 +248,31 @@ class SearchVC: UIViewController {
     
     
     func configureViewController() {
-        view.backgroundColor = #colorLiteral(red: 0.8632575274, green: 0.9452304244, blue: 0.794632256, alpha: 1)
-        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
-        navigationController?.navigationBar.barStyle = .blackOpaque
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.barStyle = .black
+
+        view.backgroundColor = primaryBackgroundColor
+
+        tabBarController?.tabBar.barTintColor = primaryBackgroundColor
+        tabBarController?.tabBar.tintColor = tertiaryBackgroundColor
     }
     
     
     func configureLogoView() {
         view.addSubview(logoView)
-        logoView.backgroundColor = navigationController?.navigationBar.barTintColor
+        logoView.backgroundColor = secondaryBackgroundColor
+        logoView.addSubview(logoTextLabel)
     }
     
     
     func configureTableView() {
         view.addSubview(tableView)
         tableView.tableFooterView = UIView()
-        tableView.backgroundColor = #colorLiteral(red: 0.8632575274, green: 0.9452304244, blue: 0.794632256, alpha: 1)
-        tableView.layer.cornerRadius = 20
+        tableView.backgroundColor = primaryBackgroundColor
+        tableView.layer.cornerRadius = 31
+        tableView.showsVerticalScrollIndicator = false
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(SearchScreenCell.self, forCellReuseIdentifier: SearchScreenCell.reuseID)
@@ -248,9 +281,10 @@ class SearchVC: UIViewController {
     
     func configureSearchButton() {
         view.addSubview(searchButton)
-        searchButton.backgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
-        searchButton.layer.cornerRadius = 10
+        searchButton.backgroundColor = secondaryBackgroundColor
+        searchButton.layer.cornerRadius = 31
         searchButton.setTitleColor(.white, for: .normal)
+        searchButton.titleLabel?.font = UIFont(name: fontFamilyName, size: 25)
         searchButton.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
     }
     
@@ -357,7 +391,12 @@ class SearchVC: UIViewController {
             logoView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             logoView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.40),
             
-            tableView.topAnchor.constraint(equalTo: logoView.bottomAnchor, constant: padding),
+            logoTextLabel.topAnchor.constraint(equalTo: logoView.topAnchor, constant: 50),
+            logoTextLabel.leadingAnchor.constraint(equalTo: logoView.leadingAnchor, constant: 20),
+            logoTextLabel.trailingAnchor.constraint(equalTo: logoView.trailingAnchor),
+            logoTextLabel.heightAnchor.constraint(equalToConstant: 200),
+            
+            tableView.topAnchor.constraint(equalTo: logoView.bottomAnchor, constant: -30),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             tableView.bottomAnchor.constraint(equalTo: searchButton.topAnchor, constant: -20),
@@ -365,7 +404,7 @@ class SearchVC: UIViewController {
             searchButton.heightAnchor.constraint(equalToConstant: 60),
             searchButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             searchButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -65),
+            searchButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -75),
             
             parentContainerView.topAnchor.constraint(equalTo: view.bottomAnchor),
             parentContainerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
@@ -410,19 +449,23 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
         let button = Button(title: title)
         button.addTarget(self, action: #selector(handleExpandClose), for: .touchUpInside)
         button.tag = section
-        
-        let border = UIView(frame: CGRect(x: self.tableView.bounds.width * 1/3, y: 0, width: self.tableView.bounds.width * 1/3, height: 1))
-        border.backgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
-        
-        if section == 1 || section == 2 {   // Add lines for visual separation of sections
-            button.addSubview(border)
-        }
+        button.titleLabel?.font = UIFont(name: fontFamilyName, size: 25)
 
         if expandableSections[section].isExpanded {
-            button.backgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+            button.backgroundColor = secondaryBackgroundColor
             button.setTitleColor(.white, for: .normal)
         } else {
-            button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+            button.backgroundColor = .white
+            
+            button.layer.borderColor = primaryBackgroundColor.cgColor
+            button.layer.cornerRadius = 31
+            button.layer.borderWidth = 1
+
+            button.layer.shadowColor = secondaryBackgroundColor.cgColor
+            button.layer.shadowRadius = 3
+            button.layer.shadowOpacity = 0.2
+            button.layer.shadowOffset = CGSize(width: 0, height: 5)
+            
             button.setTitleColor(.black, for: .normal)
         }
         
@@ -430,16 +473,26 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return UIView()
+    }
+
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        return 60
+    }
+
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 20
     }
 
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return expandableSections.count
     }
-    
-    
+
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if !expandableSections[section].isExpanded {
             return 0
@@ -458,6 +511,8 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
         } else {
             cell.carLabel.text = item
         }
+        
+        cell.backgroundColor = primaryBackgroundColor
         
         return cell
     }
@@ -570,14 +625,14 @@ extension SearchVC {
     
     
     func updateUI(for button: UIButton, in section: Int, at indexPaths: [IndexPath]) {
-        var sectionTitle = ["Websites", "Makes", "Models"]
+        let sectionTitle = ["Websites", "Makes", "Models"]
 
         DispatchQueue.main.async {
             if !(self.expandableSections[section].isExpanded) {
-                button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+                button.backgroundColor = .white
                 button.setTitleColor(.black, for: .normal)
             } else {
-                button.backgroundColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+                button.backgroundColor = self.secondaryBackgroundColor
                 button.setTitleColor(.white, for: .normal)
                 button.setTitle(sectionTitle[section], for: .normal)
             }
@@ -590,9 +645,9 @@ extension SearchVC: VehicleListVCTapGestureDelegate {
     
     func didUseGestureRecognizer(on vehicleWebsiteVC: VehicleWebsiteVC) {
         for view in stackView.arrangedSubviews {
-            view.layer.borderColor = #colorLiteral(red: 0.10656894, green: 0.3005332053, blue: 0.2772833705, alpha: 1)
+            view.layer.borderColor = secondaryBackgroundColor.cgColor
         }
 
-        vehicleWebsiteVC.view.layer.borderColor = #colorLiteral(red: 0.9098039216, green: 0.6392156863, blue: 0.05098039216, alpha: 1)
+        vehicleWebsiteVC.view.layer.borderColor = tertiaryBackgroundColor.cgColor
     }
 }
